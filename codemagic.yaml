@@ -26,6 +26,16 @@ workflows:
           case "$TERMS_URL" in https://*) ;; *) echo 'TERMS_URL must use HTTPS' >&2; exit 1;; esac
           # Production is hybrid: Firebase accounts and server (local JWT) accounts.
           [ "$AUTH_MODE" = hybrid ] || { echo 'Production AUTH_MODE must be hybrid' >&2; exit 1; }
+      - name: Verify published legal and reset pages
+        script: |
+          set -eu
+          for url in "$TERMS_URL" \
+            https://astrofrekansteams-cmd.github.io/astrofrekansapp/ \
+            https://astrofrekansteams-cmd.github.io/astrofrekansapp/support.html \
+            https://astrofrekansteams-cmd.github.io/astrofrekansapp/delete-account.html \
+            https://astrofrekansteams-cmd.github.io/astrofrekansapp/reset-password.html; do
+            curl --fail --silent --show-error --location --max-time 15 --output /dev/null "$url"
+          done
       - name: Fetch image assets
         script: |
           git lfs install --skip-smudge
@@ -92,6 +102,16 @@ workflows:
           case "$TERMS_URL" in https://*) ;; *) echo 'TERMS_URL must use HTTPS' >&2; exit 1;; esac
           # Production is hybrid: Firebase accounts and server (local JWT) accounts.
           [ "$AUTH_MODE" = hybrid ] || { echo 'Production AUTH_MODE must be hybrid' >&2; exit 1; }
+      - name: Verify published legal and reset pages
+        script: |
+          set -eu
+          for url in "$TERMS_URL" \
+            https://astrofrekansteams-cmd.github.io/astrofrekansapp/ \
+            https://astrofrekansteams-cmd.github.io/astrofrekansapp/support.html \
+            https://astrofrekansteams-cmd.github.io/astrofrekansapp/delete-account.html \
+            https://astrofrekansteams-cmd.github.io/astrofrekansapp/reset-password.html; do
+            curl --fail --silent --show-error --location --max-time 15 --output /dev/null "$url"
+          done
       - name: Fetch image assets
         script: |
           git lfs install --skip-smudge
