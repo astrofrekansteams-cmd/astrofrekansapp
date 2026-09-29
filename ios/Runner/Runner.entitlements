@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- Push (FCM via APNs) and PushKit VoIP calls. Xcode/Codemagic sign the
+	     App Store build with the production APNs environment from the
+	     distribution profile. The App ID needs the Push Notifications
+	     capability. -->
+	<key>aps-environment</key>
+	<string>development</string>
+	<!-- Sign in with Apple (Firebase AUTH_MODE). The App ID needs the
+	     Sign In with Apple capability. -->
+	<key>com.apple.developer.applesignin</key>
+	<array>
+		<string>Default</string>
+	</array>
+</dict>
+</plist>

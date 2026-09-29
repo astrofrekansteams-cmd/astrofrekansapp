@@ -1,0 +1,8 @@
+Astrofrekans user/admin review, 2026-09-27
+flutter analyze --no-pub: No issues found (188.2s).
+flutter test --no-pub: 234 passed, 2 skipped (2:17).
+backend/.venv/Scripts/python.exe -m pytest -q: 908 passed (972.02s).
+Appointment cancellation reproduction: user and expert paths both retain confirmed/paid order and zero refund requests.
+Booking widget reproduction: changing selected day permits booking the previous day's slot.
+Current mock screen captures: home, profile, login; 3 passed.
+Production application code was not edited; report and evidence are under reports/.

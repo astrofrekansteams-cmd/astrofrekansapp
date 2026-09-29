@@ -1,0 +1,332 @@
+services:
+  postgres:
+    image: postgres:17-alpine
+    container_name: astrofrekans-postgres
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-astro}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-astro}
+      POSTGRES_DB: ${POSTGRES_DB:-astrofrekans}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-astro} -d ${POSTGRES_DB:-astrofrekans}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  redis:
+    image: redis:8-alpine
+    container_name: astrofrekans-redis
+    command: ["redis-server", "--save", "", "--appendonly", "no"]
+    ports:
+      - "${REDIS_PORT:-6379}:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  api:
+    build: .
+    container_name: astrofrekans-api
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      ENVIRONMENT: ${ENVIRONMENT:-local}
+      DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-astro}:${POSTGRES_PASSWORD:-astro}@postgres:5432/${POSTGRES_DB:-astrofrekans}
+      REDIS_URL: redis://redis:6379/0
+      JWT_SECRET: ${JWT_SECRET:?set JWT_SECRET in .env}
+      JWT_REFRESH_SECRET: ${JWT_REFRESH_SECRET:?set JWT_REFRESH_SECRET in .env}
+      CORS_ORIGINS: ${CORS_ORIGINS:-}
+      GEOCODING_PROVIDER: ${GEOCODING_PROVIDER:-mock}
+      # openai by default: a missing key degrades the AI feature to
+      # ai_not_configured rather than refusing to start. "fake" is a test
+      # double and is rejected outright in production.
+      AI_PROVIDER: ${AI_PROVIDER:-openai}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      # Firebase. Absent by default, and that is a supported configuration:
+      # the API boots, /health and /ready stay green, and only the
+      # Firebase-backed endpoints answer firebase_not_configured.
+      AUTH_MODE: ${AUTH_MODE:-hybrid}
+      FIREBASE_PROVIDER: ${FIREBASE_PROVIDER:-firebase}
+      APNS_PROVIDER: ${APNS_PROVIDER:-apns}
+      APNS_ENVIRONMENT: ${APNS_ENVIRONMENT:-production}
+      FIREBASE_PROJECT_ID: ${FIREBASE_PROJECT_ID:-}
+      FIREBASE_CREDENTIALS_JSON: ${FIREBASE_CREDENTIALS_JSON:-}
+      # The service account as a read-only file (./secrets mounted below).
+      # Empty unless FIREBASE_CONTAINER_CREDENTIALS_PATH is set in .env.
+      FIREBASE_CREDENTIALS_PATH: ${FIREBASE_CONTAINER_CREDENTIALS_PATH:-}
+      FIREBASE_STORAGE_BUCKET: ${FIREBASE_STORAGE_BUCKET:-}
+      FIREBASE_DATABASE_URL: ${FIREBASE_DATABASE_URL:-}
+      # LiveKit. Absent by default, and that is a supported configuration:
+      # call endpoints answer call_provider_not_configured, nothing else moves.
+      # Payments (B11). Empty by default: store verification answers 503,
+      # the external provider is disabled, nothing else changes.
+      STORE_PROVIDER: ${STORE_PROVIDER:-real}
+      APPLE_BUNDLE_ID: ${APPLE_BUNDLE_ID:-}
+      APPLE_APP_APPLE_ID: ${APPLE_APP_APPLE_ID:-}
+      APPLE_ISSUER_ID: ${APPLE_ISSUER_ID:-}
+      APPLE_KEY_ID: ${APPLE_KEY_ID:-}
+      APPLE_PRIVATE_KEY: ${APPLE_PRIVATE_KEY:-}
+      APPLE_ENVIRONMENT: ${APPLE_ENVIRONMENT:-Production}
+      APPLE_ROOT_CERTIFICATES_PATH: ${APPLE_ROOT_CERTIFICATES_PATH:-}
+      GOOGLE_PLAY_PACKAGE_NAME: ${GOOGLE_PLAY_PACKAGE_NAME:-}
+      GOOGLE_PLAY_SERVICE_ACCOUNT_JSON: ${GOOGLE_PLAY_SERVICE_ACCOUNT_JSON:-}
+      GOOGLE_PUBSUB_PUSH_AUDIENCE: ${GOOGLE_PUBSUB_PUSH_AUDIENCE:-}
+      GOOGLE_PUBSUB_PUSH_SERVICE_ACCOUNT: ${GOOGLE_PUBSUB_PUSH_SERVICE_ACCOUNT:-}
+      STORE_PRODUCT_IDS: ${STORE_PRODUCT_IDS:-}
+      EXTERNAL_PAYMENT_PROVIDER: ${EXTERNAL_PAYMENT_PROVIDER:-disabled}
+      EXPERT_SETTLEMENT_HOLD_DAYS: ${EXPERT_SETTLEMENT_HOLD_DAYS:-}
+      PREMIUM_DURING_GRACE_PERIOD: ${PREMIUM_DURING_GRACE_PERIOD:-true}
+      PAID_REPORTS_INCLUDED_IN_PREMIUM: ${PAID_REPORTS_INCLUDED_IN_PREMIUM:-false}
+      PREMIUM_GATING_ENABLED: ${PREMIUM_GATING_ENABLED:-true}
+      REALTIME_PROVIDER: ${REALTIME_PROVIDER:-livekit}
+      LIVEKIT_URL: ${LIVEKIT_URL:-}
+      LIVEKIT_API_URL: ${LIVEKIT_API_URL:-}
+      LIVEKIT_API_KEY: ${LIVEKIT_API_KEY:-}
+      LIVEKIT_API_SECRET: ${LIVEKIT_API_SECRET:-}
+      CALL_TOKEN_TTL_SECONDS: ${CALL_TOKEN_TTL_SECONDS:-600}
+      CALL_RING_TIMEOUT_SECONDS: ${CALL_RING_TIMEOUT_SECONDS:-60}
+      CALL_PUSH_LEASE_SECONDS: ${CALL_PUSH_LEASE_SECONDS:-15}
+      CALL_PUSH_SEND_TIMEOUT_SECONDS: ${CALL_PUSH_SEND_TIMEOUT_SECONDS:-8}
+      CALL_RECONNECT_GRACE_SECONDS: ${CALL_RECONNECT_GRACE_SECONDS:-45}
+      CALL_WORKER_POLL_SECONDS: ${CALL_WORKER_POLL_SECONDS:-5}
+      # Password-reset email. "disabled" until an SMTP relay is chosen: the
+      # reset request then answers 503 password_reset_unavailable instead of
+      # pretending to send. The reset URL is set here and nowhere else.
+      MAIL_PROVIDER: ${MAIL_PROVIDER:-disabled}
+      MAIL_FROM: ${MAIL_FROM:-}
+      SMTP_HOST: ${SMTP_HOST:-}
+      SMTP_PORT: ${SMTP_PORT:-587}
+      SMTP_USERNAME: ${SMTP_USERNAME:-}
+      SMTP_PASSWORD: ${SMTP_PASSWORD:-}
+      SMTP_STARTTLS: ${SMTP_STARTTLS:-true}
+      SMTP_SSL: ${SMTP_SSL:-false}
+      SMTP_TIMEOUT_SECONDS: ${SMTP_TIMEOUT_SECONDS:-10}
+      SMTP_MAX_ATTEMPTS: ${SMTP_MAX_ATTEMPTS:-3}
+      PASSWORD_RESET_URL_BASE: ${PASSWORD_RESET_URL_BASE:-https://astrofrekansteams-cmd.github.io/astrofrekansapp/reset-password.html}
+    ports:
+      - "${API_PORT:-8000}:8000"
+    # Migrations run before the API starts; safe to repeat.
+    # Secrets as files, read-only: the Firebase service account lives in
+    # ./secrets (gitignored) and is never baked into the image.
+    volumes:
+      - ./secrets:/run/secrets:ro
+    command: >
+      sh -c "alembic upgrade head &&
+             uvicorn app.main:app --host 0.0.0.0 --port 8000"
+
+  # The report queue consumer. Optional: without it, background reports stay
+  # queued and inline generation still works. Scale it with
+  # `docker compose up -d --scale ai-worker=3` - the claim is atomic, so
+  # several workers never collide.
+  ai-worker:
+    build: .
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      # Migrations belong to one process, and that process is the API.
+      api:
+        condition: service_started
+    environment:
+      ENVIRONMENT: ${ENVIRONMENT:-local}
+      DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-astro}:${POSTGRES_PASSWORD:-astro}@postgres:5432/${POSTGRES_DB:-astrofrekans}
+      REDIS_URL: redis://redis:6379/0
+      JWT_SECRET: ${JWT_SECRET:?set JWT_SECRET in .env}
+      JWT_REFRESH_SECRET: ${JWT_REFRESH_SECRET:?set JWT_REFRESH_SECRET in .env}
+      GEOCODING_PROVIDER: ${GEOCODING_PROVIDER:-mock}
+      AI_PROVIDER: ${AI_PROVIDER:-openai}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      # Paid-report policy is re-checked when a queued job runs.
+      PREMIUM_DURING_GRACE_PERIOD: ${PREMIUM_DURING_GRACE_PERIOD:-true}
+      PAID_REPORTS_INCLUDED_IN_PREMIUM: ${PAID_REPORTS_INCLUDED_IN_PREMIUM:-false}
+      PREMIUM_GATING_ENABLED: ${PREMIUM_GATING_ENABLED:-true}
+    # No ports: a worker serves nobody. Without a key it idles and leaves the
+    # queue untouched rather than failing every job in it.
+    command: python -m app.workers.ai_report_worker
+    # A worker serves no HTTP, so it cannot pass the image's healthcheck. Left
+    # inherited it reports "unhealthy" forever, which is an alarm everybody
+    # learns to ignore - and an ignored alarm is worse than none. Liveness for a
+    # worker is "it claimed something recently", which the logs carry.
+    healthcheck:
+      disable: true
+    restart: unless-stopped
+    stop_grace_period: 90s
+
+  # The push queue consumer. Optional in exactly the same way: without it,
+  # notifications stay queued and nothing else is affected. Scale it with
+  # `docker compose up -d --scale notification-worker=3` - the claim is atomic,
+  # so a user never gets the same notification twice.
+  notification-worker:
+    build: .
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      api:
+        condition: service_started
+    environment:
+      ENVIRONMENT: ${ENVIRONMENT:-local}
+      DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-astro}:${POSTGRES_PASSWORD:-astro}@postgres:5432/${POSTGRES_DB:-astrofrekans}
+      REDIS_URL: redis://redis:6379/0
+      JWT_SECRET: ${JWT_SECRET:?set JWT_SECRET in .env}
+      JWT_REFRESH_SECRET: ${JWT_REFRESH_SECRET:?set JWT_REFRESH_SECRET in .env}
+      GEOCODING_PROVIDER: ${GEOCODING_PROVIDER:-mock}
+      # Firebase. Absent by default, and that is a supported configuration:
+      # the API boots, /health and /ready stay green, and only the
+      # Firebase-backed endpoints answer firebase_not_configured.
+      AUTH_MODE: ${AUTH_MODE:-hybrid}
+      FIREBASE_PROVIDER: ${FIREBASE_PROVIDER:-firebase}
+      FIREBASE_PROJECT_ID: ${FIREBASE_PROJECT_ID:-}
+      FIREBASE_CREDENTIALS_JSON: ${FIREBASE_CREDENTIALS_JSON:-}
+      # The service account as a read-only file (./secrets mounted below).
+      # Empty unless FIREBASE_CONTAINER_CREDENTIALS_PATH is set in .env.
+      FIREBASE_CREDENTIALS_PATH: ${FIREBASE_CONTAINER_CREDENTIALS_PATH:-}
+      FIREBASE_STORAGE_BUCKET: ${FIREBASE_STORAGE_BUCKET:-}
+      FIREBASE_DATABASE_URL: ${FIREBASE_DATABASE_URL:-}
+      # iOS incoming calls: APNs PushKit VoIP (token-based, .p8). Optional;
+      # without it iOS rings answer apns_not_configured and are skipped.
+      APNS_PROVIDER: ${APNS_PROVIDER:-apns}
+      APNS_TEAM_ID: ${APNS_TEAM_ID:-}
+      APNS_KEY_ID: ${APNS_KEY_ID:-}
+      APNS_PRIVATE_KEY: ${APNS_PRIVATE_KEY:-}
+      # The container's view of the key file (./secrets is mounted at
+      # /run/secrets); never the host path from .env.
+      APNS_PRIVATE_KEY_PATH: ${APNS_CONTAINER_PRIVATE_KEY_PATH:-}
+      APNS_BUNDLE_ID: ${APNS_BUNDLE_ID:-}
+      APNS_ENVIRONMENT: ${APNS_ENVIRONMENT:-production}
+      APNS_VOIP_EXPIRATION_SECONDS: ${APNS_VOIP_EXPIRATION_SECONDS:-0}
+      CALL_RING_TIMEOUT_SECONDS: ${CALL_RING_TIMEOUT_SECONDS:-60}
+      CALL_PUSH_LEASE_SECONDS: ${CALL_PUSH_LEASE_SECONDS:-15}
+      CALL_PUSH_SEND_TIMEOUT_SECONDS: ${CALL_PUSH_SEND_TIMEOUT_SECONDS:-8}
+      APNS_TIMEOUT_SECONDS: ${APNS_TIMEOUT_SECONDS:-8}
+    # No ports. With neither Firebase nor APNs credentials it idles and leaves
+    # the queue untouched. With APNs only it delivers call events (iOS VoIP)
+    # and leaves ordinary notifications queued for Firebase.
+    # Secrets as files, read-only: the Firebase service account lives in
+    # ./secrets (gitignored) and is never baked into the image.
+    volumes:
+      - ./secrets:/run/secrets:ro
+    command: python -m app.workers.notification_worker
+    # A worker serves no HTTP, so it cannot pass the image's healthcheck. Left
+    # inherited it reports "unhealthy" forever, which is an alarm everybody
+    # learns to ignore - and an ignored alarm is worse than none. Liveness for a
+    # worker is "it claimed something recently", which the logs carry.
+    healthcheck:
+      disable: true
+    restart: unless-stopped
+    stop_grace_period: 30s
+
+  # The call lifecycle worker: ring timeouts, reconnect grace, closing windows
+  # and reconciliation against LiveKit when a webhook went missing. Optional
+  # like the others; without LiveKit credentials it idles.
+  call-worker:
+    build: .
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      api:
+        condition: service_started
+    environment:
+      ENVIRONMENT: ${ENVIRONMENT:-local}
+      DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-astro}:${POSTGRES_PASSWORD:-astro}@postgres:5432/${POSTGRES_DB:-astrofrekans}
+      REDIS_URL: redis://redis:6379/0
+      JWT_SECRET: ${JWT_SECRET:?set JWT_SECRET in .env}
+      JWT_REFRESH_SECRET: ${JWT_REFRESH_SECRET:?set JWT_REFRESH_SECRET in .env}
+      GEOCODING_PROVIDER: ${GEOCODING_PROVIDER:-mock}
+      FIREBASE_PROVIDER: ${FIREBASE_PROVIDER:-firebase}
+      FIREBASE_PROJECT_ID: ${FIREBASE_PROJECT_ID:-}
+      FIREBASE_CREDENTIALS_JSON: ${FIREBASE_CREDENTIALS_JSON:-}
+      # The service account as a read-only file (./secrets mounted below).
+      # Empty unless FIREBASE_CONTAINER_CREDENTIALS_PATH is set in .env.
+      FIREBASE_CREDENTIALS_PATH: ${FIREBASE_CONTAINER_CREDENTIALS_PATH:-}
+      # LiveKit. Absent by default, and that is a supported configuration:
+      # call endpoints answer call_provider_not_configured, nothing else moves.
+      # Payments (B11). Empty by default: store verification answers 503,
+      # the external provider is disabled, nothing else changes.
+      STORE_PROVIDER: ${STORE_PROVIDER:-real}
+      APPLE_BUNDLE_ID: ${APPLE_BUNDLE_ID:-}
+      APPLE_APP_APPLE_ID: ${APPLE_APP_APPLE_ID:-}
+      APPLE_ISSUER_ID: ${APPLE_ISSUER_ID:-}
+      APPLE_KEY_ID: ${APPLE_KEY_ID:-}
+      APPLE_PRIVATE_KEY: ${APPLE_PRIVATE_KEY:-}
+      APPLE_ENVIRONMENT: ${APPLE_ENVIRONMENT:-Production}
+      APPLE_ROOT_CERTIFICATES_PATH: ${APPLE_ROOT_CERTIFICATES_PATH:-}
+      GOOGLE_PLAY_PACKAGE_NAME: ${GOOGLE_PLAY_PACKAGE_NAME:-}
+      GOOGLE_PLAY_SERVICE_ACCOUNT_JSON: ${GOOGLE_PLAY_SERVICE_ACCOUNT_JSON:-}
+      GOOGLE_PUBSUB_PUSH_AUDIENCE: ${GOOGLE_PUBSUB_PUSH_AUDIENCE:-}
+      GOOGLE_PUBSUB_PUSH_SERVICE_ACCOUNT: ${GOOGLE_PUBSUB_PUSH_SERVICE_ACCOUNT:-}
+      STORE_PRODUCT_IDS: ${STORE_PRODUCT_IDS:-}
+      EXTERNAL_PAYMENT_PROVIDER: ${EXTERNAL_PAYMENT_PROVIDER:-disabled}
+      EXPERT_SETTLEMENT_HOLD_DAYS: ${EXPERT_SETTLEMENT_HOLD_DAYS:-}
+      REALTIME_PROVIDER: ${REALTIME_PROVIDER:-livekit}
+      LIVEKIT_URL: ${LIVEKIT_URL:-}
+      LIVEKIT_API_URL: ${LIVEKIT_API_URL:-}
+      LIVEKIT_API_KEY: ${LIVEKIT_API_KEY:-}
+      LIVEKIT_API_SECRET: ${LIVEKIT_API_SECRET:-}
+      CALL_TOKEN_TTL_SECONDS: ${CALL_TOKEN_TTL_SECONDS:-600}
+      CALL_RING_TIMEOUT_SECONDS: ${CALL_RING_TIMEOUT_SECONDS:-60}
+      CALL_PUSH_LEASE_SECONDS: ${CALL_PUSH_LEASE_SECONDS:-15}
+      CALL_PUSH_SEND_TIMEOUT_SECONDS: ${CALL_PUSH_SEND_TIMEOUT_SECONDS:-8}
+      CALL_RECONNECT_GRACE_SECONDS: ${CALL_RECONNECT_GRACE_SECONDS:-45}
+      CALL_WORKER_POLL_SECONDS: ${CALL_WORKER_POLL_SECONDS:-5}
+    # Secrets as files, read-only: the Firebase service account lives in
+    # ./secrets (gitignored) and is never baked into the image.
+    volumes:
+      - ./secrets:/run/secrets:ro
+    command: python -m app.workers.call_worker
+    # A worker serves no HTTP; see the note on ai-worker.
+    healthcheck:
+      disable: true
+    restart: unless-stopped
+    stop_grace_period: 30s
+
+  # Optional local LiveKit for end-to-end checks:
+  #
+  #   docker compose --profile livekit up -d livekit
+  #
+  # Not part of the default stack. The key pair comes from your .env
+  # (LIVEKIT_API_KEY / LIVEKIT_API_SECRET) - nothing is committed - and the
+  # same pair signs its webhooks to the api. `auto_create: false` means a room
+  # exists only because the backend created it, so a leftover token cannot
+  # bring a deleted room back. node_ip 127.0.0.1 lets a client on the host
+  # reach the media ports Docker publishes. Local use only.
+  livekit:
+    image: livekit/livekit-server:v1.13.7
+    profiles: ["livekit"]
+    environment:
+      LIVEKIT_CONFIG: |
+        port: 7880
+        log_level: info
+        keys:
+          ${LIVEKIT_API_KEY:-unset}: ${LIVEKIT_API_SECRET:-unset}
+        rtc:
+          tcp_port: 7881
+          udp_port: 7882
+          use_external_ip: false
+          node_ip: 127.0.0.1
+        room:
+          auto_create: false
+          empty_timeout: 300
+          max_participants: 2
+        webhook:
+          api_key: ${LIVEKIT_API_KEY:-unset}
+          urls:
+            - http://api:8000/api/v1/webhooks/livekit
+    ports:
+      - "7880:7880"
+      - "7881:7881"
+      - "7882:7882/udp"
+
+volumes:
+  postgres_data:

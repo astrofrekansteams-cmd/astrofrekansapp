@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Ordinary push notifications (reports, appointments, messages, payments).
+         Incoming calls keep their own channel (astrofrekans_calls). The id is
+         also named by the FCM default-channel meta-data and by the backend. -->
+    <string name="default_notification_channel_id" translatable="false">astrofrekans_default</string>
+    <string name="default_notification_channel_name">Astrofrekans Bildirimleri</string>
+    <string name="default_notification_channel_description">Rapor, randevu, mesaj ve ödeme bildirimleri</string>
+</resources>

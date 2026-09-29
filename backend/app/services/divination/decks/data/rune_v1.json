@@ -1,0 +1,1190 @@
+{
+ "deck_type": "rune",
+ "deck_version": "rune_v1",
+ "locales": [
+  "tr",
+  "en"
+ ],
+ "reversal_supported": true,
+ "back_asset_key": "rune_back",
+ "content_note": "24 Elder Futhark runes in the traditional three aettir. A rune whose glyph is vertically symmetrical cannot be drawn reversed and therefore carries no reversed meaning - inventing one would be inventing tradition. The blank 'Odin' rune is a 20th-century addition, kept out of the canonical 24 and dealt only when enabled.",
+ "items": [
+  {
+   "item_id": "rune:freyr:01:fehu",
+   "image_asset_key": "fehu",
+   "canonical_name": "Fehu",
+   "symbol": "ᚠ",
+   "transliteration": "f",
+   "aett": "freyr",
+   "aett_position": 1,
+   "element": "wealth",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Fehu",
+     "keywords": [
+      "kazanç",
+      "kaynak",
+      "bereket",
+      "hareketli mülk"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Elde edilen ve akışta tutulması gereken kaynak. Kazanç, ama biriktirmekle değil dolaşımla anlam kazanan türden.",
+     "reversed_meaning": "Kaynağın elden kaçması ya da tutma kaygısının kazancın önüne geçmesi.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Sığırın adı: taşınabilir zenginlik, hareket ettiği sürece değerli olan mal."
+    },
+    "en": {
+     "display_name": "Fehu",
+     "keywords": [
+      "wealth",
+      "resource",
+      "abundance",
+      "movable goods"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "A resource gained, valuable while it keeps moving.",
+     "reversed_meaning": "Resource slipping away, or hoarding that outweighs the gain.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "rune:freyr:02:uruz",
+   "image_asset_key": "uruz",
+   "canonical_name": "Uruz",
+   "symbol": "ᚢ",
+   "transliteration": "u",
+   "aett": "freyr",
+   "aett_position": 2,
+   "element": "strength",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Uruz",
+     "keywords": [
+      "ham güç",
+      "dayanıklılık",
+      "sağlık",
+      "vahşi enerji"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Evcilleşmemiş güç ve fiziksel dayanıklılık. Şekil verilmeyi bekleyen bir enerji.",
+     "reversed_meaning": "Gücün zayıflaması ya da yönetilemeyen bir kuvvetin kişiyi sürüklemesi.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Yaban öküzü: ehlileştirilmemiş ama vazgeçilmez kuvvet."
+    },
+    "en": {
+     "display_name": "Uruz",
+     "keywords": [
+      "raw strength",
+      "endurance",
+      "health",
+      "wild energy"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Untamed strength waiting to be shaped.",
+     "reversed_meaning": "Strength failing, or force that drags rather than drives.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "rune:freyr:03:thurisaz",
+   "image_asset_key": "thurisaz",
+   "canonical_name": "Thurisaz",
+   "symbol": "ᚦ",
+   "transliteration": "th",
+   "aett": "freyr",
+   "aett_position": 3,
+   "element": "conflict",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Thurisaz",
+     "keywords": [
+      "çatışma",
+      "koruma",
+      "eşik",
+      "uyarı"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Karşıya çıkan bir direnç. Hem tehdit hem savunma olabilen keskin bir güç.",
+     "reversed_meaning": "Dikkatsizce girilen bir çatışma ya da göz ardı edilen bir uyarı.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Dev ve diken: hem koruyan hem yaralayan sivrilik."
+    },
+    "en": {
+     "display_name": "Thurisaz",
+     "keywords": [
+      "conflict",
+      "protection",
+      "threshold",
+      "warning"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "A resistance met head on; sharp in both directions.",
+     "reversed_meaning": "A fight entered carelessly, or a warning ignored.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "rune:freyr:04:ansuz",
+   "image_asset_key": "ansuz",
+   "canonical_name": "Ansuz",
+   "symbol": "ᚨ",
+   "transliteration": "a",
+   "aett": "freyr",
+   "aett_position": 4,
+   "element": "communication",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Ansuz",
+     "keywords": [
+      "söz",
+      "mesaj",
+      "ilham",
+      "bilgelik"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Gelen bir haber ya da anlaşılmayı bekleyen bir söz. İletişimin belirleyici olduğu an.",
+     "reversed_meaning": "Yanlış anlaşılma; söylenenle duyulanın örtüşmemesi.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Odin'in ağzı: aktarılan ve dinlenmesi gereken bilgi."
+    },
+    "en": {
+     "display_name": "Ansuz",
+     "keywords": [
+      "word",
+      "message",
+      "inspiration",
+      "wisdom"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "A message arriving, or a word waiting to be understood.",
+     "reversed_meaning": "Miscommunication; what is said and what is heard diverging.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "rune:freyr:05:raidho",
+   "image_asset_key": "raidho",
+   "canonical_name": "Raidho",
+   "symbol": "ᚱ",
+   "transliteration": "r",
+   "aett": "freyr",
+   "aett_position": 5,
+   "element": "journey",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Raidho",
+     "keywords": [
+      "yolculuk",
+      "ritim",
+      "düzen",
+      "hareket"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Bir yolculuk ya da sürecin doğru ritmi. Gidilen yol kadar gidiş biçimi de önemli.",
+     "reversed_meaning": "Sarsıntılı bir yolculuk; ritmin bozulması ya da yanlış yön.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Araba tekerleği: düzenli, tekrar eden hareket."
+    },
+    "en": {
+     "display_name": "Raidho",
+     "keywords": [
+      "journey",
+      "rhythm",
+      "order",
+      "movement"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "A journey, and the right pace for it.",
+     "reversed_meaning": "A rough passage; the rhythm broken.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "rune:freyr:06:kenaz",
+   "image_asset_key": "kenaz",
+   "canonical_name": "Kenaz",
+   "symbol": "ᚲ",
+   "transliteration": "k",
+   "aett": "freyr",
+   "aett_position": 6,
+   "element": "insight",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Kenaz",
+     "keywords": [
+      "ışık",
+      "öğrenme",
+      "ustalık",
+      "açığa çıkma"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Karanlıkta yanan kontrollü ateş: öğrenme, zanaat ve görünür hale gelen şey.",
+     "reversed_meaning": "Işığın sönmesi; kavrayışın ya da yaratıcı ateşin zayıflaması.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Meşale: aydınlatan ama beslenmesi gereken ateş."
+    },
+    "en": {
+     "display_name": "Kenaz",
+     "keywords": [
+      "light",
+      "learning",
+      "craft",
+      "revelation"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "A controlled fire in the dark: learning and craft.",
+     "reversed_meaning": "The light going out; insight fading.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "rune:freyr:07:gebo",
+   "image_asset_key": "gebo",
+   "canonical_name": "Gebo",
+   "symbol": "ᚷ",
+   "transliteration": "g",
+   "aett": "freyr",
+   "aett_position": 7,
+   "element": "exchange",
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Gebo",
+     "keywords": [
+      "armağan",
+      "karşılıklılık",
+      "ortaklık",
+      "bağ"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Verilen ve karşılığı olan bir armağan. Dengeli bir alışveriş ya da ortaklık.",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "İki çapraz çizgi: eşit ağırlıkta bir değiş tokuş. Simetrik olduğu için ters düşmez."
+    },
+    "en": {
+     "display_name": "Gebo",
+     "keywords": [
+      "gift",
+      "reciprocity",
+      "partnership",
+      "bond"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "A gift given and answered; a balanced exchange.",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "rune:freyr:08:wunjo",
+   "image_asset_key": "wunjo",
+   "canonical_name": "Wunjo",
+   "symbol": "ᚹ",
+   "transliteration": "w",
+   "aett": "freyr",
+   "aett_position": 8,
+   "element": "joy",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Wunjo",
+     "keywords": [
+      "sevinç",
+      "uyum",
+      "aidiyet",
+      "huzur"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Paylaşılan bir sevinç ve uyum. İçinde bulunulan yere ait hissetme.",
+     "reversed_meaning": "Sevincin gölgelenmesi; uyumun bozulması ya da yabancılaşma.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Dalgalanan sancak: bir araya gelmiş topluluğun işareti."
+    },
+    "en": {
+     "display_name": "Wunjo",
+     "keywords": [
+      "joy",
+      "harmony",
+      "belonging",
+      "ease"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "A shared joy; belonging where one is.",
+     "reversed_meaning": "Joy dimmed; harmony broken.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "rune:heimdall:01:hagalaz",
+   "image_asset_key": "hagalaz",
+   "canonical_name": "Hagalaz",
+   "symbol": "ᚺ",
+   "transliteration": "h",
+   "aett": "heimdall",
+   "aett_position": 1,
+   "element": "disruption",
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Hagalaz",
+     "keywords": [
+      "sarsıntı",
+      "dışsal kriz",
+      "doğal güç",
+      "kesinti"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Dışarıdan gelen ve kontrol edilemeyen bir kesinti. Geçtikten sonra zemini değiştiren sarsıntı.",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Dolu tanesi: kısa süreli ama iz bırakan doğa olayı. Simetrik olduğu için ters düşmez."
+    },
+    "en": {
+     "display_name": "Hagalaz",
+     "keywords": [
+      "disruption",
+      "external crisis",
+      "natural force",
+      "interruption"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "An interruption from outside, not controllable.",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "rune:heimdall:02:nauthiz",
+   "image_asset_key": "nauthiz",
+   "canonical_name": "Nauthiz",
+   "symbol": "ᚾ",
+   "transliteration": "n",
+   "aett": "heimdall",
+   "aett_position": 2,
+   "element": "need",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Nauthiz",
+     "keywords": [
+      "kısıtlanma",
+      "ihtiyaç",
+      "sabır",
+      "zorunluluk"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Daralmanın öğrettiği şey. Kıtlık ya da kısıt içinde geliştirilen dayanıklılık.",
+     "reversed_meaning": "Kısıtlamaya direnme; ihtiyacın görmezden gelinmesi.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Sürtünmeyle ateş yakan çubuk: zorluktan doğan kıvılcım."
+    },
+    "en": {
+     "display_name": "Nauthiz",
+     "keywords": [
+      "constraint",
+      "need",
+      "patience",
+      "necessity"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "What scarcity teaches; endurance built under limits.",
+     "reversed_meaning": "Fighting the limit, or ignoring the need.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "rune:heimdall:03:isa",
+   "image_asset_key": "isa",
+   "canonical_name": "Isa",
+   "symbol": "ᛁ",
+   "transliteration": "i",
+   "aett": "heimdall",
+   "aett_position": 3,
+   "element": "stillness",
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Isa",
+     "keywords": [
+      "durgunluk",
+      "donma",
+      "bekleme",
+      "netlik"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Her şeyin durduğu an. İlerlemenin mümkün olmadığı, beklemenin doğru olduğu dönem.",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Buz: hareketi durduran ama aynı zamanda berraklaştıran hâl. Tek çizgi olduğu için ters düşmez."
+    },
+    "en": {
+     "display_name": "Isa",
+     "keywords": [
+      "stillness",
+      "freeze",
+      "waiting",
+      "clarity"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Everything stops; waiting is the right move.",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "rune:heimdall:04:jera",
+   "image_asset_key": "jera",
+   "canonical_name": "Jera",
+   "symbol": "ᛃ",
+   "transliteration": "j",
+   "aett": "heimdall",
+   "aett_position": 4,
+   "element": "harvest",
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Jera",
+     "keywords": [
+      "hasat",
+      "döngü",
+      "zamanında gelen karşılık",
+      "mevsim"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Zamanı gelen karşılık. Ekilen şeyin doğal süresi dolduğunda gelen sonuç.",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Yılın dönüşü: acele edilemeyen döngü. Simetrik olduğu için ters düşmez."
+    },
+    "en": {
+     "display_name": "Jera",
+     "keywords": [
+      "harvest",
+      "cycle",
+      "timely return",
+      "season"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "A return that arrives when it is due.",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "rune:heimdall:05:eihwaz",
+   "image_asset_key": "eihwaz",
+   "canonical_name": "Eihwaz",
+   "symbol": "ᛇ",
+   "transliteration": "ï",
+   "aett": "heimdall",
+   "aett_position": 5,
+   "element": "endurance",
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Eihwaz",
+     "keywords": [
+      "dayanıklılık",
+      "eşik",
+      "dönüşüm",
+      "derin kök"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "İki dünya arasındaki eşik. Dayanıklılık ve köklü bir dönüşüm.",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Porsuk ağacı: hem ölüm hem süreklilik sembolü. Simetrik olduğu için ters düşmez."
+    },
+    "en": {
+     "display_name": "Eihwaz",
+     "keywords": [
+      "endurance",
+      "threshold",
+      "transformation",
+      "deep roots"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "A threshold between states; deep-rooted endurance.",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "rune:heimdall:06:perthro",
+   "image_asset_key": "perthro",
+   "canonical_name": "Perthro",
+   "symbol": "ᛈ",
+   "transliteration": "p",
+   "aett": "heimdall",
+   "aett_position": 6,
+   "element": "mystery",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Perthro",
+     "keywords": [
+      "bilinmeyen",
+      "şans",
+      "sır",
+      "kehanet"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Henüz açılmamış olan. Bilinmeyene ve şansa açık bir alan.",
+     "reversed_meaning": "Saklananın ağırlığı; bilinmeyene fazla yaslanma.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Zar kabı: içindeki henüz görünmeyen."
+    },
+    "en": {
+     "display_name": "Perthro",
+     "keywords": [
+      "the unknown",
+      "chance",
+      "secret",
+      "divination"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "What has not been revealed yet.",
+     "reversed_meaning": "The weight of what is hidden.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "rune:heimdall:07:algiz",
+   "image_asset_key": "algiz",
+   "canonical_name": "Algiz",
+   "symbol": "ᛉ",
+   "transliteration": "z",
+   "aett": "heimdall",
+   "aett_position": 7,
+   "element": "protection",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Algiz",
+     "keywords": [
+      "koruma",
+      "sınır",
+      "farkındalık",
+      "bağlantı"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Kurulan bir koruma ve sınır. Tehlikeyi erken fark etme yetisi.",
+     "reversed_meaning": "Savunmasızlık; sınırın zayıflaması ya da tehlikenin görülmemesi.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Geyik boynuzu ya da kalkan otu: uyanık duruş."
+    },
+    "en": {
+     "display_name": "Algiz",
+     "keywords": [
+      "protection",
+      "boundary",
+      "awareness",
+      "connection"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "A boundary raised; danger noticed early.",
+     "reversed_meaning": "Exposure; the boundary thinning.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "rune:heimdall:08:sowilo",
+   "image_asset_key": "sowilo",
+   "canonical_name": "Sowilo",
+   "symbol": "ᛋ",
+   "transliteration": "s",
+   "aett": "heimdall",
+   "aett_position": 8,
+   "element": "sun",
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Sowilo",
+     "keywords": [
+      "güneş",
+      "zafer",
+      "canlılık",
+      "yol gösterici ışık"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Yol gösteren ışık ve canlılık. Belirsizliğin dağıldığı, yönün göründüğü an.",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Güneş: her gün geri dönen ışık. Simetrik olduğu için ters düşmez."
+    },
+    "en": {
+     "display_name": "Sowilo",
+     "keywords": [
+      "sun",
+      "victory",
+      "vitality",
+      "guiding light"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Light that shows the way; vitality returning.",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "rune:tyr:01:tiwaz",
+   "image_asset_key": "tiwaz",
+   "canonical_name": "Tiwaz",
+   "symbol": "ᛏ",
+   "transliteration": "t",
+   "aett": "tyr",
+   "aett_position": 1,
+   "element": "justice",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Tiwaz",
+     "keywords": [
+      "adalet",
+      "cesaret",
+      "ilke",
+      "fedakârlık"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "İlkeye bağlılık ve bedeli göze alınan bir doğruluk. Yön belli, yol zor.",
+     "reversed_meaning": "İlkeden sapma; cesaretin ya da adaletin zayıflaması.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Yukarı bakan ok: sabit yön ve verilen söz."
+    },
+    "en": {
+     "display_name": "Tiwaz",
+     "keywords": [
+      "justice",
+      "courage",
+      "principle",
+      "sacrifice"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Standing by a principle at a cost.",
+     "reversed_meaning": "Drifting from the principle; courage thinning.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "rune:tyr:02:berkano",
+   "image_asset_key": "berkano",
+   "canonical_name": "Berkano",
+   "symbol": "ᛒ",
+   "transliteration": "b",
+   "aett": "tyr",
+   "aett_position": 2,
+   "element": "growth",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Berkano",
+     "keywords": [
+      "büyüme",
+      "doğurganlık",
+      "yeni başlangıç",
+      "bakım"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Sessizce büyüyen bir şey. Yeni bir başlangıcın bakım isteyen ilk evresi.",
+     "reversed_meaning": "Büyümenin durması; bakımın eksik kalması.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Huş ağacı: ilk yeşeren, hızlı büyüyen ağaç."
+    },
+    "en": {
+     "display_name": "Berkano",
+     "keywords": [
+      "growth",
+      "fertility",
+      "new beginning",
+      "nurture"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Something growing quietly, needing care.",
+     "reversed_meaning": "Growth stalling; care falling short.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "rune:tyr:03:ehwaz",
+   "image_asset_key": "ehwaz",
+   "canonical_name": "Ehwaz",
+   "symbol": "ᛖ",
+   "transliteration": "e",
+   "aett": "tyr",
+   "aett_position": 3,
+   "element": "partnership",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Ehwaz",
+     "keywords": [
+      "ortaklık",
+      "güven",
+      "ilerleme",
+      "uyum"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "İki tarafın birlikte hareket etmesi. Güvene dayalı, ilerleten bir ortaklık.",
+     "reversed_meaning": "Uyumun bozulması; ortak hareketin aksaması.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "At ve binici: tek başına eksik kalan bir çift."
+    },
+    "en": {
+     "display_name": "Ehwaz",
+     "keywords": [
+      "partnership",
+      "trust",
+      "progress",
+      "attunement"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Two moving as one, on trust.",
+     "reversed_meaning": "The attunement breaking.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "rune:tyr:04:mannaz",
+   "image_asset_key": "mannaz",
+   "canonical_name": "Mannaz",
+   "symbol": "ᛗ",
+   "transliteration": "m",
+   "aett": "tyr",
+   "aett_position": 4,
+   "element": "self",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Mannaz",
+     "keywords": [
+      "insan",
+      "benlik",
+      "topluluk",
+      "karşılıklılık"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Kişinin kendisi ve başkalarıyla ilişkisi. Ortak insanlık ve kendini tanıma.",
+     "reversed_meaning": "Kendini yanlış görme; topluluktan kopma.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "İki figürün el sıkışması: kişi ancak başkası aracılığıyla görülür."
+    },
+    "en": {
+     "display_name": "Mannaz",
+     "keywords": [
+      "humanity",
+      "self",
+      "community",
+      "mutuality"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "The self, seen through others.",
+     "reversed_meaning": "Misreading oneself; cut off from others.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "rune:tyr:05:laguz",
+   "image_asset_key": "laguz",
+   "canonical_name": "Laguz",
+   "symbol": "ᛚ",
+   "transliteration": "l",
+   "aett": "tyr",
+   "aett_position": 5,
+   "element": "water",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Laguz",
+     "keywords": [
+      "su",
+      "sezgi",
+      "akış",
+      "bilinçaltı"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Akışa bırakma ve sezgiye güvenme. Yüzeyin altındaki hareket.",
+     "reversed_meaning": "Akıntıya kapılma; sezgiyle yanılsamanın karışması.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Su: yönetilemeyen ama okunabilen hareket."
+    },
+    "en": {
+     "display_name": "Laguz",
+     "keywords": [
+      "water",
+      "intuition",
+      "flow",
+      "the unconscious"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Trusting the current and what moves beneath it.",
+     "reversed_meaning": "Swept along; intuition confused with wishing.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "rune:tyr:06:ingwaz",
+   "image_asset_key": "ingwaz",
+   "canonical_name": "Ingwaz",
+   "symbol": "ᛜ",
+   "transliteration": "ng",
+   "aett": "tyr",
+   "aett_position": 6,
+   "element": "gestation",
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Ingwaz",
+     "keywords": [
+      "tohum",
+      "potansiyel",
+      "kuluçka",
+      "tamamlanma"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "İçeride olgunlaşan ve henüz dışarı çıkmamış olan. Biriken potansiyel.",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Kapalı elmas: içinde taşınan tohum. Simetrik olduğu için ters düşmez."
+    },
+    "en": {
+     "display_name": "Ingwaz",
+     "keywords": [
+      "seed",
+      "potential",
+      "gestation",
+      "completion"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Something ripening inside, not yet out.",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "rune:tyr:07:dagaz",
+   "image_asset_key": "dagaz",
+   "canonical_name": "Dagaz",
+   "symbol": "ᛞ",
+   "transliteration": "d",
+   "aett": "tyr",
+   "aett_position": 7,
+   "element": "breakthrough",
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Dagaz",
+     "keywords": [
+      "şafak",
+      "atılım",
+      "dönüm",
+      "netleşme"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Karanlıkla aydınlık arasındaki dönüm anı. Aniden yerine oturan bir kavrayış.",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Gün doğumu: iki hâl arasındaki eşik. Simetrik olduğu için ters düşmez."
+    },
+    "en": {
+     "display_name": "Dagaz",
+     "keywords": [
+      "dawn",
+      "breakthrough",
+      "turning point",
+      "clarity"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "The turn between dark and light.",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "rune:tyr:08:othala",
+   "image_asset_key": "othala",
+   "canonical_name": "Othala",
+   "symbol": "ᛟ",
+   "transliteration": "o",
+   "aett": "tyr",
+   "aett_position": 8,
+   "element": "heritage",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Othala",
+     "keywords": [
+      "miras",
+      "kök",
+      "yuva",
+      "aidiyet"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Devralınan şey: aile, yer, birikim. Köke dair olan ve korunan.",
+     "reversed_meaning": "Köklerden kopma; mirasın yük hâline gelmesi.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Çitle çevrili toprak: sahip olunan ve devredilen yer."
+    },
+    "en": {
+     "display_name": "Othala",
+     "keywords": [
+      "heritage",
+      "roots",
+      "home",
+      "belonging"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "What is inherited: family, place, accumulation.",
+     "reversed_meaning": "Cut off from roots; inheritance become a burden.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  }
+ ],
+ "optional_items": [
+  {
+   "item_id": "rune:optional:odin",
+   "image_asset_key": "odin_runesi",
+   "canonical_name": "Odin Runesi (Boş Rün)",
+   "symbol": "",
+   "transliteration": "",
+   "aett": null,
+   "aett_position": null,
+   "element": "unknown",
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Odin Runesi (Boş Rün)",
+     "keywords": [
+      "bilinmeyen",
+      "kader",
+      "boşluk",
+      "sessizlik"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Boş rün. Elder Futhark'ın tarihsel parçası değildir; 20. yüzyılda eklenmiş modern bir uygulamadır. Cevabın henüz verilmediği alanı temsil eder.",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Boş taş: geleneksel Futhark'ta yoktur, modern bir eklemedir."
+    },
+    "en": {
+     "display_name": "Odin Runesi (Boş Rün)",
+     "keywords": [
+      "unknown",
+      "fate",
+      "emptiness",
+      "silence"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "The blank rune: a modern addition, not part of the historical Futhark.",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  }
+ ]
+}

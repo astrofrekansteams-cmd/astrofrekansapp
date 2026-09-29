@@ -1,0 +1,17 @@
+{
+  "kind": "remote HTTP durations from Flutter test runtime, NOT device startup/frame measurements",
+  "milliseconds": {
+    "natal_remote": 32,
+    "transits_remote": 31,
+    "daily_remote": 28,
+    "calendar_personal": 654,
+    "horary_create": 26,
+    "horary_analysis": 704,
+    "synastry": 41,
+    "composite": 46,
+    "davison": 41,
+    "tarot_draw": 59,
+    "rune_draw": 39,
+    "katina_draw": 51
+  }
+}

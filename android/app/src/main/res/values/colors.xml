@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- AppColors.night -->
+    <color name="astro_night">#FF05070F</color>
+    <!-- AppColors.gold: accent of push notifications -->
+    <color name="astro_gold">#FFD9B979</color>
+</resources>

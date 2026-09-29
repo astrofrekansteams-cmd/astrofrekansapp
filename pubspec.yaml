@@ -1,0 +1,183 @@
+name: astrofrekans
+description: "Astrofrekans - kişisel gökyüzü, Astro AI, Tarot, Rune, Katina"
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^3.4.3
+  go_router: ^18.0.1
+  dio: ^5.11.1
+  firebase_core: ^4.15.0
+  firebase_auth: ^6.7.0
+  cloud_firestore: ^6.10.0
+  firebase_database: ^12.6.0
+  firebase_storage: ^13.6.0
+  firebase_messaging: ^16.7.0
+  image_picker: ^1.2.3
+  livekit_client: ^2.13.0
+  in_app_purchase: ^3.3.1
+  in_app_purchase_android: ^0.5.3
+  in_app_purchase_storekit: ^0.4.13
+  permission_handler: ^13.0.2
+  url_launcher: ^6.3.2
+  freezed_annotation: ^3.1.0
+  json_annotation: ^4.12.0
+  flutter_secure_storage: ^11.2.0
+  shared_preferences: ^2.5.5
+  intl: ^0.20.2
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^6.0.0
+  build_runner: ^2.15.1
+  freezed: ^3.2.5
+  json_serializable: ^6.14.1
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+  uses-material-design: true
+  generate: true
+
+  # Runtime assets. Source of truth: assets_manifest.json + lib/core/assets/app_assets.dart.
+  # Masters, UI reference screenshots and legacy folders are intentionally excluded.
+  assets:
+    - assets/logo/1logo.png
+    - assets/astro_ai/avatar/
+    - assets/astro_ai/empty_state/
+    - assets/astro_ai/listening/
+    - assets/astro_ai/orb/
+    - assets/astro_ai/typing/
+    - assets/backgrounds/
+    - assets/branding/app_icon/
+    - assets/branding/logo/
+    - assets/branding/onboarding/
+    - assets/branding/splash/
+    - assets/cards-back/webp/
+    - assets/consultants/placeholders/
+    - assets/daily_frequency/career/
+    - assets/daily_frequency/general_energy/
+    - assets/daily_frequency/health_balance/
+    - assets/daily_frequency/important_hours/
+    - assets/daily_frequency/love/
+    - assets/daily_frequency/luck/
+    - assets/daily_frequency/money/
+    - assets/elements/air/
+    - assets/elements/earth/
+    - assets/elements/fire/
+    - assets/elements/water/
+    - assets/empty_states/loading/
+    - assets/empty_states/no_birth_data/
+    - assets/empty_states/no_data/
+    - assets/empty_states/no_results/
+    - assets/empty_states/offline/
+    - assets/empty_states/premium_locked/
+    - assets/katina/cards/
+    - assets/moon_phases/first_quarter/
+    - assets/moon_phases/full_moon/
+    - assets/moon_phases/last_quarter/
+    - assets/moon_phases/new_moon/
+    - assets/moon_phases/waning_crescent/
+    - assets/moon_phases/waning_gibbous/
+    - assets/moon_phases/waxing_crescent/
+    - assets/moon_phases/waxing_gibbous/
+    - assets/natal_chart/asc/
+    - assets/natal_chart/dsc/
+    - assets/natal_chart/ic/
+    - assets/natal_chart/mc/
+    - assets/natal_chart/overlays/
+    - assets/natal_chart/retrograde/
+    - assets/natal_chart/zodiac_wheel/
+    - assets/planets/jupiter/
+    - assets/planets/mars/
+    - assets/planets/mercury/
+    - assets/planets/moon/
+    - assets/planets/neptune/
+    - assets/planets/north_node/
+    - assets/planets/pluto/
+    - assets/planets/saturn/
+    - assets/planets/south_node/
+    - assets/planets/sun/
+    - assets/planets/uranus/
+    - assets/planets/venus/
+    - assets/premium/crown/
+    - assets/premium/crystal/
+    - assets/premium/star/
+    - assets/rune/cards/
+    - assets/rune/stones/
+    - assets/tarot/cards/
+    - assets/zodiac/aquarius/
+    - assets/zodiac/aries/
+    - assets/zodiac/cancer/
+    - assets/zodiac/capricorn/
+    - assets/zodiac/gemini/
+    - assets/zodiac/leo/
+    - assets/zodiac/libra/
+    - assets/zodiac/pisces/
+    - assets/zodiac/sagittarius/
+    - assets/zodiac/scorpio/
+    - assets/zodiac/taurus/
+    - assets/zodiac/virgo/
+    - assets/fonts/OFL-CormorantGaramond.txt
+    - assets/fonts/OFL-Jost.txt
+
+  fonts:
+    - family: CormorantGaramond
+      fonts:
+        - asset: assets/fonts/CormorantGaramond-500.ttf
+          weight: 500
+        - asset: assets/fonts/CormorantGaramond-600.ttf
+          weight: 600
+        - asset: assets/fonts/CormorantGaramond-700.ttf
+          weight: 700
+    - family: Jost
+      fonts:
+        - asset: assets/fonts/Jost-300.ttf
+          weight: 300
+        - asset: assets/fonts/Jost-400.ttf
+          weight: 400
+        - asset: assets/fonts/Jost-500.ttf
+          weight: 500
+        - asset: assets/fonts/Jost-600.ttf
+          weight: 600

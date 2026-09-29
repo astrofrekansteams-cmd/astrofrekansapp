@@ -1,0 +1,1095 @@
+event: message_start
+data: {"type": "message_start", "data": {"conversation_id": "ff14f3e9-968c-48f3-b4a2-52185fa59758", "context_type": "daily", "intent": "today"}}
+
+event: text_delta
+data: {"type": "text_delta", "text": "Bug"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ün"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " aşk"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " alan"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ında"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " tempo"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " biraz"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " hass"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "as"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " ve"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " dal"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "gal"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ı"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " gör"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ünü"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "yor"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "."}
+
+event: text_delta
+data: {"type": "text_delta", "text": " Mars"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "’ın"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " Ven"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "üs"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "’"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "le"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " kav"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "uş"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "umu"}
+
+event: text_delta
+data: {"type": "text_delta", "text": ","}
+
+event: text_delta
+data: {"type": "text_delta", "text": " çek"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "im"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " ve"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " is"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "tek"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "leri"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " yüks"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "elt"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "irken"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " aynı"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " zamanda"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " küçük"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " sür"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "t"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "üş"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "meleri"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " ya"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " da"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " bekl"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ent"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "iler"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "de"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " ger"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "il"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "imi"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " ö"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ne"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " çıkar"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "abilir"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "."}
+
+event: text_delta
+data: {"type": "text_delta", "text": " Ace"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "le"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " tep"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ki"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " verm"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ek"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " yerine"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " açık"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " ve"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " y"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "umu"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ş"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ak"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " bir"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " ileti"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "şim"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " daha"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " iyi"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " çalış"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ır"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "."}
+
+event: text_delta
+data: {"type": "text_delta", "text": " A"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "şk"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " pu"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "anı"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " "}
+
+event: text_delta
+data: {"type": "text_delta", "text": "45"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " ile"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " düş"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "üş"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " eğ"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ilim"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "inde"}
+
+event: text_delta
+data: {"type": "text_delta", "text": ";"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " bu"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " bir"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " sonuç"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " değil"}
+
+event: text_delta
+data: {"type": "text_delta", "text": ","}
+
+event: text_delta
+data: {"type": "text_delta", "text": " ilişk"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "iler"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "de"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " daha"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " ö"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "zen"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "li"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " davran"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ma"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " iht"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "iyac"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ını"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " anlat"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "an"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " günlük"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " bir"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " göst"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "erg"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "edir"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "."}
+
+event: text_delta
+data: {"type": "text_delta", "text": " ["}
+
+event: text_delta
+data: {"type": "text_delta", "text": "870"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "be"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "7"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ea"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "329"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "d"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "fe"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "91"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "d"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "9"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ec"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "382"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "7"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "]"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " ["}
+
+event: text_delta
+data: {"type": "text_delta", "text": "daily"}
+
+event: text_delta
+data: {"type": "text_delta", "text": ":s"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "cores"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "]\n\n"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "K"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ari"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "yer"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " taraf"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ı"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " daha"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " destek"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ley"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ici"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "."}
+
+event: text_delta
+data: {"type": "text_delta", "text": " Sat"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ür"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "n"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "’"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ün"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " Y"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "üks"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "elen"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "in"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "le"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " üç"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "gen"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "i"}
+
+event: text_delta
+data: {"type": "text_delta", "text": ","}
+
+event: text_delta
+data: {"type": "text_delta", "text": " sor"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "uml"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "uluk"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " al"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ırken"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " daha"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " sağlam"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " ve"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " güven"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ilir"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " bir"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " dur"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "uş"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " kur"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "mayı"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " v"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "urg"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ul"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "uyor"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "."}
+
+event: text_delta
+data: {"type": "text_delta", "text": " G"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "üne"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ş"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "–"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "Sat"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ür"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "n"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " üç"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "gen"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "i"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " ise"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " plan"}
+
+event: text_delta
+data: {"type": "text_delta", "text": ","}
+
+event: text_delta
+data: {"type": "text_delta", "text": " disip"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "lin"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " ve"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " bit"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "iril"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "mesi"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " gereken"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " iş"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "lere"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " od"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ak"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "lan"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "mak"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " için"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " el"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ver"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "işli"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "."}
+
+event: text_delta
+data: {"type": "text_delta", "text": " Bug"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ün"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " görün"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ür"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "lük"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " ve"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " mes"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "le"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ki"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " hedef"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ler"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " de"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " Ay"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "’ın"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " "}
+
+event: text_delta
+data: {"type": "text_delta", "text": "10"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "."}
+
+event: text_delta
+data: {"type": "text_delta", "text": " ev"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " geç"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "iş"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "i"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "yle"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " ö"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ne"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " çık"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "abilir"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "."}
+
+event: text_delta
+data: {"type": "text_delta", "text": " Kari"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "yer"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " pu"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "anı"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " "}
+
+event: text_delta
+data: {"type": "text_delta", "text": "74"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " ve"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " yüks"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "eli"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "şte"}
+
+event: text_delta
+data: {"type": "text_delta", "text": ";"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " özellikle"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " düzen"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "li"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " iler"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "leme"}
+
+event: text_delta
+data: {"type": "text_delta", "text": ","}
+
+event: text_delta
+data: {"type": "text_delta", "text": " ani"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " ham"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "le"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "lerden"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " daha"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " ver"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "imli"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " olabilir"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "."}
+
+event: text_delta
+data: {"type": "text_delta", "text": " ["}
+
+event: text_delta
+data: {"type": "text_delta", "text": "21"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "af"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ac"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "85"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "da"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "0"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "e"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "415"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "b"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "44"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "e"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "99"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "e"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "7"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "d"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "]"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " ["}
+
+event: text_delta
+data: {"type": "text_delta", "text": "0"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "abb"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "78"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "bac"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "6"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "a"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "870"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "487"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "946"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "dac"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "3"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "]"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " ["}
+
+event: text_delta
+data: {"type": "text_delta", "text": "moon"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "_house"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "_"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "10"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "]"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " ["}
+
+event: text_delta
+data: {"type": "text_delta", "text": "daily"}
+
+event: text_delta
+data: {"type": "text_delta", "text": ":s"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "cores"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "]\n\n"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "source"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "_factor"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "_ids"}
+
+event: text_delta
+data: {"type": "text_delta", "text": ":"}
+
+event: text_delta
+data: {"type": "text_delta", "text": " "}
+
+event: text_delta
+data: {"type": "text_delta", "text": "870"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "be"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "7"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ea"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "329"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "d"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "fe"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "91"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "d"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "9"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ec"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "382"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "7"}
+
+event: text_delta
+data: {"type": "text_delta", "text": ","}
+
+event: text_delta
+data: {"type": "text_delta", "text": " daily"}
+
+event: text_delta
+data: {"type": "text_delta", "text": ":s"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "cores"}
+
+event: text_delta
+data: {"type": "text_delta", "text": ","}
+
+event: text_delta
+data: {"type": "text_delta", "text": " "}
+
+event: text_delta
+data: {"type": "text_delta", "text": "21"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "af"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "ac"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "85"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "da"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "0"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "e"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "415"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "b"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "44"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "e"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "99"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "e"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "7"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "d"}
+
+event: text_delta
+data: {"type": "text_delta", "text": ","}
+
+event: text_delta
+data: {"type": "text_delta", "text": " "}
+
+event: text_delta
+data: {"type": "text_delta", "text": "0"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "abb"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "78"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "bac"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "6"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "a"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "870"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "487"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "946"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "dac"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "3"}
+
+event: text_delta
+data: {"type": "text_delta", "text": ","}
+
+event: text_delta
+data: {"type": "text_delta", "text": " moon"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "_house"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "_"}
+
+event: text_delta
+data: {"type": "text_delta", "text": "10"}
+
+event: metadata
+data: {"type": "metadata", "data": {"context_type": "daily", "intent": "today", "warnings": [], "available_factor_ids": ["0abb78bac6a870487946dac3", "21afac85da0e415b44e99e7d", "4a8a323c812db03df163f514", "4c453915eb0231ee151122b1", "84583e8b86def2cbd9e4b8ae", "870be7ea329dfe91d9ec3827", "b2a99144029032b57b577675", "bd31da964c621084329c8a72", "daily:hour:2026-09-29T01:00:22.252561Z", "daily:hour:2026-09-29T09:38:23.190061Z", "daily:hour:2026-09-29T10:44:08.807326Z", "daily:hour:2026-09-29T15:05:35.807326Z", "daily:moon_context", "daily:scores", "ec3075842df4bc2b890af5a8", "moon_house_10"], "influences": [{"id": "daily:hour:2026-09-29T01:00:22.252561Z", "kind": "important_hour", "nature": null, "label": "moon square mars"}, {"id": "daily:hour:2026-09-29T09:38:23.190061Z", "kind": "important_hour", "nature": null, "label": "moon square asc"}, {"id": "daily:hour:2026-09-29T10:44:08.807326Z", "kind": "important_hour", "nature": null, "label": "sun sextile mars"}, {"id": "daily:hour:2026-09-29T15:05:35.807326Z", "kind": "important_hour", "nature": null, "label": "sun trine saturn"}, {"id": "21afac85da0e415b44e99e7d", "kind": "influence", "nature": null, "label": "saturn trine asc"}, {"id": "ec3075842df4bc2b890af5a8", "kind": "influence", "nature": null, "label": "mars square mc"}, {"id": "0abb78bac6a870487946dac3", "kind": "influence", "nature": null, "label": "sun trine saturn"}, {"id": "b2a99144029032b57b577675", "kind": "influence", "nature": null, "label": "pluto trine mercury"}]}}
+
+event: message_complete
+data: {"type": "message_complete", "data": {"conversation_id": "ff14f3e9-968c-48f3-b4a2-52185fa59758", "model": "gpt-5.6-terra", "input_tokens": 4732, "output_tokens": 366, "latency_ms": 6369}}
+

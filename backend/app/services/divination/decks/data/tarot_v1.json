@@ -1,0 +1,3856 @@
+{
+ "deck_type": "tarot",
+ "deck_version": "tarot_v1",
+ "locales": [
+  "tr",
+  "en"
+ ],
+ "reversal_supported": true,
+ "back_asset_key": "tarot_back",
+ "content_note": "Meanings follow the Rider-Waite-Smith tradition. Turkish is the production locale; English carries canonical names, keywords and a one-line meaning. Azerbaijani is not authored yet.",
+ "items": [
+  {
+   "item_id": "tarot:major:00:deli",
+   "image_asset_key": "deli",
+   "canonical_name": "The Fool",
+   "arcana": "major",
+   "suit": null,
+   "number": 0,
+   "rank": null,
+   "element": "air",
+   "astrological_association": "Uranus",
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Deli",
+     "keywords": [
+      "başlangıç",
+      "masumiyet",
+      "özgürlük",
+      "risk"
+     ],
+     "reversed_keywords": [
+      "düşüncesizlik",
+      "tereddüt",
+      "savrukluk"
+     ],
+     "upright_meaning": "Yeni bir yolun ilk adımı. Henüz haritası olmayan bir başlangıç, merak ve güvenle atılan adım.",
+     "reversed_meaning": "Hazırlıksız atılan adım ya da adım atmaktan kaçınma. Riskin boyutunu görmeden ilerleme eğilimi.",
+     "love_meaning": "Yeni tanışmalar, tanımsız ama canlı bir ilgi. Aceleye getirilmemesi gereken bir başlangıç.",
+     "career_meaning": "Yeni bir alana geçiş, deneyimsizliğin avantaja dönüşebildiği bir dönem.",
+     "growth_meaning": "Kendini bilmediğin bir şeye açma cesareti; öğrenmenin başlangıç noktası.",
+     "symbolism": "Uçurumun kenarındaki yolcu, sırtındaki küçük bohça ve yanındaki köpek: taşınan az yük ve uyarılan içgüdü."
+    },
+    "en": {
+     "display_name": "The Fool",
+     "keywords": [
+      "beginning",
+      "innocence",
+      "freedom",
+      "risk"
+     ],
+     "reversed_keywords": [
+      "recklessness",
+      "hesitation",
+      "carelessness"
+     ],
+     "upright_meaning": "The first step of a path that has no map yet.",
+     "reversed_meaning": "A step taken unprepared, or refused altogether.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:major:01:buyucu",
+   "image_asset_key": "buyucu",
+   "canonical_name": "The Magician",
+   "arcana": "major",
+   "suit": null,
+   "number": 1,
+   "rank": null,
+   "element": "air",
+   "astrological_association": "Mercury",
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Büyücü",
+     "keywords": [
+      "irade",
+      "beceri",
+      "kaynak",
+      "odak"
+     ],
+     "reversed_keywords": [
+      "manipülasyon",
+      "dağınıklık",
+      "potansiyelin boşa gitmesi"
+     ],
+     "upright_meaning": "Elindeki araçların farkına varma. Niyetin eyleme dönüştüğü an.",
+     "reversed_meaning": "Beceri var ama yön yok; ya da beceri başkasını yönlendirmek için kullanılıyor.",
+     "love_meaning": "İletişimin belirleyici olduğu bir ilişki; söylenen sözün ağırlığı.",
+     "career_meaning": "Yeteneğini ortaya koyma fırsatı; kendini ifade etmenin işe yaradığı dönem.",
+     "growth_meaning": "Niyet ve eylem arasındaki mesafeyi kapatma pratiği.",
+     "symbolism": "Masadaki dört sembol - değnek, kupa, kılıç, tılsım - elinin altındaki tüm unsurlar."
+    },
+    "en": {
+     "display_name": "The Magician",
+     "keywords": [
+      "will",
+      "skill",
+      "resource",
+      "focus"
+     ],
+     "reversed_keywords": [
+      "manipulation",
+      "scattered effort",
+      "wasted potential"
+     ],
+     "upright_meaning": "Noticing the tools already in hand.",
+     "reversed_meaning": "Skill without direction, or skill turned on someone.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:major:02:basrahibe",
+   "image_asset_key": "basrahibe",
+   "canonical_name": "The High Priestess",
+   "arcana": "major",
+   "suit": null,
+   "number": 2,
+   "rank": null,
+   "element": "water",
+   "astrological_association": "Moon",
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Başrahibe",
+     "keywords": [
+      "sezgi",
+      "iç bilgi",
+      "sessizlik",
+      "gizli olan"
+     ],
+     "reversed_keywords": [
+      "sezgiyi bastırma",
+      "sır saklama",
+      "kopukluk"
+     ],
+     "upright_meaning": "Henüz dile gelmemiş bilgi. Cevabın dışarıda değil içeride aranması gereken durum.",
+     "reversed_meaning": "İç sesin duyulmaması ya da bilerek susturulması. Saklanan bir şeyin ağırlığı.",
+     "love_meaning": "Söylenmeyenlerin belirleyici olduğu bir bağ; acele edilmemesi gereken bir dönem.",
+     "career_meaning": "Henüz açıklanmamış bilgi; beklemenin karar vermekten daha isabetli olduğu an.",
+     "growth_meaning": "Sezgiye kulak verme ve bunu akılla sınama alışkanlığı.",
+     "symbolism": "İki sütun arasındaki perde: görünenin ardındaki alan."
+    },
+    "en": {
+     "display_name": "The High Priestess",
+     "keywords": [
+      "intuition",
+      "inner knowing",
+      "stillness",
+      "the hidden"
+     ],
+     "reversed_keywords": [
+      "suppressed intuition",
+      "secrecy",
+      "disconnection"
+     ],
+     "upright_meaning": "Knowledge that has not yet been put into words.",
+     "reversed_meaning": "An inner voice unheard, or deliberately silenced.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:major:03:imparatorice",
+   "image_asset_key": "imparatorice",
+   "canonical_name": "The Empress",
+   "arcana": "major",
+   "suit": null,
+   "number": 3,
+   "rank": null,
+   "element": "earth",
+   "astrological_association": "Venus",
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "İmparatoriçe",
+     "keywords": [
+      "bereket",
+      "yaratıcılık",
+      "besleyicilik",
+      "bedensellik"
+     ],
+     "reversed_keywords": [
+      "tıkanma",
+      "aşırı sahiplenme",
+      "kendini ihmal"
+     ],
+     "upright_meaning": "Büyüyen ve beslenen bir şey. Yaratıcılığın somut karşılık bulduğu dönem.",
+     "reversed_meaning": "Yaratıcı akışın tıkanması ya da verme ile sahiplenme arasındaki sınırın kayması.",
+     "love_meaning": "Sıcaklık ve yakınlık; ilişkinin bakım isteyen bir şey olarak görülmesi.",
+     "career_meaning": "Emeğin ürüne dönüştüğü, sabır isteyen bir büyüme dönemi.",
+     "growth_meaning": "Kendine bakmayı üretkenliğin bir parçası olarak görmek.",
+     "symbolism": "Buğday tarlası ve akan su: olgunlaşma için gereken zaman."
+    },
+    "en": {
+     "display_name": "The Empress",
+     "keywords": [
+      "abundance",
+      "creativity",
+      "nurture",
+      "embodiment"
+     ],
+     "reversed_keywords": [
+      "creative block",
+      "over-possessiveness",
+      "self-neglect"
+     ],
+     "upright_meaning": "Something growing and being fed.",
+     "reversed_meaning": "A blocked creative flow, or care that has become control.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:major:04:imparator",
+   "image_asset_key": "imparator",
+   "canonical_name": "The Emperor",
+   "arcana": "major",
+   "suit": null,
+   "number": 4,
+   "rank": null,
+   "element": "fire",
+   "astrological_association": "Aries",
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "İmparator",
+     "keywords": [
+      "yapı",
+      "otorite",
+      "sınır",
+      "istikrar"
+     ],
+     "reversed_keywords": [
+      "katılık",
+      "kontrol",
+      "otoriteyle çatışma"
+     ],
+     "upright_meaning": "Düzenin ve sınırın kurulması. Dağınık olanın bir çerçeveye oturması.",
+     "reversed_meaning": "Esnemeyen bir yapı; kontrolün güvenlik yerine daralma üretmesi.",
+     "love_meaning": "Güven veren ama esneklik isteyen bir bağ; rollerin netleşmesi.",
+     "career_meaning": "Sorumluluk alma, kurumsal yapı içinde yer edinme.",
+     "growth_meaning": "Kendi sınırlarını kurma ve onlara kendin uyma pratiği.",
+     "symbolism": "Taş taht ve koç başları: sağlamlık ve irade."
+    },
+    "en": {
+     "display_name": "The Emperor",
+     "keywords": [
+      "structure",
+      "authority",
+      "boundary",
+      "stability"
+     ],
+     "reversed_keywords": [
+      "rigidity",
+      "control",
+      "conflict with authority"
+     ],
+     "upright_meaning": "Order and boundary being established.",
+     "reversed_meaning": "A structure that will not bend.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:major:05:aziz",
+   "image_asset_key": "aziz",
+   "canonical_name": "The Hierophant",
+   "arcana": "major",
+   "suit": null,
+   "number": 5,
+   "rank": null,
+   "element": "earth",
+   "astrological_association": "Taurus",
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Aziz",
+     "keywords": [
+      "gelenek",
+      "öğreti",
+      "kurum",
+      "rehberlik"
+     ],
+     "reversed_keywords": [
+      "kalıpları sorgulama",
+      "uyumsuzluk",
+      "dogma"
+     ],
+     "upright_meaning": "Yerleşik bilginin ve geleneğin yol göstermesi. Öğrenilecek bir usul var.",
+     "reversed_meaning": "Kalıbın dar gelmesi; kuralın anlamını yitirip biçime dönüşmesi.",
+     "love_meaning": "Geleneksel adımlar, resmiyet, ailelerin dahil olduğu bir süreç.",
+     "career_meaning": "Kurumsal yapı, mentorluk, sertifikasyon; usulün önem kazandığı dönem.",
+     "growth_meaning": "Öğrenmeyi kabul etmek ile körü körüne uymayı ayırt etmek.",
+     "symbolism": "İki öğrenci ve kesişen anahtarlar: aktarılan bilgi."
+    },
+    "en": {
+     "display_name": "The Hierophant",
+     "keywords": [
+      "tradition",
+      "teaching",
+      "institution",
+      "guidance"
+     ],
+     "reversed_keywords": [
+      "questioning convention",
+      "nonconformity",
+      "dogma"
+     ],
+     "upright_meaning": "Established knowledge showing the way.",
+     "reversed_meaning": "A form that has outlived its meaning.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:major:06:asiklar",
+   "image_asset_key": "asiklar",
+   "canonical_name": "The Lovers",
+   "arcana": "major",
+   "suit": null,
+   "number": 6,
+   "rank": null,
+   "element": "air",
+   "astrological_association": "Gemini",
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Âşıklar",
+     "keywords": [
+      "seçim",
+      "birleşme",
+      "değerler",
+      "çekim"
+     ],
+     "reversed_keywords": [
+      "kararsızlık",
+      "uyumsuzluk",
+      "değer çatışması"
+     ],
+     "upright_meaning": "Bir seçim ve o seçimin arkasındaki değerler. İki şeyin birbirine yönelmesi.",
+     "reversed_meaning": "Ertelenen karar ya da değerlerin örtüşmediğinin fark edilmesi.",
+     "love_meaning": "Yakınlık ve seçim; ilişkinin bir tercih olduğunun görünür olması.",
+     "career_meaning": "İki yol arasında seçim; neyin gerçekten önemli olduğunu belirleme.",
+     "growth_meaning": "Neyi seçtiğini ve neden seçtiğini bilme çabası.",
+     "symbolism": "Melek altında duran iki figür: bilinçli bir birleşme."
+    },
+    "en": {
+     "display_name": "The Lovers",
+     "keywords": [
+      "choice",
+      "union",
+      "values",
+      "attraction"
+     ],
+     "reversed_keywords": [
+      "indecision",
+      "misalignment",
+      "conflicting values"
+     ],
+     "upright_meaning": "A choice and the values behind it.",
+     "reversed_meaning": "A decision deferred, or values that do not match.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:major:07:savas_arabasi",
+   "image_asset_key": "savas_arabasi",
+   "canonical_name": "The Chariot",
+   "arcana": "major",
+   "suit": null,
+   "number": 7,
+   "rank": null,
+   "element": "water",
+   "astrological_association": "Cancer",
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Savaş Arabası",
+     "keywords": [
+      "irade",
+      "yön",
+      "ilerleme",
+      "denge"
+     ],
+     "reversed_keywords": [
+      "dağılma",
+      "yön kaybı",
+      "zorlama"
+     ],
+     "upright_meaning": "Karşıt güçleri aynı yöne sürme. Kararlılıkla alınan mesafe.",
+     "reversed_meaning": "Gücün yönsüz kullanılması; ilerleme yerine yerinde savrulma.",
+     "love_meaning": "İlişkide yön belirleme ihtiyacı; farklılıkları bir arada tutma çabası.",
+     "career_meaning": "Hedefe kilitlenme; rekabetin öne çıktığı bir dönem.",
+     "growth_meaning": "Kendi içindeki çekişmeleri bastırmadan yönetmek.",
+     "symbolism": "İki sfenks: aynı arabayı çeken zıt eğilimler."
+    },
+    "en": {
+     "display_name": "The Chariot",
+     "keywords": [
+      "will",
+      "direction",
+      "progress",
+      "balance"
+     ],
+     "reversed_keywords": [
+      "scattered force",
+      "lost direction",
+      "forcing"
+     ],
+     "upright_meaning": "Driving opposing forces the same way.",
+     "reversed_meaning": "Force applied without direction.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:major:08:guc",
+   "image_asset_key": "guc",
+   "canonical_name": "Strength",
+   "arcana": "major",
+   "suit": null,
+   "number": 8,
+   "rank": null,
+   "element": "fire",
+   "astrological_association": "Leo",
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Güç",
+     "keywords": [
+      "sabır",
+      "yumuşak güç",
+      "cesaret",
+      "şefkat"
+     ],
+     "reversed_keywords": [
+      "öz güven kaybı",
+      "bastırma",
+      "sabırsızlık"
+     ],
+     "upright_meaning": "Zorlamadan yönlendirme. Gücün sertlikle değil sabırla kullanılması.",
+     "reversed_meaning": "İçteki gerilimi bastırma ya da sabrın tükenmesi.",
+     "love_meaning": "Şefkatle kurulan yakınlık; kışkırtmaya kapılmama.",
+     "career_meaning": "Zorlu bir süreci soğukkanlılıkla taşıma.",
+     "growth_meaning": "Kendi tepkilerini tanımak ve onlara alan açmak.",
+     "symbolism": "Aslanın ağzını yumuşakça tutan figür: bastırma değil, evcilleştirme."
+    },
+    "en": {
+     "display_name": "Strength",
+     "keywords": [
+      "patience",
+      "gentle strength",
+      "courage",
+      "compassion"
+     ],
+     "reversed_keywords": [
+      "self-doubt",
+      "suppression",
+      "impatience"
+     ],
+     "upright_meaning": "Guiding without forcing.",
+     "reversed_meaning": "Tension held down rather than worked with.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:major:09:ermis",
+   "image_asset_key": "ermis",
+   "canonical_name": "The Hermit",
+   "arcana": "major",
+   "suit": null,
+   "number": 9,
+   "rank": null,
+   "element": "earth",
+   "astrological_association": "Virgo",
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Ermiş",
+     "keywords": [
+      "içe dönüş",
+      "arayış",
+      "yalnızlık",
+      "rehberlik"
+     ],
+     "reversed_keywords": [
+      "izolasyon",
+      "geri çekilmede ısrar",
+      "yönsüzlük"
+     ],
+     "upright_meaning": "Kalabalıktan uzaklaşıp kendi ışığıyla yol bulma. Bilinçli bir geri çekilme.",
+     "reversed_meaning": "Geri çekilmenin kaçışa dönüşmesi ya da yalnızlığın ağırlaşması.",
+     "love_meaning": "Mesafe ihtiyacı; ilişkiye dışarıdan bakma dönemi.",
+     "career_meaning": "Bireysel çalışma, uzmanlaşma, sessiz ilerleme.",
+     "growth_meaning": "Kendi cevabını kendi içinde arama disiplini.",
+     "symbolism": "Fenerdeki tek yıldız: az ama kendine ait ışık."
+    },
+    "en": {
+     "display_name": "The Hermit",
+     "keywords": [
+      "introspection",
+      "search",
+      "solitude",
+      "guidance"
+     ],
+     "reversed_keywords": [
+      "isolation",
+      "withdrawal",
+      "aimlessness"
+     ],
+     "upright_meaning": "Stepping away from the crowd to find one's own light.",
+     "reversed_meaning": "Withdrawal that has become avoidance.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:major:10:kader_carki",
+   "image_asset_key": "kader_carki",
+   "canonical_name": "Wheel of Fortune",
+   "arcana": "major",
+   "suit": null,
+   "number": 10,
+   "rank": null,
+   "element": "fire",
+   "astrological_association": "Jupiter",
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Kader Çarkı",
+     "keywords": [
+      "döngü",
+      "değişim",
+      "zamanlama",
+      "şans"
+     ],
+     "reversed_keywords": [
+      "direnç",
+      "tekrar eden döngü",
+      "kötü zamanlama"
+     ],
+     "upright_meaning": "Koşulların dönmesi. Kontrolün tamamen kişide olmadığı bir dönüm noktası.",
+     "reversed_meaning": "Aynı döngünün tekrarı ya da değişime direnme.",
+     "love_meaning": "İlişkide beklenmedik bir dönüş; zamanlamanın belirleyici olması.",
+     "career_meaning": "Dışsal koşulların yön değiştirdiği bir dönem.",
+     "growth_meaning": "Değiştiremediğinle değiştirebildiğini ayırt etmek.",
+     "symbolism": "Dönen çark ve dört köşedeki figürler: sabitlerin arasındaki hareket."
+    },
+    "en": {
+     "display_name": "Wheel of Fortune",
+     "keywords": [
+      "cycle",
+      "change",
+      "timing",
+      "fortune"
+     ],
+     "reversed_keywords": [
+      "resistance",
+      "repeating cycle",
+      "poor timing"
+     ],
+     "upright_meaning": "Circumstances turning.",
+     "reversed_meaning": "The same cycle running again.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:major:11:adalet",
+   "image_asset_key": "adalet",
+   "canonical_name": "Justice",
+   "arcana": "major",
+   "suit": null,
+   "number": 11,
+   "rank": null,
+   "element": "air",
+   "astrological_association": "Libra",
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Adalet",
+     "keywords": [
+      "denge",
+      "sorumluluk",
+      "gerçek",
+      "sonuç"
+     ],
+     "reversed_keywords": [
+      "adaletsizlik",
+      "sorumluluktan kaçma",
+      "önyargı"
+     ],
+     "upright_meaning": "Yapılanın karşılığı. Serinkanlı ve tarafsız bir değerlendirme.",
+     "reversed_meaning": "Dengenin bozulması; sorumluluğun üstlenilmemesi.",
+     "love_meaning": "İlişkide karşılıklılık meselesi; verilenle alınanın tartılması.",
+     "career_meaning": "Sözleşmeler, resmi süreçler, yapılanın görünür karşılığı.",
+     "growth_meaning": "Kendi payını dürüstçe görme pratiği.",
+     "symbolism": "Terazi ve kılıç: ölçmek ve ayırmak."
+    },
+    "en": {
+     "display_name": "Justice",
+     "keywords": [
+      "balance",
+      "accountability",
+      "truth",
+      "consequence"
+     ],
+     "reversed_keywords": [
+      "imbalance",
+      "avoided responsibility",
+      "bias"
+     ],
+     "upright_meaning": "The consequence of what was done.",
+     "reversed_meaning": "Balance lost, responsibility unclaimed.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:major:12:asilan_adam",
+   "image_asset_key": "asilan_adam",
+   "canonical_name": "The Hanged Man",
+   "arcana": "major",
+   "suit": null,
+   "number": 12,
+   "rank": null,
+   "element": "water",
+   "astrological_association": "Neptune",
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Asılan Adam",
+     "keywords": [
+      "askıda kalma",
+      "bakış değişimi",
+      "teslimiyet",
+      "bekleme"
+     ],
+     "reversed_keywords": [
+      "boşuna bekleme",
+      "kurban rolü",
+      "direnç"
+     ],
+     "upright_meaning": "İlerlemenin durduğu ama bakışın değiştiği dönem. Gönüllü bir bekleyiş.",
+     "reversed_meaning": "Beklemenin anlamını yitirmesi; durağanlığın alışkanlığa dönüşmesi.",
+     "love_meaning": "Askıda kalan bir bağ; net olmayan bir dönem.",
+     "career_meaning": "Süreçlerin durması; sabır isteyen bir ara.",
+     "growth_meaning": "Aynı şeye başka bir açıdan bakmayı öğrenmek.",
+     "symbolism": "Baş aşağı ama sakin duran figür: tersinden görülen manzara."
+    },
+    "en": {
+     "display_name": "The Hanged Man",
+     "keywords": [
+      "suspension",
+      "new perspective",
+      "surrender",
+      "waiting"
+     ],
+     "reversed_keywords": [
+      "pointless waiting",
+      "victim stance",
+      "resistance"
+     ],
+     "upright_meaning": "Movement stops, but the view changes.",
+     "reversed_meaning": "Waiting that has lost its purpose.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:major:13:olum",
+   "image_asset_key": "olum",
+   "canonical_name": "Death",
+   "arcana": "major",
+   "suit": null,
+   "number": 13,
+   "rank": null,
+   "element": "water",
+   "astrological_association": "Scorpio",
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Ölüm",
+     "keywords": [
+      "bitiş",
+      "dönüşüm",
+      "bırakma",
+      "eşik"
+     ],
+     "reversed_keywords": [
+      "bırakamama",
+      "uzayan bitiş",
+      "direnç"
+     ],
+     "upright_meaning": "Bir şeyin gerçekten bitmesi ve yerini başka bir şeye bırakması. Sembolik bir eşik.",
+     "reversed_meaning": "Biten şeyi sürdürme çabası; geçişin uzaması.",
+     "love_meaning": "Bir dönemin kapanması; ilişkinin biçim değiştirmesi.",
+     "career_meaning": "Bir rolün ya da işin sona ermesi; yeni bir yapıya geçiş.",
+     "growth_meaning": "Bırakmanın kayıp değil yer açma olduğunu görmek.",
+     "symbolism": "Yükselen güneş ve ilerleyen figür: sona eren şeyin ardındaki ufuk."
+    },
+    "en": {
+     "display_name": "Death",
+     "keywords": [
+      "ending",
+      "transformation",
+      "release",
+      "threshold"
+     ],
+     "reversed_keywords": [
+      "clinging",
+      "prolonged ending",
+      "resistance"
+     ],
+     "upright_meaning": "Something genuinely ends and makes room.",
+     "reversed_meaning": "Holding on to what has already ended.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:major:14:denge",
+   "image_asset_key": "denge",
+   "canonical_name": "Temperance",
+   "arcana": "major",
+   "suit": null,
+   "number": 14,
+   "rank": null,
+   "element": "fire",
+   "astrological_association": "Sagittarius",
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Denge",
+     "keywords": [
+      "ölçü",
+      "sentez",
+      "sabır",
+      "iyileşme"
+     ],
+     "reversed_keywords": [
+      "aşırılık",
+      "uyumsuzluk",
+      "acelecilik"
+     ],
+     "upright_meaning": "İki şeyin doğru oranda karışması. Zamanla gelen iyileşme.",
+     "reversed_meaning": "Ölçünün kaçması; aceleyle bozulan bir denge.",
+     "love_meaning": "İki farklı ritmin uyum araması.",
+     "career_meaning": "Farklı becerilerin bir araya getirilmesi; kademeli ilerleme.",
+     "growth_meaning": "Aşırıya kaçmadan ilerlemeyi öğrenmek.",
+     "symbolism": "İki kadeh arasında akan su: kesintisiz ama ölçülü akış."
+    },
+    "en": {
+     "display_name": "Temperance",
+     "keywords": [
+      "moderation",
+      "synthesis",
+      "patience",
+      "healing"
+     ],
+     "reversed_keywords": [
+      "excess",
+      "imbalance",
+      "haste"
+     ],
+     "upright_meaning": "Two things mixing in the right proportion.",
+     "reversed_meaning": "Proportion lost to haste.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:major:15:seytan",
+   "image_asset_key": "seytan",
+   "canonical_name": "The Devil",
+   "arcana": "major",
+   "suit": null,
+   "number": 15,
+   "rank": null,
+   "element": "earth",
+   "astrological_association": "Capricorn",
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Şeytan",
+     "keywords": [
+      "bağımlılık",
+      "gölge",
+      "arzu",
+      "kısıtlanma"
+     ],
+     "reversed_keywords": [
+      "kopma",
+      "farkındalık",
+      "zincirden çıkma"
+     ],
+     "upright_meaning": "Kişiyi tutan bağ; istenerek sürdürülen bir kısıtlama. Gölgede kalanın gücü.",
+     "reversed_meaning": "Bağın gevşemesi; neyin tuttuğunu fark etme ve çözme.",
+     "love_meaning": "Yoğun çekim ama bağımlılık riski; sınırların belirsizleşmesi.",
+     "career_meaning": "Maddi bağlılık; istemediği halde sürdürülen bir iş.",
+     "growth_meaning": "Kendi gölgeni yok saymadan tanımak.",
+     "symbolism": "Gevşek zincirler: çıkarılabilecek ama çıkarılmayan bağ."
+    },
+    "en": {
+     "display_name": "The Devil",
+     "keywords": [
+      "attachment",
+      "shadow",
+      "desire",
+      "constraint"
+     ],
+     "reversed_keywords": [
+      "release",
+      "awareness",
+      "breaking free"
+     ],
+     "upright_meaning": "A tie kept on willingly.",
+     "reversed_meaning": "Seeing what holds you, and loosening it.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:major:16:kule",
+   "image_asset_key": "kule",
+   "canonical_name": "The Tower",
+   "arcana": "major",
+   "suit": null,
+   "number": 16,
+   "rank": null,
+   "element": "fire",
+   "astrological_association": "Mars",
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Kule",
+     "keywords": [
+      "ani değişim",
+      "yıkılış",
+      "gerçeğin açığa çıkması",
+      "sarsıntı"
+     ],
+     "reversed_keywords": [
+      "ertelenen çöküş",
+      "kaçınma",
+      "yavaş yıkım"
+     ],
+     "upright_meaning": "Sağlam sanılanın bir anda yıkılması. Sarsıcı ama açığa çıkarıcı bir an.",
+     "reversed_meaning": "Yıkımın ertelenmesi; sarsıntının uzun sürmesi.",
+     "love_meaning": "Ani bir kriz; yüzleşmeyi zorunlu kılan bir kırılma.",
+     "career_meaning": "Beklenmedik bir değişiklik; planın geçersizleşmesi.",
+     "growth_meaning": "Yıkılanın ne olduğunu ve neden yıkıldığını anlamak.",
+     "symbolism": "Yıldırım ve düşen taç: dışarıdan gelen ama içeriden hazırlanmış çöküş."
+    },
+    "en": {
+     "display_name": "The Tower",
+     "keywords": [
+      "sudden change",
+      "collapse",
+      "revelation",
+      "shock"
+     ],
+     "reversed_keywords": [
+      "delayed collapse",
+      "avoidance",
+      "slow erosion"
+     ],
+     "upright_meaning": "What seemed solid comes down at once.",
+     "reversed_meaning": "A collapse postponed rather than avoided.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:major:17:yildiz",
+   "image_asset_key": "yildiz",
+   "canonical_name": "The Star",
+   "arcana": "major",
+   "suit": null,
+   "number": 17,
+   "rank": null,
+   "element": "air",
+   "astrological_association": "Aquarius",
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Yıldız",
+     "keywords": [
+      "umut",
+      "iyileşme",
+      "açıklık",
+      "ilham"
+     ],
+     "reversed_keywords": [
+      "umutsuzluk",
+      "inanç kaybı",
+      "kopukluk"
+     ],
+     "upright_meaning": "Sarsıntıdan sonra gelen sakinlik. Yeniden umut etmenin mümkün hale gelmesi.",
+     "reversed_meaning": "Umudun tükenmesi ya da kendine güvenin zayıflaması.",
+     "love_meaning": "İyileşen bir bağ; açıklığın yeniden kurulması.",
+     "career_meaning": "Uzun vadeli bir vizyon; yavaş ama gerçek bir toparlanma.",
+     "growth_meaning": "Yeniden umut etmeye izin vermek.",
+     "symbolism": "Yıldızlı gökyüzü altında suya dökülen su: yenilenme."
+    },
+    "en": {
+     "display_name": "The Star",
+     "keywords": [
+      "hope",
+      "healing",
+      "openness",
+      "inspiration"
+     ],
+     "reversed_keywords": [
+      "hopelessness",
+      "lost faith",
+      "disconnection"
+     ],
+     "upright_meaning": "The quiet after the shock.",
+     "reversed_meaning": "Hope run dry.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:major:18:ay",
+   "image_asset_key": "ay",
+   "canonical_name": "The Moon",
+   "arcana": "major",
+   "suit": null,
+   "number": 18,
+   "rank": null,
+   "element": "water",
+   "astrological_association": "Pisces",
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Ay",
+     "keywords": [
+      "belirsizlik",
+      "yanılsama",
+      "rüya",
+      "korku"
+     ],
+     "reversed_keywords": [
+      "netleşme",
+      "yanılsamanın dağılması",
+      "kafa karışıklığı"
+     ],
+     "upright_meaning": "Net görünmeyen bir alan. Korkuların ve hayallerin gerçeğe karıştığı dönem.",
+     "reversed_meaning": "Sisin dağılması ya da kafa karışıklığının derinleşmesi.",
+     "love_meaning": "Söylenmeyenler ve belirsizlik; acele yorum yapmamak gereken dönem.",
+     "career_meaning": "Bilgi eksikliği; karar için erken olan bir aşama.",
+     "growth_meaning": "Belirsizlikle oturabilmeyi öğrenmek.",
+     "symbolism": "İki kule arasındaki yol ve sudan çıkan yengeç: bilinçaltından gelen."
+    },
+    "en": {
+     "display_name": "The Moon",
+     "keywords": [
+      "uncertainty",
+      "illusion",
+      "dream",
+      "fear"
+     ],
+     "reversed_keywords": [
+      "clarity returning",
+      "illusion dissolving",
+      "confusion"
+     ],
+     "upright_meaning": "An area that will not come into focus.",
+     "reversed_meaning": "The fog lifting, or thickening.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:major:19:gunes",
+   "image_asset_key": "gunes",
+   "canonical_name": "The Sun",
+   "arcana": "major",
+   "suit": null,
+   "number": 19,
+   "rank": null,
+   "element": "fire",
+   "astrological_association": "Sun",
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Güneş",
+     "keywords": [
+      "açıklık",
+      "canlılık",
+      "sevinç",
+      "başarı"
+     ],
+     "reversed_keywords": [
+      "gölgelenmiş neşe",
+      "aşırı iyimserlik",
+      "gecikme"
+     ],
+     "upright_meaning": "Açık ve görünür olan. Enerjinin ve sevincin engellenmediği bir dönem.",
+     "reversed_meaning": "Işığın bir şeyin arkasında kalması; neşenin zorlanması.",
+     "love_meaning": "Açıklık ve sıcaklık; saklanacak bir şeyin olmaması.",
+     "career_meaning": "Görünürlük ve tanınma; işin karşılığını alma.",
+     "growth_meaning": "İyi olanı küçümsemeden fark etmek.",
+     "symbolism": "Ayçiçekleri ve at üstündeki çocuk: gizlenmeyen canlılık."
+    },
+    "en": {
+     "display_name": "The Sun",
+     "keywords": [
+      "clarity",
+      "vitality",
+      "joy",
+      "success"
+     ],
+     "reversed_keywords": [
+      "dimmed joy",
+      "over-optimism",
+      "delay"
+     ],
+     "upright_meaning": "What is open and visible.",
+     "reversed_meaning": "Light kept behind something.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:major:20:mahkeme",
+   "image_asset_key": "mahkeme",
+   "canonical_name": "Judgement",
+   "arcana": "major",
+   "suit": null,
+   "number": 20,
+   "rank": null,
+   "element": "fire",
+   "astrological_association": "Pluto",
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Mahkeme",
+     "keywords": [
+      "muhasebe",
+      "uyanış",
+      "çağrı",
+      "affetme"
+     ],
+     "reversed_keywords": [
+      "kendini yargılama",
+      "çağrıyı duymama",
+      "geçmişe takılma"
+     ],
+     "upright_meaning": "Geçmişin muhasebesi ve bir çağrıya cevap verme. Yeniden değerlendirme anı.",
+     "reversed_meaning": "Sert bir iç yargı ya da net olanı görmeyi reddetme.",
+     "love_meaning": "Geçmişin konuşulması; affetme ya da kapatma kararı.",
+     "career_meaning": "Kariyerde yeniden değerlendirme; bir çağrıya cevap verme.",
+     "growth_meaning": "Kendini yargılamadan değerlendirebilmek.",
+     "symbolism": "Borazan sesiyle doğrulan figürler: duyulan bir çağrı."
+    },
+    "en": {
+     "display_name": "Judgement",
+     "keywords": [
+      "reckoning",
+      "awakening",
+      "calling",
+      "forgiveness"
+     ],
+     "reversed_keywords": [
+      "self-judgement",
+      "ignoring the call",
+      "stuck in the past"
+     ],
+     "upright_meaning": "An accounting, and a call answered.",
+     "reversed_meaning": "A harsh inner verdict.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:major:21:dunya",
+   "image_asset_key": "dunya",
+   "canonical_name": "The World",
+   "arcana": "major",
+   "suit": null,
+   "number": 21,
+   "rank": null,
+   "element": "earth",
+   "astrological_association": "Saturn",
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Dünya",
+     "keywords": [
+      "tamamlanma",
+      "bütünlük",
+      "kapanış",
+      "yolculuk"
+     ],
+     "reversed_keywords": [
+      "yarım kalma",
+      "kapanmayan döngü",
+      "erteleme"
+     ],
+     "upright_meaning": "Bir döngünün gerçekten tamamlanması. Bütünlenen ve kapanan bir şey.",
+     "reversed_meaning": "Kapanmayan bir dosya; tamamlanmayı bekleyen son adım.",
+     "love_meaning": "Bir dönemin olgunlukla kapanması.",
+     "career_meaning": "Projenin tamamlanması; bir aşamanın bitişi.",
+     "growth_meaning": "Bitirmeyi öğrenmek, tamamlanmaya izin vermek.",
+     "symbolism": "Çelenk içindeki figür ve dört köşedeki semboller: tamamlanan bütün."
+    },
+    "en": {
+     "display_name": "The World",
+     "keywords": [
+      "completion",
+      "wholeness",
+      "closure",
+      "journey"
+     ],
+     "reversed_keywords": [
+      "unfinished",
+      "unclosed cycle",
+      "postponement"
+     ],
+     "upright_meaning": "A cycle genuinely completed.",
+     "reversed_meaning": "A last step left untaken.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:wands:01",
+   "image_asset_key": "degnek_asi",
+   "canonical_name": "Ace of Wands",
+   "arcana": "minor",
+   "suit": "wands",
+   "number": 1,
+   "rank": "Ace",
+   "element": "fire",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Değnek As",
+     "keywords": [
+      "girişim",
+      "saf potansiyel"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş saf potansiyel"
+     ],
+     "upright_meaning": "Yeni bir girişim için ilk kıvılcım; harekete geçme isteği.",
+     "reversed_meaning": "Başlamayan ya da çabuk sönen bir istek.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Değnek serisi girişim, tutku ve hareket ile ilgilidir; As saf potansiyel, yeni bir tohum temasını taşır."
+    },
+    "en": {
+     "display_name": "Ace of Wands",
+     "keywords": [
+      "wands",
+      "pure potential"
+     ],
+     "reversed_keywords": [
+      "reversed pure potential"
+     ],
+     "upright_meaning": "The first spark of a new undertaking.",
+     "reversed_meaning": "An impulse that never starts, or burns out fast.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:wands:02",
+   "image_asset_key": "degnek_ikilisi",
+   "canonical_name": "Two of Wands",
+   "arcana": "minor",
+   "suit": "wands",
+   "number": 2,
+   "rank": "Two",
+   "element": "fire",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Değnek İkilisi",
+     "keywords": [
+      "girişim",
+      "ikilik"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş ikilik"
+     ],
+     "upright_meaning": "Planlanan ama henüz atılmamış adım; ufka bakma.",
+     "reversed_meaning": "Karar verememe; planın rafta kalması.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Değnek serisi girişim, tutku ve hareket ile ilgilidir; İkilisi ikilik, seçim ve karşılıklılık temasını taşır."
+    },
+    "en": {
+     "display_name": "Two of Wands",
+     "keywords": [
+      "wands",
+      "duality"
+     ],
+     "reversed_keywords": [
+      "reversed duality"
+     ],
+     "upright_meaning": "A plan made but not yet acted on.",
+     "reversed_meaning": "A decision that stays undecided.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:wands:03",
+   "image_asset_key": "degnek_uclusu",
+   "canonical_name": "Three of Wands",
+   "arcana": "minor",
+   "suit": "wands",
+   "number": 3,
+   "rank": "Three",
+   "element": "fire",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Değnek Üçlüsü",
+     "keywords": [
+      "girişim",
+      "ilk somut sonuç ve genişleme"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş ilk somut sonuç ve genişleme"
+     ],
+     "upright_meaning": "Atılan adımın ilk karşılığı; genişleyen ufuk.",
+     "reversed_meaning": "Gecikme; beklenen karşılığın gelmemesi.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Değnek serisi girişim, tutku ve hareket ile ilgilidir; Üçlüsü ilk somut sonuç ve genişleme temasını taşır."
+    },
+    "en": {
+     "display_name": "Three of Wands",
+     "keywords": [
+      "wands",
+      "first result"
+     ],
+     "reversed_keywords": [
+      "reversed first result"
+     ],
+     "upright_meaning": "The first return on a step taken.",
+     "reversed_meaning": "Delay; the expected return not arriving.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:wands:04",
+   "image_asset_key": "degnek_dortlusu",
+   "canonical_name": "Four of Wands",
+   "arcana": "minor",
+   "suit": "wands",
+   "number": 4,
+   "rank": "Four",
+   "element": "fire",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Değnek Dörtlüsü",
+     "keywords": [
+      "girişim",
+      "sağlamlaşma"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş sağlamlaşma"
+     ],
+     "upright_meaning": "Kutlanacak bir eşik; kurulan istikrar.",
+     "reversed_meaning": "Erken kutlama ya da tamamlanmamış bir yerleşme.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Değnek serisi girişim, tutku ve hareket ile ilgilidir; Dörtlüsü sağlamlaşma, durağanlık temasını taşır."
+    },
+    "en": {
+     "display_name": "Four of Wands",
+     "keywords": [
+      "wands",
+      "consolidation"
+     ],
+     "reversed_keywords": [
+      "reversed consolidation"
+     ],
+     "upright_meaning": "A threshold worth marking.",
+     "reversed_meaning": "Celebrating early, or settling unfinished.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:wands:05",
+   "image_asset_key": "degnek_beslisi",
+   "canonical_name": "Five of Wands",
+   "arcana": "minor",
+   "suit": "wands",
+   "number": 5,
+   "rank": "Five",
+   "element": "fire",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Değnek Beşlisi",
+     "keywords": [
+      "girişim",
+      "kayıp"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş kayıp"
+     ],
+     "upright_meaning": "Rekabet ve dağınık enerji; çekişmeli bir ortam.",
+     "reversed_meaning": "Çatışmadan kaçınma ya da içe çekilen gerilim.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Değnek serisi girişim, tutku ve hareket ile ilgilidir; Beşlisi kayıp, çatışma ve sınanma temasını taşır."
+    },
+    "en": {
+     "display_name": "Five of Wands",
+     "keywords": [
+      "wands",
+      "loss"
+     ],
+     "reversed_keywords": [
+      "reversed loss"
+     ],
+     "upright_meaning": "Competition and scattered energy.",
+     "reversed_meaning": "Conflict avoided rather than resolved.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:wands:06",
+   "image_asset_key": "degnek_altilisi",
+   "canonical_name": "Six of Wands",
+   "arcana": "minor",
+   "suit": "wands",
+   "number": 6,
+   "rank": "Six",
+   "element": "fire",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Değnek Altılısı",
+     "keywords": [
+      "girişim",
+      "toparlanma ve geçiş"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş toparlanma ve geçiş"
+     ],
+     "upright_meaning": "Görünür bir başarı; emeğin tanınması.",
+     "reversed_meaning": "Tanınmama ya da başarının içinin boş çıkması.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Değnek serisi girişim, tutku ve hareket ile ilgilidir; Altılısı toparlanma ve geçiş temasını taşır."
+    },
+    "en": {
+     "display_name": "Six of Wands",
+     "keywords": [
+      "wands",
+      "recovery"
+     ],
+     "reversed_keywords": [
+      "reversed recovery"
+     ],
+     "upright_meaning": "A visible success, recognised.",
+     "reversed_meaning": "Recognition withheld, or hollow.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:wands:07",
+   "image_asset_key": "degnek_yedilisi",
+   "canonical_name": "Seven of Wands",
+   "arcana": "minor",
+   "suit": "wands",
+   "number": 7,
+   "rank": "Seven",
+   "element": "fire",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Değnek Yedilisi",
+     "keywords": [
+      "girişim",
+      "değerlendirme ve sabır sınavı"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş değerlendirme ve sabır sınavı"
+     ],
+     "upright_meaning": "Kazanılanı savunma; pozisyonunu koruma.",
+     "reversed_meaning": "Savunmada yorulma; zeminin kayması.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Değnek serisi girişim, tutku ve hareket ile ilgilidir; Yedilisi değerlendirme ve sabır sınavı temasını taşır."
+    },
+    "en": {
+     "display_name": "Seven of Wands",
+     "keywords": [
+      "wands",
+      "assessment"
+     ],
+     "reversed_keywords": [
+      "reversed assessment"
+     ],
+     "upright_meaning": "Defending what has been won.",
+     "reversed_meaning": "Tiring of the defence.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:wands:08",
+   "image_asset_key": "degnek_sekizlisi",
+   "canonical_name": "Eight of Wands",
+   "arcana": "minor",
+   "suit": "wands",
+   "number": 8,
+   "rank": "Eight",
+   "element": "fire",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Değnek Sekizlisi",
+     "keywords": [
+      "girişim",
+      "hareket"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş hareket"
+     ],
+     "upright_meaning": "Hızlanan gelişmeler; gelen haber ve hareket.",
+     "reversed_meaning": "Gecikme; hızın kesilmesi.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Değnek serisi girişim, tutku ve hareket ile ilgilidir; Sekizlisi hareket, emek ve hız temasını taşır."
+    },
+    "en": {
+     "display_name": "Eight of Wands",
+     "keywords": [
+      "wands",
+      "movement"
+     ],
+     "reversed_keywords": [
+      "reversed movement"
+     ],
+     "upright_meaning": "Things speeding up; news arriving.",
+     "reversed_meaning": "Momentum stalling.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:wands:09",
+   "image_asset_key": "degnek_dokuzlusu",
+   "canonical_name": "Nine of Wands",
+   "arcana": "minor",
+   "suit": "wands",
+   "number": 9,
+   "rank": "Nine",
+   "element": "fire",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Değnek Dokuzlusu",
+     "keywords": [
+      "girişim",
+      "olgunlaşan sonuç ve yük"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş olgunlaşan sonuç ve yük"
+     ],
+     "upright_meaning": "Yorgun ama ayakta duran direnç; son savunma.",
+     "reversed_meaning": "Tükenmişlik; gardın düşmesi.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Değnek serisi girişim, tutku ve hareket ile ilgilidir; Dokuzlusu olgunlaşan sonuç ve yük temasını taşır."
+    },
+    "en": {
+     "display_name": "Nine of Wands",
+     "keywords": [
+      "wands",
+      "maturing result"
+     ],
+     "reversed_keywords": [
+      "reversed maturing result"
+     ],
+     "upright_meaning": "Tired but still standing.",
+     "reversed_meaning": "Exhaustion; the guard dropping.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:wands:10",
+   "image_asset_key": "degnek_onlusu",
+   "canonical_name": "Ten of Wands",
+   "arcana": "minor",
+   "suit": "wands",
+   "number": 10,
+   "rank": "Ten",
+   "element": "fire",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Değnek Onlusu",
+     "keywords": [
+      "girişim",
+      "döngünün doruğu ve tamamlanması"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş döngünün doruğu ve tamamlanması"
+     ],
+     "upright_meaning": "Taşınan yükün ağırlığı; üstlenilen fazlalık.",
+     "reversed_meaning": "Yükü bırakma ya da altında kalma.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Değnek serisi girişim, tutku ve hareket ile ilgilidir; Onlusu döngünün doruğu ve tamamlanması temasını taşır."
+    },
+    "en": {
+     "display_name": "Ten of Wands",
+     "keywords": [
+      "wands",
+      "culmination"
+     ],
+     "reversed_keywords": [
+      "reversed culmination"
+     ],
+     "upright_meaning": "The weight of what has been taken on.",
+     "reversed_meaning": "Putting the load down, or being buried by it.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:wands:11",
+   "image_asset_key": "degnek_prensi",
+   "canonical_name": "Page of Wands",
+   "arcana": "minor",
+   "suit": "wands",
+   "number": 11,
+   "rank": "Page",
+   "element": "fire",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Değnek Prensi",
+     "keywords": [
+      "girişim",
+      "öğrenme"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş öğrenme"
+     ],
+     "upright_meaning": "Yeni bir ilgi ve keşif isteği; gelen bir haber.",
+     "reversed_meaning": "Dağılan ilgi; başlamayan heves.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Değnek serisi girişim, tutku ve hareket ile ilgilidir; Prensi öğrenme, merak ve haber temasını taşır."
+    },
+    "en": {
+     "display_name": "Page of Wands",
+     "keywords": [
+      "wands",
+      "learning"
+     ],
+     "reversed_keywords": [
+      "reversed learning"
+     ],
+     "upright_meaning": "A new interest, a message arriving.",
+     "reversed_meaning": "Interest that scatters.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:wands:12",
+   "image_asset_key": "degnek_sovalyesi",
+   "canonical_name": "Knight of Wands",
+   "arcana": "minor",
+   "suit": "wands",
+   "number": 12,
+   "rank": "Knight",
+   "element": "fire",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Değnek Şövalyesi",
+     "keywords": [
+      "girişim",
+      "hareket"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş hareket"
+     ],
+     "upright_meaning": "Cesur ve hızlı bir atılım; yön değiştiren enerji.",
+     "reversed_meaning": "Acelecilik; düşünmeden atılan adım.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Değnek serisi girişim, tutku ve hareket ile ilgilidir; Şövalyesi hareket, atılım ve yön temasını taşır."
+    },
+    "en": {
+     "display_name": "Knight of Wands",
+     "keywords": [
+      "wands",
+      "action"
+     ],
+     "reversed_keywords": [
+      "reversed action"
+     ],
+     "upright_meaning": "A bold, fast move.",
+     "reversed_meaning": "Haste; a step taken without thought.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:wands:13",
+   "image_asset_key": "degnek_kralicesi",
+   "canonical_name": "Queen of Wands",
+   "arcana": "minor",
+   "suit": "wands",
+   "number": 13,
+   "rank": "Queen",
+   "element": "fire",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Değnek Kraliçesi",
+     "keywords": [
+      "girişim",
+      "içselleştirilmiş ustalık ve bakım"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş içselleştirilmiş ustalık ve bakım"
+     ],
+     "upright_meaning": "Kendine güvenen, sıcak ve yönlendirici bir duruş.",
+     "reversed_meaning": "Güvenin kırılganlığa ya da baskıya dönüşmesi.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Değnek serisi girişim, tutku ve hareket ile ilgilidir; Kraliçesi içselleştirilmiş ustalık ve bakım temasını taşır."
+    },
+    "en": {
+     "display_name": "Queen of Wands",
+     "keywords": [
+      "wands",
+      "inner mastery"
+     ],
+     "reversed_keywords": [
+      "reversed inner mastery"
+     ],
+     "upright_meaning": "Warm, self-assured presence.",
+     "reversed_meaning": "Confidence turning brittle or pushy.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:wands:14",
+   "image_asset_key": "degnek_krali",
+   "canonical_name": "King of Wands",
+   "arcana": "minor",
+   "suit": "wands",
+   "number": 14,
+   "rank": "King",
+   "element": "fire",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Değnek Kralı",
+     "keywords": [
+      "girişim",
+      "dışa dönük ustalık ve sorumluluk"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş dışa dönük ustalık ve sorumluluk"
+     ],
+     "upright_meaning": "Vizyonu olan ve sorumluluk alan liderlik.",
+     "reversed_meaning": "Otoriterlik ya da yönü olmayan hırs.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Değnek serisi girişim, tutku ve hareket ile ilgilidir; Kralı dışa dönük ustalık ve sorumluluk temasını taşır."
+    },
+    "en": {
+     "display_name": "King of Wands",
+     "keywords": [
+      "wands",
+      "outward mastery"
+     ],
+     "reversed_keywords": [
+      "reversed outward mastery"
+     ],
+     "upright_meaning": "Leadership with a vision.",
+     "reversed_meaning": "Authoritarianism, or ambition without direction.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:cups:01",
+   "image_asset_key": "kupa_asi",
+   "canonical_name": "Ace of Cups",
+   "arcana": "minor",
+   "suit": "cups",
+   "number": 1,
+   "rank": "Ace",
+   "element": "water",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Kupa As",
+     "keywords": [
+      "duygu",
+      "saf potansiyel"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş saf potansiyel"
+     ],
+     "upright_meaning": "Açılan bir duygu; yeni bir bağın başlangıcı.",
+     "reversed_meaning": "Kapanan ya da ifade edilemeyen duygu.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Kupa serisi duygu, bağ ve içsel akış ile ilgilidir; As saf potansiyel, yeni bir tohum temasını taşır."
+    },
+    "en": {
+     "display_name": "Ace of Cups",
+     "keywords": [
+      "cups",
+      "pure potential"
+     ],
+     "reversed_keywords": [
+      "reversed pure potential"
+     ],
+     "upright_meaning": "A feeling opening; a bond beginning.",
+     "reversed_meaning": "Feeling closed off or unspoken.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:cups:02",
+   "image_asset_key": "kupa_ikilisi",
+   "canonical_name": "Two of Cups",
+   "arcana": "minor",
+   "suit": "cups",
+   "number": 2,
+   "rank": "Two",
+   "element": "water",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Kupa İkilisi",
+     "keywords": [
+      "duygu",
+      "ikilik"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş ikilik"
+     ],
+     "upright_meaning": "Karşılıklı bir bağ; iki tarafın birbirini görmesi.",
+     "reversed_meaning": "Dengesizlik; karşılık bulmayan yakınlık.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Kupa serisi duygu, bağ ve içsel akış ile ilgilidir; İkilisi ikilik, seçim ve karşılıklılık temasını taşır."
+    },
+    "en": {
+     "display_name": "Two of Cups",
+     "keywords": [
+      "cups",
+      "duality"
+     ],
+     "reversed_keywords": [
+      "reversed duality"
+     ],
+     "upright_meaning": "A mutual bond.",
+     "reversed_meaning": "Closeness that is not returned.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:cups:03",
+   "image_asset_key": "kupa_uclusu",
+   "canonical_name": "Three of Cups",
+   "arcana": "minor",
+   "suit": "cups",
+   "number": 3,
+   "rank": "Three",
+   "element": "water",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Kupa Üçlüsü",
+     "keywords": [
+      "duygu",
+      "ilk somut sonuç ve genişleme"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş ilk somut sonuç ve genişleme"
+     ],
+     "upright_meaning": "Paylaşılan sevinç; dostluk ve kutlama.",
+     "reversed_meaning": "Kalabalık içinde yalnızlık ya da aşırılık.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Kupa serisi duygu, bağ ve içsel akış ile ilgilidir; Üçlüsü ilk somut sonuç ve genişleme temasını taşır."
+    },
+    "en": {
+     "display_name": "Three of Cups",
+     "keywords": [
+      "cups",
+      "first result"
+     ],
+     "reversed_keywords": [
+      "reversed first result"
+     ],
+     "upright_meaning": "Shared joy and friendship.",
+     "reversed_meaning": "Loneliness in company, or excess.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:cups:04",
+   "image_asset_key": "kupa_dortlusu",
+   "canonical_name": "Four of Cups",
+   "arcana": "minor",
+   "suit": "cups",
+   "number": 4,
+   "rank": "Four",
+   "element": "water",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Kupa Dörtlüsü",
+     "keywords": [
+      "duygu",
+      "sağlamlaşma"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş sağlamlaşma"
+     ],
+     "upright_meaning": "Tatminsizlik; sunulanı görmeme.",
+     "reversed_meaning": "Yeniden ilgi duyma; sunulanı fark etme.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Kupa serisi duygu, bağ ve içsel akış ile ilgilidir; Dörtlüsü sağlamlaşma, durağanlık temasını taşır."
+    },
+    "en": {
+     "display_name": "Four of Cups",
+     "keywords": [
+      "cups",
+      "consolidation"
+     ],
+     "reversed_keywords": [
+      "reversed consolidation"
+     ],
+     "upright_meaning": "Dissatisfaction; not seeing what is offered.",
+     "reversed_meaning": "Interest returning.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:cups:05",
+   "image_asset_key": "kupa_beslisi",
+   "canonical_name": "Five of Cups",
+   "arcana": "minor",
+   "suit": "cups",
+   "number": 5,
+   "rank": "Five",
+   "element": "water",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Kupa Beşlisi",
+     "keywords": [
+      "duygu",
+      "kayıp"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş kayıp"
+     ],
+     "upright_meaning": "Kayıp ve yas; dökülene odaklanma.",
+     "reversed_meaning": "Toparlanma; kalanı görmeye başlama.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Kupa serisi duygu, bağ ve içsel akış ile ilgilidir; Beşlisi kayıp, çatışma ve sınanma temasını taşır."
+    },
+    "en": {
+     "display_name": "Five of Cups",
+     "keywords": [
+      "cups",
+      "loss"
+     ],
+     "reversed_keywords": [
+      "reversed loss"
+     ],
+     "upright_meaning": "Loss and grief.",
+     "reversed_meaning": "Beginning to see what remains.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:cups:06",
+   "image_asset_key": "kupa_altilisi",
+   "canonical_name": "Six of Cups",
+   "arcana": "minor",
+   "suit": "cups",
+   "number": 6,
+   "rank": "Six",
+   "element": "water",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Kupa Altılısı",
+     "keywords": [
+      "duygu",
+      "toparlanma ve geçiş"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş toparlanma ve geçiş"
+     ],
+     "upright_meaning": "Geçmişin sıcaklığı; nostalji ve masumiyet.",
+     "reversed_meaning": "Geçmişte kalma; idealize edilmiş bir hatıra.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Kupa serisi duygu, bağ ve içsel akış ile ilgilidir; Altılısı toparlanma ve geçiş temasını taşır."
+    },
+    "en": {
+     "display_name": "Six of Cups",
+     "keywords": [
+      "cups",
+      "recovery"
+     ],
+     "reversed_keywords": [
+      "reversed recovery"
+     ],
+     "upright_meaning": "The warmth of the past.",
+     "reversed_meaning": "Living in it.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:cups:07",
+   "image_asset_key": "kupa_yedilisi",
+   "canonical_name": "Seven of Cups",
+   "arcana": "minor",
+   "suit": "cups",
+   "number": 7,
+   "rank": "Seven",
+   "element": "water",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Kupa Yedilisi",
+     "keywords": [
+      "duygu",
+      "değerlendirme ve sabır sınavı"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş değerlendirme ve sabır sınavı"
+     ],
+     "upright_meaning": "Çok seçenek ve bulanıklık; hayal ile gerçeğin karışması.",
+     "reversed_meaning": "Netleşme; seçeneklerin elenmesi.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Kupa serisi duygu, bağ ve içsel akış ile ilgilidir; Yedilisi değerlendirme ve sabır sınavı temasını taşır."
+    },
+    "en": {
+     "display_name": "Seven of Cups",
+     "keywords": [
+      "cups",
+      "assessment"
+     ],
+     "reversed_keywords": [
+      "reversed assessment"
+     ],
+     "upright_meaning": "Too many options, blurred.",
+     "reversed_meaning": "Clarity; options narrowing.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:cups:08",
+   "image_asset_key": "kupa_sekizlisi",
+   "canonical_name": "Eight of Cups",
+   "arcana": "minor",
+   "suit": "cups",
+   "number": 8,
+   "rank": "Eight",
+   "element": "water",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Kupa Sekizlisi",
+     "keywords": [
+      "duygu",
+      "hareket"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş hareket"
+     ],
+     "upright_meaning": "Bir şeyi geride bırakıp gitme; anlam arayışı.",
+     "reversed_meaning": "Gidememe ya da geri dönme.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Kupa serisi duygu, bağ ve içsel akış ile ilgilidir; Sekizlisi hareket, emek ve hız temasını taşır."
+    },
+    "en": {
+     "display_name": "Eight of Cups",
+     "keywords": [
+      "cups",
+      "movement"
+     ],
+     "reversed_keywords": [
+      "reversed movement"
+     ],
+     "upright_meaning": "Walking away in search of meaning.",
+     "reversed_meaning": "Unable to leave, or turning back.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:cups:09",
+   "image_asset_key": "kupa_dokuzlusu",
+   "canonical_name": "Nine of Cups",
+   "arcana": "minor",
+   "suit": "cups",
+   "number": 9,
+   "rank": "Nine",
+   "element": "water",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Kupa Dokuzlusu",
+     "keywords": [
+      "duygu",
+      "olgunlaşan sonuç ve yük"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş olgunlaşan sonuç ve yük"
+     ],
+     "upright_meaning": "Duygusal tatmin; istenenin elde edilmesi.",
+     "reversed_meaning": "Yüzeysel tatmin; istenenin yetmemesi.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Kupa serisi duygu, bağ ve içsel akış ile ilgilidir; Dokuzlusu olgunlaşan sonuç ve yük temasını taşır."
+    },
+    "en": {
+     "display_name": "Nine of Cups",
+     "keywords": [
+      "cups",
+      "maturing result"
+     ],
+     "reversed_keywords": [
+      "reversed maturing result"
+     ],
+     "upright_meaning": "Emotional satisfaction.",
+     "reversed_meaning": "Satisfaction that does not satisfy.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:cups:10",
+   "image_asset_key": "kupa_onlusu",
+   "canonical_name": "Ten of Cups",
+   "arcana": "minor",
+   "suit": "cups",
+   "number": 10,
+   "rank": "Ten",
+   "element": "water",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Kupa Onlusu",
+     "keywords": [
+      "duygu",
+      "döngünün doruğu ve tamamlanması"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş döngünün doruğu ve tamamlanması"
+     ],
+     "upright_meaning": "Paylaşılan bir bütünlük; huzurlu bir bağ.",
+     "reversed_meaning": "Görüntüde huzur; dile gelmeyen kırgınlık.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Kupa serisi duygu, bağ ve içsel akış ile ilgilidir; Onlusu döngünün doruğu ve tamamlanması temasını taşır."
+    },
+    "en": {
+     "display_name": "Ten of Cups",
+     "keywords": [
+      "cups",
+      "culmination"
+     ],
+     "reversed_keywords": [
+      "reversed culmination"
+     ],
+     "upright_meaning": "A shared wholeness.",
+     "reversed_meaning": "Peace on the surface only.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:cups:11",
+   "image_asset_key": "kupa_prensi",
+   "canonical_name": "Page of Cups",
+   "arcana": "minor",
+   "suit": "cups",
+   "number": 11,
+   "rank": "Page",
+   "element": "water",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Kupa Prensi",
+     "keywords": [
+      "duygu",
+      "öğrenme"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş öğrenme"
+     ],
+     "upright_meaning": "Duygusal bir açılma; yaratıcı bir haber.",
+     "reversed_meaning": "Duygusal olgunlaşmamışlık; alınganlık.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Kupa serisi duygu, bağ ve içsel akış ile ilgilidir; Prensi öğrenme, merak ve haber temasını taşır."
+    },
+    "en": {
+     "display_name": "Page of Cups",
+     "keywords": [
+      "cups",
+      "learning"
+     ],
+     "reversed_keywords": [
+      "reversed learning"
+     ],
+     "upright_meaning": "An emotional opening; creative news.",
+     "reversed_meaning": "Emotional immaturity.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:cups:12",
+   "image_asset_key": "kupa_sovalyesi",
+   "canonical_name": "Knight of Cups",
+   "arcana": "minor",
+   "suit": "cups",
+   "number": 12,
+   "rank": "Knight",
+   "element": "water",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Kupa Şövalyesi",
+     "keywords": [
+      "duygu",
+      "hareket"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş hareket"
+     ],
+     "upright_meaning": "Kalbiyle hareket eden bir yöneliş; bir teklif.",
+     "reversed_meaning": "Gerçekçi olmayan romantizm; tutarsızlık.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Kupa serisi duygu, bağ ve içsel akış ile ilgilidir; Şövalyesi hareket, atılım ve yön temasını taşır."
+    },
+    "en": {
+     "display_name": "Knight of Cups",
+     "keywords": [
+      "cups",
+      "action"
+     ],
+     "reversed_keywords": [
+      "reversed action"
+     ],
+     "upright_meaning": "Moving from the heart; an offer.",
+     "reversed_meaning": "Unrealistic romance; inconsistency.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:cups:13",
+   "image_asset_key": "kupa_kralicesi",
+   "canonical_name": "Queen of Cups",
+   "arcana": "minor",
+   "suit": "cups",
+   "number": 13,
+   "rank": "Queen",
+   "element": "water",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Kupa Kraliçesi",
+     "keywords": [
+      "duygu",
+      "içselleştirilmiş ustalık ve bakım"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş içselleştirilmiş ustalık ve bakım"
+     ],
+     "upright_meaning": "Derin empati ve sezgisel bakım.",
+     "reversed_meaning": "Duygusal sınırların kaybolması.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Kupa serisi duygu, bağ ve içsel akış ile ilgilidir; Kraliçesi içselleştirilmiş ustalık ve bakım temasını taşır."
+    },
+    "en": {
+     "display_name": "Queen of Cups",
+     "keywords": [
+      "cups",
+      "inner mastery"
+     ],
+     "reversed_keywords": [
+      "reversed inner mastery"
+     ],
+     "upright_meaning": "Deep empathy and intuitive care.",
+     "reversed_meaning": "Emotional boundaries dissolving.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:cups:14",
+   "image_asset_key": "kupa_krali",
+   "canonical_name": "King of Cups",
+   "arcana": "minor",
+   "suit": "cups",
+   "number": 14,
+   "rank": "King",
+   "element": "water",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Kupa Kralı",
+     "keywords": [
+      "duygu",
+      "dışa dönük ustalık ve sorumluluk"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş dışa dönük ustalık ve sorumluluk"
+     ],
+     "upright_meaning": "Duygularını taşıyabilen olgun bir duruş.",
+     "reversed_meaning": "Bastırılmış duygu ya da duygusal manipülasyon.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Kupa serisi duygu, bağ ve içsel akış ile ilgilidir; Kralı dışa dönük ustalık ve sorumluluk temasını taşır."
+    },
+    "en": {
+     "display_name": "King of Cups",
+     "keywords": [
+      "cups",
+      "outward mastery"
+     ],
+     "reversed_keywords": [
+      "reversed outward mastery"
+     ],
+     "upright_meaning": "Mature emotional steadiness.",
+     "reversed_meaning": "Suppressed feeling, or manipulation.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:swords:01",
+   "image_asset_key": "kilic_asi",
+   "canonical_name": "Ace of Swords",
+   "arcana": "minor",
+   "suit": "swords",
+   "number": 1,
+   "rank": "Ace",
+   "element": "air",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Kılıç As",
+     "keywords": [
+      "düşünce",
+      "saf potansiyel"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş saf potansiyel"
+     ],
+     "upright_meaning": "Zihinsel netlik; keskin bir kavrayış ve gerçeğin görülmesi.",
+     "reversed_meaning": "Kafa karışıklığı; yanlış yere yönelen keskinlik.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Kılıç serisi düşünce, iletişim ve yüzleşme ile ilgilidir; As saf potansiyel, yeni bir tohum temasını taşır."
+    },
+    "en": {
+     "display_name": "Ace of Swords",
+     "keywords": [
+      "swords",
+      "pure potential"
+     ],
+     "reversed_keywords": [
+      "reversed pure potential"
+     ],
+     "upright_meaning": "Mental clarity; a sharp insight.",
+     "reversed_meaning": "Confusion, or sharpness misdirected.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:swords:02",
+   "image_asset_key": "kilic_ikilisi",
+   "canonical_name": "Two of Swords",
+   "arcana": "minor",
+   "suit": "swords",
+   "number": 2,
+   "rank": "Two",
+   "element": "air",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Kılıç İkilisi",
+     "keywords": [
+      "düşünce",
+      "ikilik"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş ikilik"
+     ],
+     "upright_meaning": "Kaçınılan bir karar; kapalı gözlerle kurulan denge.",
+     "reversed_meaning": "Gerçeğin görülmesi; kararın verilmesi.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Kılıç serisi düşünce, iletişim ve yüzleşme ile ilgilidir; İkilisi ikilik, seçim ve karşılıklılık temasını taşır."
+    },
+    "en": {
+     "display_name": "Two of Swords",
+     "keywords": [
+      "swords",
+      "duality"
+     ],
+     "reversed_keywords": [
+      "reversed duality"
+     ],
+     "upright_meaning": "A decision avoided.",
+     "reversed_meaning": "The blindfold coming off.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:swords:03",
+   "image_asset_key": "kilic_uclusu",
+   "canonical_name": "Three of Swords",
+   "arcana": "minor",
+   "suit": "swords",
+   "number": 3,
+   "rank": "Three",
+   "element": "air",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Kılıç Üçlüsü",
+     "keywords": [
+      "düşünce",
+      "ilk somut sonuç ve genişleme"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş ilk somut sonuç ve genişleme"
+     ],
+     "upright_meaning": "Söylenen bir gerçeğin acısı; kırgınlık.",
+     "reversed_meaning": "Yaranın iyileşmeye başlaması.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Kılıç serisi düşünce, iletişim ve yüzleşme ile ilgilidir; Üçlüsü ilk somut sonuç ve genişleme temasını taşır."
+    },
+    "en": {
+     "display_name": "Three of Swords",
+     "keywords": [
+      "swords",
+      "first result"
+     ],
+     "reversed_keywords": [
+      "reversed first result"
+     ],
+     "upright_meaning": "The pain of a truth spoken.",
+     "reversed_meaning": "The wound beginning to close.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:swords:04",
+   "image_asset_key": "kilic_dortlusu",
+   "canonical_name": "Four of Swords",
+   "arcana": "minor",
+   "suit": "swords",
+   "number": 4,
+   "rank": "Four",
+   "element": "air",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Kılıç Dörtlüsü",
+     "keywords": [
+      "düşünce",
+      "sağlamlaşma"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş sağlamlaşma"
+     ],
+     "upright_meaning": "Dinlenme ve geri çekilme; zorunlu bir ara.",
+     "reversed_meaning": "Dinlenmeye direnme ya da uzayan durgunluk.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Kılıç serisi düşünce, iletişim ve yüzleşme ile ilgilidir; Dörtlüsü sağlamlaşma, durağanlık temasını taşır."
+    },
+    "en": {
+     "display_name": "Four of Swords",
+     "keywords": [
+      "swords",
+      "consolidation"
+     ],
+     "reversed_keywords": [
+      "reversed consolidation"
+     ],
+     "upright_meaning": "Rest and retreat.",
+     "reversed_meaning": "Resisting rest, or stalling in it.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:swords:05",
+   "image_asset_key": "kilic_beslisi",
+   "canonical_name": "Five of Swords",
+   "arcana": "minor",
+   "suit": "swords",
+   "number": 5,
+   "rank": "Five",
+   "element": "air",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Kılıç Beşlisi",
+     "keywords": [
+      "düşünce",
+      "kayıp"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş kayıp"
+     ],
+     "upright_meaning": "Kazanılan ama bedeli olan bir çatışma.",
+     "reversed_meaning": "Uzlaşma arayışı; çatışmadan çekilme.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Kılıç serisi düşünce, iletişim ve yüzleşme ile ilgilidir; Beşlisi kayıp, çatışma ve sınanma temasını taşır."
+    },
+    "en": {
+     "display_name": "Five of Swords",
+     "keywords": [
+      "swords",
+      "loss"
+     ],
+     "reversed_keywords": [
+      "reversed loss"
+     ],
+     "upright_meaning": "A conflict won at a cost.",
+     "reversed_meaning": "Seeking reconciliation.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:swords:06",
+   "image_asset_key": "kilic_altilisi",
+   "canonical_name": "Six of Swords",
+   "arcana": "minor",
+   "suit": "swords",
+   "number": 6,
+   "rank": "Six",
+   "element": "air",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Kılıç Altılısı",
+     "keywords": [
+      "düşünce",
+      "toparlanma ve geçiş"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş toparlanma ve geçiş"
+     ],
+     "upright_meaning": "Zor bir yerden sakin bir yere geçiş.",
+     "reversed_meaning": "Geçişin tamamlanamaması; geride kalan yük.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Kılıç serisi düşünce, iletişim ve yüzleşme ile ilgilidir; Altılısı toparlanma ve geçiş temasını taşır."
+    },
+    "en": {
+     "display_name": "Six of Swords",
+     "keywords": [
+      "swords",
+      "recovery"
+     ],
+     "reversed_keywords": [
+      "reversed recovery"
+     ],
+     "upright_meaning": "Passage from rough water to calm.",
+     "reversed_meaning": "A crossing that does not complete.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:swords:07",
+   "image_asset_key": "kilic_yedilisi",
+   "canonical_name": "Seven of Swords",
+   "arcana": "minor",
+   "suit": "swords",
+   "number": 7,
+   "rank": "Seven",
+   "element": "air",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Kılıç Yedilisi",
+     "keywords": [
+      "düşünce",
+      "değerlendirme ve sabır sınavı"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş değerlendirme ve sabır sınavı"
+     ],
+     "upright_meaning": "Dolaylı bir yol; söylenmeyen bir strateji.",
+     "reversed_meaning": "Açığa çıkma ya da dürüstlüğe dönme.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Kılıç serisi düşünce, iletişim ve yüzleşme ile ilgilidir; Yedilisi değerlendirme ve sabır sınavı temasını taşır."
+    },
+    "en": {
+     "display_name": "Seven of Swords",
+     "keywords": [
+      "swords",
+      "assessment"
+     ],
+     "reversed_keywords": [
+      "reversed assessment"
+     ],
+     "upright_meaning": "An indirect route; an unspoken strategy.",
+     "reversed_meaning": "Coming clean.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:swords:08",
+   "image_asset_key": "kilic_sekizlisi",
+   "canonical_name": "Eight of Swords",
+   "arcana": "minor",
+   "suit": "swords",
+   "number": 8,
+   "rank": "Eight",
+   "element": "air",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Kılıç Sekizlisi",
+     "keywords": [
+      "düşünce",
+      "hareket"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş hareket"
+     ],
+     "upright_meaning": "Kendini çaresiz hissetme; görünmeyen çıkış.",
+     "reversed_meaning": "Bağların gevşemesi; çıkışın fark edilmesi.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Kılıç serisi düşünce, iletişim ve yüzleşme ile ilgilidir; Sekizlisi hareket, emek ve hız temasını taşır."
+    },
+    "en": {
+     "display_name": "Eight of Swords",
+     "keywords": [
+      "swords",
+      "movement"
+     ],
+     "reversed_keywords": [
+      "reversed movement"
+     ],
+     "upright_meaning": "Feeling trapped; the exit unseen.",
+     "reversed_meaning": "The bindings loosening.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:swords:09",
+   "image_asset_key": "kilic_dokuzlusu",
+   "canonical_name": "Nine of Swords",
+   "arcana": "minor",
+   "suit": "swords",
+   "number": 9,
+   "rank": "Nine",
+   "element": "air",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Kılıç Dokuzlusu",
+     "keywords": [
+      "düşünce",
+      "olgunlaşan sonuç ve yük"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş olgunlaşan sonuç ve yük"
+     ],
+     "upright_meaning": "Kaygı ve uykusuzluk; büyüyen iç ses.",
+     "reversed_meaning": "Kaygının hafiflemesi ya da paylaşılması.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Kılıç serisi düşünce, iletişim ve yüzleşme ile ilgilidir; Dokuzlusu olgunlaşan sonuç ve yük temasını taşır."
+    },
+    "en": {
+     "display_name": "Nine of Swords",
+     "keywords": [
+      "swords",
+      "maturing result"
+     ],
+     "reversed_keywords": [
+      "reversed maturing result"
+     ],
+     "upright_meaning": "Anxiety and sleeplessness.",
+     "reversed_meaning": "Anxiety easing, or spoken aloud.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:swords:10",
+   "image_asset_key": "kilic_onlusu",
+   "canonical_name": "Ten of Swords",
+   "arcana": "minor",
+   "suit": "swords",
+   "number": 10,
+   "rank": "Ten",
+   "element": "air",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Kılıç Onlusu",
+     "keywords": [
+      "düşünce",
+      "döngünün doruğu ve tamamlanması"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş döngünün doruğu ve tamamlanması"
+     ],
+     "upright_meaning": "Bir şeyin dibe vurması; kesin bir son.",
+     "reversed_meaning": "Toparlanmanın başlaması; en kötüsünün geçmesi.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Kılıç serisi düşünce, iletişim ve yüzleşme ile ilgilidir; Onlusu döngünün doruğu ve tamamlanması temasını taşır."
+    },
+    "en": {
+     "display_name": "Ten of Swords",
+     "keywords": [
+      "swords",
+      "culmination"
+     ],
+     "reversed_keywords": [
+      "reversed culmination"
+     ],
+     "upright_meaning": "Something hitting bottom.",
+     "reversed_meaning": "The worst of it passing.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:swords:11",
+   "image_asset_key": "kilic_prensi",
+   "canonical_name": "Page of Swords",
+   "arcana": "minor",
+   "suit": "swords",
+   "number": 11,
+   "rank": "Page",
+   "element": "air",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Kılıç Prensi",
+     "keywords": [
+      "düşünce",
+      "öğrenme"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş öğrenme"
+     ],
+     "upright_meaning": "Merak ve dikkat; gözlem ve bilgi toplama.",
+     "reversed_meaning": "Dedikodu; acele yargı.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Kılıç serisi düşünce, iletişim ve yüzleşme ile ilgilidir; Prensi öğrenme, merak ve haber temasını taşır."
+    },
+    "en": {
+     "display_name": "Page of Swords",
+     "keywords": [
+      "swords",
+      "learning"
+     ],
+     "reversed_keywords": [
+      "reversed learning"
+     ],
+     "upright_meaning": "Curiosity and watchfulness.",
+     "reversed_meaning": "Gossip; hasty judgement.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:swords:12",
+   "image_asset_key": "kilic_sovalyesi",
+   "canonical_name": "Knight of Swords",
+   "arcana": "minor",
+   "suit": "swords",
+   "number": 12,
+   "rank": "Knight",
+   "element": "air",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Kılıç Şövalyesi",
+     "keywords": [
+      "düşünce",
+      "hareket"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş hareket"
+     ],
+     "upright_meaning": "Hızlı ve doğrudan hareket; keskin bir çıkış.",
+     "reversed_meaning": "Saldırganlık; sonuçlarını düşünmeden konuşma.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Kılıç serisi düşünce, iletişim ve yüzleşme ile ilgilidir; Şövalyesi hareket, atılım ve yön temasını taşır."
+    },
+    "en": {
+     "display_name": "Knight of Swords",
+     "keywords": [
+      "swords",
+      "action"
+     ],
+     "reversed_keywords": [
+      "reversed action"
+     ],
+     "upright_meaning": "Fast, direct action.",
+     "reversed_meaning": "Aggression; speaking without weighing it.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:swords:13",
+   "image_asset_key": "kilic_kralicesi",
+   "canonical_name": "Queen of Swords",
+   "arcana": "minor",
+   "suit": "swords",
+   "number": 13,
+   "rank": "Queen",
+   "element": "air",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Kılıç Kraliçesi",
+     "keywords": [
+      "düşünce",
+      "içselleştirilmiş ustalık ve bakım"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş içselleştirilmiş ustalık ve bakım"
+     ],
+     "upright_meaning": "Net ve dürüst bir zihin; deneyimden gelen keskinlik.",
+     "reversed_meaning": "Soğukluk; eleştirinin sertleşmesi.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Kılıç serisi düşünce, iletişim ve yüzleşme ile ilgilidir; Kraliçesi içselleştirilmiş ustalık ve bakım temasını taşır."
+    },
+    "en": {
+     "display_name": "Queen of Swords",
+     "keywords": [
+      "swords",
+      "inner mastery"
+     ],
+     "reversed_keywords": [
+      "reversed inner mastery"
+     ],
+     "upright_meaning": "A clear, honest mind.",
+     "reversed_meaning": "Coldness; criticism turning hard.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:swords:14",
+   "image_asset_key": "kilic_krali",
+   "canonical_name": "King of Swords",
+   "arcana": "minor",
+   "suit": "swords",
+   "number": 14,
+   "rank": "King",
+   "element": "air",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Kılıç Kralı",
+     "keywords": [
+      "düşünce",
+      "dışa dönük ustalık ve sorumluluk"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş dışa dönük ustalık ve sorumluluk"
+     ],
+     "upright_meaning": "Tarafsız ve ilkeli bir yargı.",
+     "reversed_meaning": "Katı akılcılık; duyguyu dışlayan hüküm.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Kılıç serisi düşünce, iletişim ve yüzleşme ile ilgilidir; Kralı dışa dönük ustalık ve sorumluluk temasını taşır."
+    },
+    "en": {
+     "display_name": "King of Swords",
+     "keywords": [
+      "swords",
+      "outward mastery"
+     ],
+     "reversed_keywords": [
+      "reversed outward mastery"
+     ],
+     "upright_meaning": "Impartial, principled judgement.",
+     "reversed_meaning": "Rigid rationality.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:pentacles:01",
+   "image_asset_key": "tilsim_asi",
+   "canonical_name": "Ace of Pentacles",
+   "arcana": "minor",
+   "suit": "pentacles",
+   "number": 1,
+   "rank": "Ace",
+   "element": "earth",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Tılsım As",
+     "keywords": [
+      "maddi hayat",
+      "saf potansiyel"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş saf potansiyel"
+     ],
+     "upright_meaning": "Somut bir fırsat; maddi bir tohum.",
+     "reversed_meaning": "Kaçan fırsat ya da temeli olmayan bir teklif.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Tılsım serisi maddi hayat, emek ve somut sonuç ile ilgilidir; As saf potansiyel, yeni bir tohum temasını taşır."
+    },
+    "en": {
+     "display_name": "Ace of Pentacles",
+     "keywords": [
+      "pentacles",
+      "pure potential"
+     ],
+     "reversed_keywords": [
+      "reversed pure potential"
+     ],
+     "upright_meaning": "A tangible opportunity.",
+     "reversed_meaning": "An opportunity missed, or unfounded.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:pentacles:02",
+   "image_asset_key": "tilsim_ikilisi",
+   "canonical_name": "Two of Pentacles",
+   "arcana": "minor",
+   "suit": "pentacles",
+   "number": 2,
+   "rank": "Two",
+   "element": "earth",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Tılsım İkilisi",
+     "keywords": [
+      "maddi hayat",
+      "ikilik"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş ikilik"
+     ],
+     "upright_meaning": "Dengede tutulan iki yük; esneklik.",
+     "reversed_meaning": "Dengenin kaçması; fazla yükün düşmesi.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Tılsım serisi maddi hayat, emek ve somut sonuç ile ilgilidir; İkilisi ikilik, seçim ve karşılıklılık temasını taşır."
+    },
+    "en": {
+     "display_name": "Two of Pentacles",
+     "keywords": [
+      "pentacles",
+      "duality"
+     ],
+     "reversed_keywords": [
+      "reversed duality"
+     ],
+     "upright_meaning": "Two loads kept in balance.",
+     "reversed_meaning": "The balance slipping.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:pentacles:03",
+   "image_asset_key": "tilsim_uclusu",
+   "canonical_name": "Three of Pentacles",
+   "arcana": "minor",
+   "suit": "pentacles",
+   "number": 3,
+   "rank": "Three",
+   "element": "earth",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Tılsım Üçlüsü",
+     "keywords": [
+      "maddi hayat",
+      "ilk somut sonuç ve genişleme"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş ilk somut sonuç ve genişleme"
+     ],
+     "upright_meaning": "Birlikte yapılan iş; beceri ve işbirliği.",
+     "reversed_meaning": "Uyumsuz işbirliği; emeğin görülmemesi.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Tılsım serisi maddi hayat, emek ve somut sonuç ile ilgilidir; Üçlüsü ilk somut sonuç ve genişleme temasını taşır."
+    },
+    "en": {
+     "display_name": "Three of Pentacles",
+     "keywords": [
+      "pentacles",
+      "first result"
+     ],
+     "reversed_keywords": [
+      "reversed first result"
+     ],
+     "upright_meaning": "Work done together; craft.",
+     "reversed_meaning": "Collaboration out of step.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:pentacles:04",
+   "image_asset_key": "tilsim_dortlusu",
+   "canonical_name": "Four of Pentacles",
+   "arcana": "minor",
+   "suit": "pentacles",
+   "number": 4,
+   "rank": "Four",
+   "element": "earth",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Tılsım Dörtlüsü",
+     "keywords": [
+      "maddi hayat",
+      "sağlamlaşma"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş sağlamlaşma"
+     ],
+     "upright_meaning": "Tutma ve koruma; elde olanı bırakmama.",
+     "reversed_meaning": "Gevşeme ya da kontrol kaybı.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Tılsım serisi maddi hayat, emek ve somut sonuç ile ilgilidir; Dörtlüsü sağlamlaşma, durağanlık temasını taşır."
+    },
+    "en": {
+     "display_name": "Four of Pentacles",
+     "keywords": [
+      "pentacles",
+      "consolidation"
+     ],
+     "reversed_keywords": [
+      "reversed consolidation"
+     ],
+     "upright_meaning": "Holding on; guarding what is there.",
+     "reversed_meaning": "Letting go, or losing grip.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:pentacles:05",
+   "image_asset_key": "tilsim_beslisi",
+   "canonical_name": "Five of Pentacles",
+   "arcana": "minor",
+   "suit": "pentacles",
+   "number": 5,
+   "rank": "Five",
+   "element": "earth",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Tılsım Beşlisi",
+     "keywords": [
+      "maddi hayat",
+      "kayıp"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş kayıp"
+     ],
+     "upright_meaning": "Maddi ya da duygusal yoksunluk; dışarıda kalma.",
+     "reversed_meaning": "Toparlanma; yardımın fark edilmesi.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Tılsım serisi maddi hayat, emek ve somut sonuç ile ilgilidir; Beşlisi kayıp, çatışma ve sınanma temasını taşır."
+    },
+    "en": {
+     "display_name": "Five of Pentacles",
+     "keywords": [
+      "pentacles",
+      "loss"
+     ],
+     "reversed_keywords": [
+      "reversed loss"
+     ],
+     "upright_meaning": "Material or emotional want.",
+     "reversed_meaning": "Recovery; help noticed.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:pentacles:06",
+   "image_asset_key": "tilsim_altilisi",
+   "canonical_name": "Six of Pentacles",
+   "arcana": "minor",
+   "suit": "pentacles",
+   "number": 6,
+   "rank": "Six",
+   "element": "earth",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Tılsım Altılısı",
+     "keywords": [
+      "maddi hayat",
+      "toparlanma ve geçiş"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş toparlanma ve geçiş"
+     ],
+     "upright_meaning": "Verme ve alma arasındaki akış; paylaşım.",
+     "reversed_meaning": "Dengesiz yardım; bağımlılık yaratan destek.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Tılsım serisi maddi hayat, emek ve somut sonuç ile ilgilidir; Altılısı toparlanma ve geçiş temasını taşır."
+    },
+    "en": {
+     "display_name": "Six of Pentacles",
+     "keywords": [
+      "pentacles",
+      "recovery"
+     ],
+     "reversed_keywords": [
+      "reversed recovery"
+     ],
+     "upright_meaning": "The flow of giving and receiving.",
+     "reversed_meaning": "Lopsided help.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:pentacles:07",
+   "image_asset_key": "tilsim_yedilisi",
+   "canonical_name": "Seven of Pentacles",
+   "arcana": "minor",
+   "suit": "pentacles",
+   "number": 7,
+   "rank": "Seven",
+   "element": "earth",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Tılsım Yedilisi",
+     "keywords": [
+      "maddi hayat",
+      "değerlendirme ve sabır sınavı"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş değerlendirme ve sabır sınavı"
+     ],
+     "upright_meaning": "Emeğin olgunlaşmasını bekleme; ara değerlendirme.",
+     "reversed_meaning": "Sabırsızlık ya da boşa giden emek endişesi.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Tılsım serisi maddi hayat, emek ve somut sonuç ile ilgilidir; Yedilisi değerlendirme ve sabır sınavı temasını taşır."
+    },
+    "en": {
+     "display_name": "Seven of Pentacles",
+     "keywords": [
+      "pentacles",
+      "assessment"
+     ],
+     "reversed_keywords": [
+      "reversed assessment"
+     ],
+     "upright_meaning": "Waiting for effort to ripen.",
+     "reversed_meaning": "Impatience, or fear of wasted effort.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:pentacles:08",
+   "image_asset_key": "tilsim_sekizlisi",
+   "canonical_name": "Eight of Pentacles",
+   "arcana": "minor",
+   "suit": "pentacles",
+   "number": 8,
+   "rank": "Eight",
+   "element": "earth",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Tılsım Sekizlisi",
+     "keywords": [
+      "maddi hayat",
+      "hareket"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş hareket"
+     ],
+     "upright_meaning": "Tekrar ve ustalaşma; ayrıntıya verilen emek.",
+     "reversed_meaning": "Mekanikleşme; anlamını yitiren tekrar.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Tılsım serisi maddi hayat, emek ve somut sonuç ile ilgilidir; Sekizlisi hareket, emek ve hız temasını taşır."
+    },
+    "en": {
+     "display_name": "Eight of Pentacles",
+     "keywords": [
+      "pentacles",
+      "movement"
+     ],
+     "reversed_keywords": [
+      "reversed movement"
+     ],
+     "upright_meaning": "Repetition and mastery.",
+     "reversed_meaning": "Repetition that has lost meaning.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:pentacles:09",
+   "image_asset_key": "tilsim_dokuzlusu",
+   "canonical_name": "Nine of Pentacles",
+   "arcana": "minor",
+   "suit": "pentacles",
+   "number": 9,
+   "rank": "Nine",
+   "element": "earth",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Tılsım Dokuzlusu",
+     "keywords": [
+      "maddi hayat",
+      "olgunlaşan sonuç ve yük"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş olgunlaşan sonuç ve yük"
+     ],
+     "upright_meaning": "Kendi emeğiyle kurulan rahatlık; bağımsızlık.",
+     "reversed_meaning": "Yalnızlık ya da güvenliğe fazla yaslanma.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Tılsım serisi maddi hayat, emek ve somut sonuç ile ilgilidir; Dokuzlusu olgunlaşan sonuç ve yük temasını taşır."
+    },
+    "en": {
+     "display_name": "Nine of Pentacles",
+     "keywords": [
+      "pentacles",
+      "maturing result"
+     ],
+     "reversed_keywords": [
+      "reversed maturing result"
+     ],
+     "upright_meaning": "Comfort built by one's own effort.",
+     "reversed_meaning": "Isolation, or leaning too hard on security.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:pentacles:10",
+   "image_asset_key": "tilsim_onlusu",
+   "canonical_name": "Ten of Pentacles",
+   "arcana": "minor",
+   "suit": "pentacles",
+   "number": 10,
+   "rank": "Ten",
+   "element": "earth",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Tılsım Onlusu",
+     "keywords": [
+      "maddi hayat",
+      "döngünün doruğu ve tamamlanması"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş döngünün doruğu ve tamamlanması"
+     ],
+     "upright_meaning": "Kalıcı bir yapı; aile, miras ve süreklilik.",
+     "reversed_meaning": "Süreklilik kaygısı; yapının yük olması.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Tılsım serisi maddi hayat, emek ve somut sonuç ile ilgilidir; Onlusu döngünün doruğu ve tamamlanması temasını taşır."
+    },
+    "en": {
+     "display_name": "Ten of Pentacles",
+     "keywords": [
+      "pentacles",
+      "culmination"
+     ],
+     "reversed_keywords": [
+      "reversed culmination"
+     ],
+     "upright_meaning": "A lasting structure; family and continuity.",
+     "reversed_meaning": "The structure becoming a burden.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:pentacles:11",
+   "image_asset_key": "tilsim_prensi",
+   "canonical_name": "Page of Pentacles",
+   "arcana": "minor",
+   "suit": "pentacles",
+   "number": 11,
+   "rank": "Page",
+   "element": "earth",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Tılsım Prensi",
+     "keywords": [
+      "maddi hayat",
+      "öğrenme"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş öğrenme"
+     ],
+     "upright_meaning": "Öğrenme ve ilk adım; somut bir başlangıç.",
+     "reversed_meaning": "Erteleme; odaklanamama.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Tılsım serisi maddi hayat, emek ve somut sonuç ile ilgilidir; Prensi öğrenme, merak ve haber temasını taşır."
+    },
+    "en": {
+     "display_name": "Page of Pentacles",
+     "keywords": [
+      "pentacles",
+      "learning"
+     ],
+     "reversed_keywords": [
+      "reversed learning"
+     ],
+     "upright_meaning": "Learning; a concrete first step.",
+     "reversed_meaning": "Postponement; unfocused effort.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:pentacles:12",
+   "image_asset_key": "tilsim_sovalyesi",
+   "canonical_name": "Knight of Pentacles",
+   "arcana": "minor",
+   "suit": "pentacles",
+   "number": 12,
+   "rank": "Knight",
+   "element": "earth",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Tılsım Şövalyesi",
+     "keywords": [
+      "maddi hayat",
+      "hareket"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş hareket"
+     ],
+     "upright_meaning": "Yavaş, istikrarlı ve güvenilir ilerleme.",
+     "reversed_meaning": "Durağanlık; fazla temkinli olma.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Tılsım serisi maddi hayat, emek ve somut sonuç ile ilgilidir; Şövalyesi hareket, atılım ve yön temasını taşır."
+    },
+    "en": {
+     "display_name": "Knight of Pentacles",
+     "keywords": [
+      "pentacles",
+      "action"
+     ],
+     "reversed_keywords": [
+      "reversed action"
+     ],
+     "upright_meaning": "Slow, steady, reliable progress.",
+     "reversed_meaning": "Stagnation; over-caution.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:pentacles:13",
+   "image_asset_key": "tilsim_kralicesi",
+   "canonical_name": "Queen of Pentacles",
+   "arcana": "minor",
+   "suit": "pentacles",
+   "number": 13,
+   "rank": "Queen",
+   "element": "earth",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Tılsım Kraliçesi",
+     "keywords": [
+      "maddi hayat",
+      "içselleştirilmiş ustalık ve bakım"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş içselleştirilmiş ustalık ve bakım"
+     ],
+     "upright_meaning": "Pratik bakım; hem üreten hem besleyen bir duruş.",
+     "reversed_meaning": "Kendini ihmal; aşırı yüklenme.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Tılsım serisi maddi hayat, emek ve somut sonuç ile ilgilidir; Kraliçesi içselleştirilmiş ustalık ve bakım temasını taşır."
+    },
+    "en": {
+     "display_name": "Queen of Pentacles",
+     "keywords": [
+      "pentacles",
+      "inner mastery"
+     ],
+     "reversed_keywords": [
+      "reversed inner mastery"
+     ],
+     "upright_meaning": "Practical care; producing and nurturing.",
+     "reversed_meaning": "Self-neglect; overload.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "tarot:minor:pentacles:14",
+   "image_asset_key": "tilsim_krali",
+   "canonical_name": "King of Pentacles",
+   "arcana": "minor",
+   "suit": "pentacles",
+   "number": 14,
+   "rank": "King",
+   "element": "earth",
+   "astrological_association": null,
+   "reversible": true,
+   "content_status": "traditional",
+   "meanings": {
+    "tr": {
+     "display_name": "Tılsım Kralı",
+     "keywords": [
+      "maddi hayat",
+      "dışa dönük ustalık ve sorumluluk"
+     ],
+     "reversed_keywords": [
+      "tersine dönmüş dışa dönük ustalık ve sorumluluk"
+     ],
+     "upright_meaning": "Somut başarı ve güvenilir yönetim.",
+     "reversed_meaning": "Maddeye fazla bağlanma; tutuculuk.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": "Tılsım serisi maddi hayat, emek ve somut sonuç ile ilgilidir; Kralı dışa dönük ustalık ve sorumluluk temasını taşır."
+    },
+    "en": {
+     "display_name": "King of Pentacles",
+     "keywords": [
+      "pentacles",
+      "outward mastery"
+     ],
+     "reversed_keywords": [
+      "reversed outward mastery"
+     ],
+     "upright_meaning": "Tangible success and steady stewardship.",
+     "reversed_meaning": "Over-attachment to material things.",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  }
+ ],
+ "optional_items": []
+}

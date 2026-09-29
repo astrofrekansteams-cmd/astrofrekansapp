@@ -1,0 +1,4378 @@
+{
+  "provenance": "loopback B1-B11 API, synthetic disposable account",
+  "captured_at": "2026-09-24T10:35:12.030697Z",
+  "sanitized": true,
+  "responses": {
+    "calendar_personal": {
+      "start_at": "2026-08-31T21:00:00Z",
+      "end_at": "2026-09-30T21:00:00Z",
+      "timezone": "Europe/Istanbul",
+      "events": [
+        {
+          "event": {
+            "id": "ca0db07930734c2d8d4b10f8",
+            "type": "full_moon",
+            "exact_at": "2026-09-26T16:49:09.609375Z",
+            "start_at": null,
+            "end_at": null,
+            "planet": "moon",
+            "secondary_planet": null,
+            "aspect": null,
+            "sign": "aries",
+            "longitude": 3.6209,
+            "degree": 3,
+            "eclipse_subtype": null,
+            "eclipse_magnitude": null,
+            "node_distance": null,
+            "metadata": {}
+          },
+          "affected_house": 7,
+          "natal_aspects": [
+            {
+              "target_body": "north_node",
+              "target_angle": null,
+              "aspect": "square",
+              "orb": 0.9401
+            },
+            {
+              "target_body": "south_node",
+              "target_angle": null,
+              "aspect": "square",
+              "orb": 0.9401
+            },
+            {
+              "target_body": "mars",
+              "target_angle": null,
+              "aspect": "conjunction",
+              "orb": 2.9426
+            }
+          ],
+          "strength": 90,
+          "personal_relevance": "house_7|square_natal_north_node",
+          "source_factors": [
+            "ca0db07930734c2d8d4b10f8"
+          ]
+        },
+        {
+          "event": {
+            "id": "66d739dd00e2ac8eac43960e",
+            "type": "new_moon",
+            "exact_at": "2026-09-11T03:26:53.671875Z",
+            "start_at": null,
+            "end_at": null,
+            "planet": "moon",
+            "secondary_planet": null,
+            "aspect": null,
+            "sign": "virgo",
+            "longitude": 168.4308,
+            "degree": 18,
+            "eclipse_subtype": null,
+            "eclipse_magnitude": null,
+            "node_distance": null,
+            "metadata": {}
+          },
+          "affected_house": 1,
+          "natal_aspects": [
+            {
+              "target_body": "neptune",
+              "target_angle": null,
+              "aspect": "trine",
+              "orb": 0.3736
+            },
+            {
+              "target_body": "uranus",
+              "target_angle": null,
+              "aspect": "trine",
+              "orb": 0.6234
+            },
+            {
+              "target_body": null,
+              "target_angle": "asc",
+              "aspect": "conjunction",
+              "orb": 1.1342
+            },
+            {
+              "target_body": "venus",
+              "target_angle": null,
+              "aspect": "trine",
+              "orb": 2.6551
+            },
+            {
+              "target_body": null,
+              "target_angle": "mc",
+              "aspect": "square",
+              "orb": 3.23
+            }
+          ],
+          "strength": 88,
+          "personal_relevance": "house_1|trine_natal_neptune",
+          "source_factors": [
+            "66d739dd00e2ac8eac43960e"
+          ]
+        },
+        {
+          "event": {
+            "id": "e93ee93ab1ba21a8f39dbdd9",
+            "type": "station_retrograde",
+            "exact_at": "2026-09-10T18:33:45Z",
+            "start_at": null,
+            "end_at": null,
+            "planet": "uranus",
+            "secondary_planet": null,
+            "aspect": null,
+            "sign": "gemini",
+            "longitude": 65.697,
+            "degree": 5,
+            "eclipse_subtype": null,
+            "eclipse_magnitude": null,
+            "node_distance": null,
+            "metadata": {}
+          },
+          "affected_house": 9,
+          "natal_aspects": [
+            {
+              "target_body": "jupiter",
+              "target_angle": null,
+              "aspect": "square",
+              "orb": 0.7803
+            },
+            {
+              "target_body": "mars",
+              "target_angle": null,
+              "aspect": "sextile",
+              "orb": 0.8665
+            }
+          ],
+          "strength": 76,
+          "personal_relevance": "house_9|square_natal_jupiter",
+          "source_factors": [
+            "e93ee93ab1ba21a8f39dbdd9"
+          ]
+        },
+        {
+          "event": {
+            "id": "62b9e0d507b2cc55e00831f6",
+            "type": "sextile",
+            "exact_at": "2026-09-16T02:09:22.500000Z",
+            "start_at": null,
+            "end_at": null,
+            "planet": "neptune",
+            "secondary_planet": "pluto",
+            "aspect": "sextile",
+            "sign": "aries",
+            "longitude": 3.2737,
+            "degree": null,
+            "eclipse_subtype": null,
+            "eclipse_magnitude": null,
+            "node_distance": null,
+            "metadata": {}
+          },
+          "affected_house": 7,
+          "natal_aspects": [
+            {
+              "target_body": "north_node",
+              "target_angle": null,
+              "aspect": "square",
+              "orb": 0.5929
+            },
+            {
+              "target_body": "south_node",
+              "target_angle": null,
+              "aspect": "square",
+              "orb": 0.5929
+            },
+            {
+              "target_body": "mars",
+              "target_angle": null,
+              "aspect": "conjunction",
+              "orb": 3.2898
+            }
+          ],
+          "strength": 67,
+          "personal_relevance": "house_7|square_natal_north_node",
+          "source_factors": [
+            "62b9e0d507b2cc55e00831f6"
+          ]
+        },
+        {
+          "event": {
+            "id": "eb48cd22938505ff5b295f18",
+            "type": "first_quarter",
+            "exact_at": "2026-09-18T20:43:39.140625Z",
+            "start_at": null,
+            "end_at": null,
+            "planet": "moon",
+            "secondary_planet": null,
+            "aspect": null,
+            "sign": "sagittarius",
+            "longitude": 265.9534,
+            "degree": 25,
+            "eclipse_subtype": null,
+            "eclipse_magnitude": null,
+            "node_distance": null,
+            "metadata": {}
+          },
+          "affected_house": 4,
+          "natal_aspects": [
+            {
+              "target_body": "moon",
+              "target_angle": null,
+              "aspect": "sextile",
+              "orb": 0.7848
+            }
+          ],
+          "strength": 66,
+          "personal_relevance": "house_4|sextile_natal_moon",
+          "source_factors": [
+            "eb48cd22938505ff5b295f18"
+          ]
+        },
+        {
+          "event": {
+            "id": "ae8f3ce5aff263d7c4c715b9",
+            "type": "square",
+            "exact_at": "2026-09-01T10:01:52.500000Z",
+            "start_at": null,
+            "end_at": null,
+            "planet": "mars",
+            "secondary_planet": "saturn",
+            "aspect": "square",
+            "sign": "cancer",
+            "longitude": 103.6586,
+            "degree": null,
+            "eclipse_subtype": null,
+            "eclipse_magnitude": null,
+            "node_distance": null,
+            "metadata": {}
+          },
+          "affected_house": 10,
+          "natal_aspects": [
+            {
+              "target_body": "venus",
+              "target_angle": null,
+              "aspect": "sextile",
+              "orb": 2.1171
+            },
+            {
+              "target_body": "uranus",
+              "target_angle": null,
+              "aspect": "opposition",
+              "orb": 4.1488
+            }
+          ],
+          "strength": 59,
+          "personal_relevance": "house_10|sextile_natal_venus",
+          "source_factors": [
+            "ae8f3ce5aff263d7c4c715b9"
+          ]
+        },
+        {
+          "event": {
+            "id": "e766c50b60ea3b9c2f898354",
+            "type": "trine",
+            "exact_at": "2026-08-31T22:13:07.500000Z",
+            "start_at": null,
+            "end_at": null,
+            "planet": "jupiter",
+            "secondary_planet": "saturn",
+            "aspect": "trine",
+            "sign": "leo",
+            "longitude": 133.6841,
+            "degree": null,
+            "eclipse_subtype": null,
+            "eclipse_magnitude": null,
+            "node_distance": null,
+            "metadata": {}
+          },
+          "affected_house": 11,
+          "natal_aspects": [
+            {
+              "target_body": null,
+              "target_angle": "mc",
+              "aspect": "sextile",
+              "orb": 1.5167
+            },
+            {
+              "target_body": "venus",
+              "target_angle": null,
+              "aspect": "square",
+              "orb": 2.0916
+            },
+            {
+              "target_body": "saturn",
+              "target_angle": null,
+              "aspect": "opposition",
+              "orb": 4.642
+            }
+          ],
+          "strength": 57,
+          "personal_relevance": "house_11|sextile_natal_mc",
+          "source_factors": [
+            "e766c50b60ea3b9c2f898354"
+          ]
+        },
+        {
+          "event": {
+            "id": "700afa0a4037435386d72d83",
+            "type": "ingress",
+            "exact_at": "2026-09-10T16:21:05.625000Z",
+            "start_at": null,
+            "end_at": null,
+            "planet": "mercury",
+            "secondary_planet": null,
+            "aspect": null,
+            "sign": "libra",
+            "longitude": 180.0005,
+            "degree": 0,
+            "eclipse_subtype": null,
+            "eclipse_magnitude": null,
+            "node_distance": null,
+            "metadata": {
+              "retrograde": false
+            }
+          },
+          "affected_house": 1,
+          "natal_aspects": [
+            {
+              "target_body": "north_node",
+              "target_angle": null,
+              "aspect": "square",
+              "orb": 2.6803
+            },
+            {
+              "target_body": "south_node",
+              "target_angle": null,
+              "aspect": "square",
+              "orb": 2.6803
+            }
+          ],
+          "strength": 52,
+          "personal_relevance": "house_1|square_natal_north_node",
+          "source_factors": [
+            "700afa0a4037435386d72d83"
+          ]
+        },
+        {
+          "event": {
+            "id": "876b3fd7fc44712fb7096b63",
+            "type": "ingress",
+            "exact_at": "2026-09-23T00:05:16.406250Z",
+            "start_at": null,
+            "end_at": null,
+            "planet": "sun",
+            "secondary_planet": null,
+            "aspect": null,
+            "sign": "libra",
+            "longitude": 180.0,
+            "degree": 0,
+            "eclipse_subtype": null,
+            "eclipse_magnitude": null,
+            "node_distance": null,
+            "metadata": {
+              "retrograde": false
+            }
+          },
+          "affected_house": 1,
+          "natal_aspects": [
+            {
+              "target_body": "north_node",
+              "target_angle": null,
+              "aspect": "square",
+              "orb": 2.6808
+            },
+            {
+              "target_body": "south_node",
+              "target_angle": null,
+              "aspect": "square",
+              "orb": 2.6808
+            }
+          ],
+          "strength": 52,
+          "personal_relevance": "house_1|square_natal_north_node",
+          "source_factors": [
+            "876b3fd7fc44712fb7096b63"
+          ]
+        },
+        {
+          "event": {
+            "id": "ca9bc301dc4f8c53d667c157",
+            "type": "last_quarter",
+            "exact_at": "2026-09-04T07:51:16.171875Z",
+            "start_at": null,
+            "end_at": null,
+            "planet": "moon",
+            "secondary_planet": null,
+            "aspect": null,
+            "sign": "gemini",
+            "longitude": 71.8145,
+            "degree": 11,
+            "eclipse_subtype": null,
+            "eclipse_magnitude": null,
+            "node_distance": null,
+            "metadata": {}
+          },
+          "affected_house": 9,
+          "natal_aspects": [
+            {
+              "target_body": null,
+              "target_angle": "mc",
+              "aspect": "conjunction",
+              "orb": 3.3863
+            }
+          ],
+          "strength": 48,
+          "personal_relevance": "house_9|conjunction_natal_mc",
+          "source_factors": [
+            "ca9bc301dc4f8c53d667c157"
+          ]
+        },
+        {
+          "event": {
+            "id": "c9d3f2f7b5137448f57137f4",
+            "type": "ingress",
+            "exact_at": "2026-09-10T08:06:54.843750Z",
+            "start_at": null,
+            "end_at": null,
+            "planet": "venus",
+            "secondary_planet": null,
+            "aspect": null,
+            "sign": "scorpio",
+            "longitude": 210.0,
+            "degree": 0,
+            "eclipse_subtype": null,
+            "eclipse_magnitude": null,
+            "node_distance": null,
+            "metadata": {
+              "retrograde": false
+            }
+          },
+          "affected_house": 2,
+          "natal_aspects": [
+            {
+              "target_body": "north_node",
+              "target_angle": null,
+              "aspect": "sextile",
+              "orb": 2.6808
+            },
+            {
+              "target_body": "south_node",
+              "target_angle": null,
+              "aspect": "trine",
+              "orb": 2.6808
+            },
+            {
+              "target_body": "moon",
+              "target_angle": null,
+              "aspect": "conjunction",
+              "orb": 3.2618
+            }
+          ],
+          "strength": 47,
+          "personal_relevance": "house_2|sextile_natal_north_node",
+          "source_factors": [
+            "c9d3f2f7b5137448f57137f4"
+          ]
+        },
+        {
+          "event": {
+            "id": "5cde9a9adf8e34384e41204d",
+            "type": "ingress",
+            "exact_at": "2026-09-30T11:44:31.875000Z",
+            "start_at": null,
+            "end_at": null,
+            "planet": "mercury",
+            "secondary_planet": null,
+            "aspect": null,
+            "sign": "scorpio",
+            "longitude": 210.0001,
+            "degree": 0,
+            "eclipse_subtype": null,
+            "eclipse_magnitude": null,
+            "node_distance": null,
+            "metadata": {
+              "retrograde": false
+            }
+          },
+          "affected_house": 2,
+          "natal_aspects": [
+            {
+              "target_body": "north_node",
+              "target_angle": null,
+              "aspect": "sextile",
+              "orb": 2.6807
+            },
+            {
+              "target_body": "south_node",
+              "target_angle": null,
+              "aspect": "trine",
+              "orb": 2.6807
+            },
+            {
+              "target_body": "moon",
+              "target_angle": null,
+              "aspect": "conjunction",
+              "orb": 3.2619
+            }
+          ],
+          "strength": 47,
+          "personal_relevance": "house_2|sextile_natal_north_node",
+          "source_factors": [
+            "5cde9a9adf8e34384e41204d"
+          ]
+        },
+        {
+          "event": {
+            "id": "9c76afda61719783a71bff0c",
+            "type": "ingress",
+            "exact_at": "2026-09-28T02:49:06.093750Z",
+            "start_at": null,
+            "end_at": null,
+            "planet": "mars",
+            "secondary_planet": null,
+            "aspect": null,
+            "sign": "leo",
+            "longitude": 120.0001,
+            "degree": 0,
+            "eclipse_subtype": null,
+            "eclipse_magnitude": null,
+            "node_distance": null,
+            "metadata": {
+              "retrograde": false
+            }
+          },
+          "affected_house": 11,
+          "natal_aspects": [
+            {
+              "target_body": "moon",
+              "target_angle": null,
+              "aspect": "square",
+              "orb": 3.2619
+            }
+          ],
+          "strength": 44,
+          "personal_relevance": "house_11|square_natal_moon",
+          "source_factors": [
+            "9c76afda61719783a71bff0c"
+          ]
+        }
+      ],
+      "engine_version": "1.0.0-de421",
+      "cached": false
+    },
+    "saved_person": {
+      "id": "00000000-0000-4000-8000-000000000001",
+      "name": "Synthetic Partner",
+      "relation": "friend",
+      "birth_date": "1990-11-02",
+      "birth_time": "09:15:00",
+      "birth_time_known": true,
+      "birth_place": null,
+      "latitude": 40.4093,
+      "longitude": 49.8671,
+      "timezone": "Asia/Baku",
+      "house_system": "placidus",
+      "note": null,
+      "created_at": "2026-09-24T10:35:10.212316Z"
+    },
+    "horary_question": {
+      "id": "00000000-0000-4000-8000-000000000002",
+      "question": "Will this synthetic project finish?",
+      "category": "career",
+      "status": "created",
+      "asked_at_utc": "2026-09-24T10:00:00Z",
+      "timezone": "Europe/Istanbul",
+      "latitude": 41.0082,
+      "longitude": 28.9784,
+      "location_name": null,
+      "house_override": null,
+      "chart_id": null,
+      "duplicate_suspected": false,
+      "created_at": "2026-09-24T10:35:10.281343Z"
+    },
+    "horary_analysis": {
+      "question_id": "00000000-0000-4000-8000-000000000002",
+      "question": "Will this synthetic project finish?",
+      "category": "career",
+      "asked_at_utc": "2026-09-24T10:00:00Z",
+      "querent_house": 1,
+      "quesited_house": 10,
+      "alternative_quesited_houses": [],
+      "querent": {
+        "role": "querent",
+        "house": 1,
+        "sign": "sagittarius",
+        "planet": "jupiter",
+        "longitude": 138.383513,
+        "speed": 0.187686,
+        "retrograde": false,
+        "in_house": 8,
+        "essential": {
+          "planet": "jupiter",
+          "sign": "leo",
+          "degree": 18.3835,
+          "dignities": [
+            "face"
+          ],
+          "debilities": [],
+          "triplicity_ruler": "sun",
+          "term_ruler": "mercury",
+          "face_ruler": "jupiter",
+          "peregrine": false,
+          "score": 1
+        },
+        "accidental": {
+          "planet": "jupiter",
+          "house": 8,
+          "placement": "succedent",
+          "motion": "direct",
+          "speed": 0.18769,
+          "speed_ratio": 2.2613,
+          "solar_condition": "free",
+          "solar_distance": 42.9992,
+          "notes": [
+            "swift_in_motion"
+          ]
+        },
+        "note": "Traditional ruler of the house cusp sign; outer planets are never used as significators."
+      },
+      "quesited": {
+        "role": "quesited",
+        "house": 10,
+        "sign": "libra",
+        "planet": "venus",
+        "longitude": 217.046627,
+        "speed": 0.313859,
+        "retrograde": false,
+        "in_house": 11,
+        "essential": {
+          "planet": "venus",
+          "sign": "scorpio",
+          "degree": 7.0466,
+          "dignities": [
+            "triplicity",
+            "term"
+          ],
+          "debilities": [
+            "detriment"
+          ],
+          "triplicity_ruler": "venus",
+          "term_ruler": "venus",
+          "face_ruler": "mars",
+          "peregrine": false,
+          "score": 0
+        },
+        "accidental": {
+          "planet": "venus",
+          "house": 11,
+          "placement": "succedent",
+          "motion": "direct",
+          "speed": 0.31386,
+          "speed_ratio": 0.1959,
+          "solar_condition": "free",
+          "solar_distance": 35.664,
+          "notes": [
+            "slow_in_motion"
+          ]
+        },
+        "note": "Traditional ruler of the house cusp sign; outer planets are never used as significators."
+      },
+      "co_significator": {
+        "role": "co_significator",
+        "house": 1,
+        "sign": "pisces",
+        "planet": "moon",
+        "longitude": 333.513493,
+        "speed": 12.8082,
+        "retrograde": false,
+        "in_house": 3,
+        "essential": {
+          "planet": "moon",
+          "sign": "pisces",
+          "degree": 3.5135,
+          "dignities": [],
+          "debilities": [
+            "peregrine"
+          ],
+          "triplicity_ruler": "venus",
+          "term_ruler": "venus",
+          "face_ruler": "saturn",
+          "peregrine": true,
+          "score": -5
+        },
+        "accidental": {
+          "planet": "moon",
+          "house": 3,
+          "placement": "cadent",
+          "motion": "direct",
+          "speed": 12.8082,
+          "speed_ratio": 0.9721,
+          "solar_condition": "free",
+          "solar_distance": 152.1308,
+          "notes": []
+        },
+        "note": "The Moon co-signifies the querent and carries the flow of events."
+      },
+      "moon": {
+        "sign": "pisces",
+        "degree": 3.5135,
+        "house": 3,
+        "speed": 12.8082,
+        "phase": "waxing_gibbous",
+        "void_of_course": false,
+        "void_definition": "traditional_sign_based_v1",
+        "last_aspect": {
+          "id": "1d42ee947f1c01914cc6",
+          "first": "moon",
+          "second": "mercury",
+          "aspect": "trine",
+          "orb": 11.9737,
+          "max_orb": 9.5,
+          "applying": false,
+          "exact_at": "2026-09-23T08:18:16.875000Z",
+          "perfects_before_sign_change": null,
+          "days_to_exact": -1.0706
+        },
+        "next_aspect": {
+          "id": "8491fc45028c447bef3b",
+          "first": "moon",
+          "second": "venus",
+          "aspect": "trine",
+          "orb": 3.5331,
+          "max_orb": 10.0,
+          "applying": true,
+          "exact_at": "2026-09-24T16:45:28.125000Z",
+          "perfects_before_sign_change": true,
+          "days_to_exact": 0.2816
+        },
+        "leaves_sign_at": "2026-09-26T10:23:05.156250Z",
+        "in_via_combusta": false,
+        "essential": {
+          "planet": "moon",
+          "sign": "pisces",
+          "degree": 3.5135,
+          "dignities": [],
+          "debilities": [
+            "peregrine"
+          ],
+          "triplicity_ruler": "venus",
+          "term_ruler": "venus",
+          "face_ruler": "saturn",
+          "peregrine": true,
+          "score": -5
+        },
+        "accidental": {
+          "planet": "moon",
+          "house": 3,
+          "placement": "cadent",
+          "motion": "direct",
+          "speed": 12.8082,
+          "speed_ratio": 0.9721,
+          "solar_condition": "free",
+          "solar_distance": 152.1308,
+          "notes": []
+        }
+      },
+      "house_rulers": {
+        "1": "jupiter",
+        "2": "saturn",
+        "3": "saturn",
+        "4": "mars",
+        "5": "venus",
+        "6": "venus",
+        "7": "mercury",
+        "8": "moon",
+        "9": "sun",
+        "10": "venus",
+        "11": "mars",
+        "12": "mars"
+      },
+      "receptions": [],
+      "applying_aspects": [],
+      "separating_aspects": [],
+      "perfection_factors": [],
+      "obstruction_factors": [
+        {
+          "id": "3f763eb88862441f1bc3",
+          "kind": "no_perfection_found",
+          "planets": [
+            "jupiter",
+            "venus"
+          ],
+          "detail": {
+            "note": "No applying aspect between the significators perfects before they change sign, and no translation, collection or mutual reception was found."
+          }
+        }
+      ],
+      "dignity_factors": [
+        {
+          "id": "6a916af82d9b94bf28e9",
+          "planet": "jupiter",
+          "role": "querent",
+          "kinds": [
+            "face"
+          ],
+          "score": 1,
+          "detail": {
+            "sign": "leo",
+            "degree": 18.3835,
+            "peregrine": false,
+            "triplicity_ruler": "sun",
+            "term_ruler": "mercury",
+            "face_ruler": "jupiter",
+            "house": 8,
+            "placement": "succedent",
+            "solar_condition": "free",
+            "motion": "direct"
+          }
+        },
+        {
+          "id": "71d1203726944f0db9c6",
+          "planet": "venus",
+          "role": "quesited",
+          "kinds": [
+            "triplicity",
+            "term",
+            "detriment"
+          ],
+          "score": 0,
+          "detail": {
+            "sign": "scorpio",
+            "degree": 7.0466,
+            "peregrine": false,
+            "triplicity_ruler": "venus",
+            "term_ruler": "venus",
+            "face_ruler": "mars",
+            "house": 11,
+            "placement": "succedent",
+            "solar_condition": "free",
+            "motion": "direct"
+          }
+        },
+        {
+          "id": "090d0577063701e58911",
+          "planet": "moon",
+          "role": "co_significator",
+          "kinds": [
+            "peregrine"
+          ],
+          "score": -5,
+          "detail": {
+            "sign": "pisces",
+            "degree": 3.5135,
+            "peregrine": true,
+            "triplicity_ruler": "venus",
+            "term_ruler": "venus",
+            "face_ruler": "saturn",
+            "house": 3,
+            "placement": "cadent",
+            "solar_condition": "free",
+            "motion": "direct"
+          }
+        }
+      ],
+      "warnings": [],
+      "source_factors": [
+        "3f763eb88862441f1bc3",
+        "6a916af82d9b94bf28e9",
+        "71d1203726944f0db9c6",
+        "090d0577063701e58911"
+      ],
+      "is_day_chart": true,
+      "not_implemented": [
+        "frustration",
+        "besiegement",
+        "abscission_of_light"
+      ],
+      "confidence_metadata": {
+        "significators_identical": false,
+        "perfection_count": 0,
+        "obstruction_count": 1,
+        "warning_count": 0,
+        "moon_void_of_course": false,
+        "note": "Structured factors only. This engine does not judge the question; it reports what the chart contains."
+      },
+      "engine_version": "1.0.0-de421",
+      "rules_version": "horary_rules_v1",
+      "dignity_version": "dignity_rules_v1",
+      "cached": false
+    },
+    "synastry": {
+      "report_id": null,
+      "kind": "synastry",
+      "overall_score": 68,
+      "score_semantics": "astrological compatibility index: how much classical relationship symbolism these two charts contain. Not a probability, not a prediction, and not comparable between different scoring versions.",
+      "themes": [
+        {
+          "theme": "general",
+          "score": 81,
+          "strength": 92,
+          "positive_factors": [
+            "24e4fb9c8cf30f288a7c",
+            "264c533e317961bdb574",
+            "be7a1b7f101a22517f2b",
+            "a65e79e035d09fca07a4",
+            "28eb474ce9196b459f09",
+            "4cbdeb6f46be20b4344d",
+            "cfe2af0761cf14fa1041",
+            "7637338fe57d451bc7a7",
+            "b1780e455e7e987820f6",
+            "a4587fac7e30a7031bc0"
+          ],
+          "challenging_factors": [
+            "d834167a96e7be4a6841",
+            "a1788092464ae285116f",
+            "d3ad32454ec0431d9c28",
+            "0ef10b5aebc844294a68",
+            "cbd27dc859573d2f9d8a"
+          ],
+          "factor_ids": [
+            "24e4fb9c8cf30f288a7c",
+            "264c533e317961bdb574",
+            "be7a1b7f101a22517f2b",
+            "d834167a96e7be4a6841",
+            "a65e79e035d09fca07a4",
+            "28eb474ce9196b459f09",
+            "4cbdeb6f46be20b4344d",
+            "cfe2af0761cf14fa1041",
+            "7637338fe57d451bc7a7",
+            "a1788092464ae285116f",
+            "b1780e455e7e987820f6",
+            "d3ad32454ec0431d9c28",
+            "0ef10b5aebc844294a68",
+            "a4587fac7e30a7031bc0",
+            "478a0f847206cb065f4d",
+            "4812da70ca2bbffce16f",
+            "cbd27dc859573d2f9d8a",
+            "1b2e3f150162f7207644",
+            "a62984b13ed93133cbb2",
+            "1e8ef34ec3a4bf276f81"
+          ]
+        },
+        {
+          "theme": "emotional",
+          "score": 61,
+          "strength": 33,
+          "positive_factors": [
+            "a0faae58762e031ad353",
+            "0127f74a36f09bdc41e9",
+            "8eb8ac3aa4e51ff929da",
+            "cf9bdb5446324a4498cb",
+            "bf9cba09c1ea5878ae74",
+            "dcd5878a51ecc3748d80"
+          ],
+          "challenging_factors": [
+            "ccdac24aec5eb9121f97",
+            "b9be856fa7003da0c5a8",
+            "46247ac20ed5ed5fb1da"
+          ],
+          "factor_ids": [
+            "ccdac24aec5eb9121f97",
+            "a0faae58762e031ad353",
+            "0127f74a36f09bdc41e9",
+            "8eb8ac3aa4e51ff929da",
+            "b9be856fa7003da0c5a8",
+            "46247ac20ed5ed5fb1da",
+            "cf9bdb5446324a4498cb",
+            "bf9cba09c1ea5878ae74",
+            "dcd5878a51ecc3748d80"
+          ]
+        },
+        {
+          "theme": "communication",
+          "score": 57,
+          "strength": 21,
+          "positive_factors": [
+            "0127f74a36f09bdc41e9",
+            "51d6a317304fb8aa9419",
+            "22ade3e378f59983cd16",
+            "9911aca317dad88bef0a"
+          ],
+          "challenging_factors": [],
+          "factor_ids": [
+            "0127f74a36f09bdc41e9",
+            "51d6a317304fb8aa9419",
+            "22ade3e378f59983cd16",
+            "9911aca317dad88bef0a"
+          ]
+        },
+        {
+          "theme": "romance",
+          "score": 73,
+          "strength": 67,
+          "positive_factors": [
+            "264c533e317961bdb574",
+            "be7a1b7f101a22517f2b",
+            "28eb474ce9196b459f09",
+            "cfe2af0761cf14fa1041",
+            "a009a0c4e8cf9c436c45",
+            "831f85c78558bc50d228",
+            "4812da70ca2bbffce16f",
+            "84f3a70cf6e143a227a1",
+            "c937c59d841067aa65d1",
+            "4102cff8120d53a5ffb4"
+          ],
+          "challenging_factors": [
+            "d834167a96e7be4a6841",
+            "a1788092464ae285116f",
+            "d3ad32454ec0431d9c28",
+            "0ef10b5aebc844294a68",
+            "cbd27dc859573d2f9d8a"
+          ],
+          "factor_ids": [
+            "264c533e317961bdb574",
+            "be7a1b7f101a22517f2b",
+            "d834167a96e7be4a6841",
+            "28eb474ce9196b459f09",
+            "cfe2af0761cf14fa1041",
+            "a1788092464ae285116f",
+            "a009a0c4e8cf9c436c45",
+            "831f85c78558bc50d228",
+            "d3ad32454ec0431d9c28",
+            "0ef10b5aebc844294a68",
+            "4812da70ca2bbffce16f",
+            "cbd27dc859573d2f9d8a",
+            "84f3a70cf6e143a227a1",
+            "c937c59d841067aa65d1",
+            "4102cff8120d53a5ffb4"
+          ]
+        },
+        {
+          "theme": "sexual_chemistry",
+          "score": 66,
+          "strength": 48,
+          "positive_factors": [
+            "96f84342892d52da32c3",
+            "84f3a70cf6e143a227a1",
+            "2383de7b658fd1b0839a",
+            "c937c59d841067aa65d1",
+            "4102cff8120d53a5ffb4"
+          ],
+          "challenging_factors": [],
+          "factor_ids": [
+            "96f84342892d52da32c3",
+            "84f3a70cf6e143a227a1",
+            "2383de7b658fd1b0839a",
+            "c937c59d841067aa65d1",
+            "4102cff8120d53a5ffb4"
+          ]
+        },
+        {
+          "theme": "trust",
+          "score": 65,
+          "strength": 45,
+          "positive_factors": [
+            "70f25f69d5ae93578265",
+            "a009a0c4e8cf9c436c45",
+            "8eb8ac3aa4e51ff929da",
+            "1b2e3f150162f7207644",
+            "a62984b13ed93133cbb2",
+            "8ac69473b1c57de392bd",
+            "2383de7b658fd1b0839a",
+            "9919d631c0e2ce4812ed",
+            "3f7dd64c9299fbe28c42"
+          ],
+          "challenging_factors": [
+            "ccdac24aec5eb9121f97"
+          ],
+          "factor_ids": [
+            "ccdac24aec5eb9121f97",
+            "70f25f69d5ae93578265",
+            "a009a0c4e8cf9c436c45",
+            "8eb8ac3aa4e51ff929da",
+            "1b2e3f150162f7207644",
+            "a62984b13ed93133cbb2",
+            "8ac69473b1c57de392bd",
+            "2383de7b658fd1b0839a",
+            "9919d631c0e2ce4812ed",
+            "3f7dd64c9299fbe28c42"
+          ]
+        },
+        {
+          "theme": "long_term",
+          "score": 80,
+          "strength": 88,
+          "positive_factors": [
+            "24e4fb9c8cf30f288a7c",
+            "a65e79e035d09fca07a4",
+            "4cbdeb6f46be20b4344d",
+            "70f25f69d5ae93578265",
+            "7637338fe57d451bc7a7",
+            "b1780e455e7e987820f6",
+            "831f85c78558bc50d228",
+            "a4587fac7e30a7031bc0",
+            "478a0f847206cb065f4d",
+            "495aded786fdd8e6a8f0"
+          ],
+          "challenging_factors": [
+            "46247ac20ed5ed5fb1da"
+          ],
+          "factor_ids": [
+            "24e4fb9c8cf30f288a7c",
+            "a65e79e035d09fca07a4",
+            "4cbdeb6f46be20b4344d",
+            "70f25f69d5ae93578265",
+            "7637338fe57d451bc7a7",
+            "b1780e455e7e987820f6",
+            "831f85c78558bc50d228",
+            "a4587fac7e30a7031bc0",
+            "478a0f847206cb065f4d",
+            "495aded786fdd8e6a8f0",
+            "46247ac20ed5ed5fb1da",
+            "cf9bdb5446324a4498cb",
+            "5c6ebdbf8eb6957df3fb",
+            "eec3ee7474bfe9806443",
+            "738dfff65bfb70e85d54",
+            "9f790efe76097bae8143",
+            "34c27a7a79b8af889492",
+            "bf9cba09c1ea5878ae74",
+            "dcd5878a51ecc3748d80"
+          ]
+        },
+        {
+          "theme": "conflict",
+          "score": 49,
+          "strength": 2,
+          "positive_factors": [],
+          "challenging_factors": [
+            "495aded786fdd8e6a8f0"
+          ],
+          "factor_ids": [
+            "495aded786fdd8e6a8f0"
+          ]
+        },
+        {
+          "theme": "karmic",
+          "score": 63,
+          "strength": 40,
+          "positive_factors": [
+            "96f84342892d52da32c3",
+            "a0faae58762e031ad353",
+            "3f3a01417f33b31c7d38",
+            "b9be856fa7003da0c5a8",
+            "41f07572110020087408",
+            "8ac69473b1c57de392bd",
+            "2383de7b658fd1b0839a"
+          ],
+          "challenging_factors": [],
+          "factor_ids": [
+            "96f84342892d52da32c3",
+            "a0faae58762e031ad353",
+            "3f3a01417f33b31c7d38",
+            "b9be856fa7003da0c5a8",
+            "41f07572110020087408",
+            "8ac69473b1c57de392bd",
+            "2383de7b658fd1b0839a"
+          ]
+        }
+      ],
+      "aspects": [
+        {
+          "id": "24e4fb9c8cf30f288a7c",
+          "person_a_body": null,
+          "person_a_angle": "mc",
+          "person_b_body": "mars",
+          "person_b_angle": null,
+          "aspect": "conjunction",
+          "nature": "neutral",
+          "orb": 1.7721,
+          "max_orb": 9.0,
+          "weight": 0.47784,
+          "themes": [
+            "general",
+            "long_term"
+          ],
+          "label": "a_mc conjunction b_mars"
+        },
+        {
+          "id": "ccdac24aec5eb9121f97",
+          "person_a_body": "moon",
+          "person_a_angle": null,
+          "person_b_body": "moon",
+          "person_b_angle": null,
+          "aspect": "opposition",
+          "nature": "challenging",
+          "orb": 3.0904,
+          "max_orb": 9.0,
+          "weight": 0.44322,
+          "themes": [
+            "emotional",
+            "trust"
+          ],
+          "label": "a_moon opposition b_moon"
+        },
+        {
+          "id": "96f84342892d52da32c3",
+          "person_a_body": "venus",
+          "person_a_angle": null,
+          "person_b_body": "pluto",
+          "person_b_angle": null,
+          "aspect": "opposition",
+          "nature": "challenging",
+          "orb": 1.6022,
+          "max_orb": 7.0,
+          "weight": 0.40484,
+          "themes": [
+            "sexual_chemistry",
+            "karmic"
+          ],
+          "label": "a_venus opposition b_pluto"
+        },
+        {
+          "id": "264c533e317961bdb574",
+          "person_a_body": null,
+          "person_a_angle": "asc",
+          "person_b_body": "saturn",
+          "person_b_angle": null,
+          "aspect": "trine",
+          "nature": "harmonious",
+          "orb": 2.7019,
+          "max_orb": 7.0,
+          "weight": 0.35229,
+          "themes": [
+            "general",
+            "romance"
+          ],
+          "label": "a_asc trine b_saturn"
+        },
+        {
+          "id": "be7a1b7f101a22517f2b",
+          "person_a_body": "mars",
+          "person_a_angle": null,
+          "person_b_body": null,
+          "person_b_angle": "asc",
+          "aspect": "trine",
+          "nature": "harmonious",
+          "orb": 3.515,
+          "max_orb": 7.0,
+          "weight": 0.32373,
+          "themes": [
+            "general",
+            "romance"
+          ],
+          "label": "a_mars trine b_asc"
+        },
+        {
+          "id": "d834167a96e7be4a6841",
+          "person_a_body": "jupiter",
+          "person_a_angle": null,
+          "person_b_body": null,
+          "person_b_angle": "asc",
+          "aspect": "square",
+          "nature": "challenging",
+          "orb": 1.8682,
+          "max_orb": 7.0,
+          "weight": 0.32331,
+          "themes": [
+            "general",
+            "romance"
+          ],
+          "label": "a_jupiter square b_asc"
+        },
+        {
+          "id": "a65e79e035d09fca07a4",
+          "person_a_body": "neptune",
+          "person_a_angle": null,
+          "person_b_body": null,
+          "person_b_angle": "mc",
+          "aspect": "trine",
+          "nature": "harmonious",
+          "orb": 0.1444,
+          "max_orb": 7.0,
+          "weight": 0.3205,
+          "themes": [
+            "general",
+            "long_term"
+          ],
+          "label": "a_neptune trine b_mc"
+        },
+        {
+          "id": "28eb474ce9196b459f09",
+          "person_a_body": null,
+          "person_a_angle": "asc",
+          "person_b_body": "pluto",
+          "person_b_angle": null,
+          "aspect": "sextile",
+          "nature": "harmonious",
+          "orb": 0.0813,
+          "max_orb": 5.0,
+          "weight": 0.31652,
+          "themes": [
+            "general",
+            "romance"
+          ],
+          "label": "a_asc sextile b_pluto"
+        },
+        {
+          "id": "a0faae58762e031ad353",
+          "person_a_body": "north_node",
+          "person_a_angle": null,
+          "person_b_body": "moon",
+          "person_b_angle": null,
+          "aspect": "trine",
+          "nature": "harmonious",
+          "orb": 2.8522,
+          "max_orb": 6.0,
+          "weight": 0.31216,
+          "themes": [
+            "karmic",
+            "emotional"
+          ],
+          "label": "a_north_node trine b_moon"
+        },
+        {
+          "id": "4cbdeb6f46be20b4344d",
+          "person_a_body": "venus",
+          "person_a_angle": null,
+          "person_b_body": null,
+          "person_b_angle": "mc",
+          "aspect": "trine",
+          "nature": "harmonious",
+          "orb": 3.173,
+          "max_orb": 7.0,
+          "weight": 0.30903,
+          "themes": [
+            "general",
+            "long_term"
+          ],
+          "label": "a_venus trine b_mc"
+        },
+        {
+          "id": "fa5ad94bcd87c5d6f3a4",
+          "person_a_body": "neptune",
+          "person_a_angle": null,
+          "person_b_body": "saturn",
+          "person_b_angle": null,
+          "aspect": "conjunction",
+          "nature": "neutral",
+          "orb": 1.1941,
+          "max_orb": 8.0,
+          "weight": 0.29776,
+          "themes": [],
+          "label": "a_neptune conjunction b_saturn"
+        },
+        {
+          "id": "cfe2af0761cf14fa1041",
+          "person_a_body": null,
+          "person_a_angle": "asc",
+          "person_b_body": "mercury",
+          "person_b_angle": null,
+          "aspect": "sextile",
+          "nature": "harmonious",
+          "orb": 0.8851,
+          "max_orb": 5.0,
+          "weight": 0.28516,
+          "themes": [
+            "general",
+            "romance"
+          ],
+          "label": "a_asc sextile b_mercury"
+        },
+        {
+          "id": "70f25f69d5ae93578265",
+          "person_a_body": "sun",
+          "person_a_angle": null,
+          "person_b_body": "saturn",
+          "person_b_angle": null,
+          "aspect": "trine",
+          "nature": "harmonious",
+          "orb": 3.9152,
+          "max_orb": 7.0,
+          "weight": 0.28094,
+          "themes": [
+            "long_term",
+            "trust"
+          ],
+          "label": "a_sun trine b_saturn"
+        },
+        {
+          "id": "7637338fe57d451bc7a7",
+          "person_a_body": "uranus",
+          "person_a_angle": null,
+          "person_b_body": null,
+          "person_b_angle": "mc",
+          "aspect": "trine",
+          "nature": "harmonious",
+          "orb": 1.1414,
+          "max_orb": 7.0,
+          "weight": 0.27389,
+          "themes": [
+            "general",
+            "long_term"
+          ],
+          "label": "a_uranus trine b_mc"
+        },
+        {
+          "id": "17d4e1776e73add7a439",
+          "person_a_body": "uranus",
+          "person_a_angle": null,
+          "person_b_body": "saturn",
+          "person_b_angle": null,
+          "aspect": "conjunction",
+          "nature": "neutral",
+          "orb": 2.1911,
+          "max_orb": 8.0,
+          "weight": 0.25414,
+          "themes": [],
+          "label": "a_uranus conjunction b_saturn"
+        },
+        {
+          "id": "8a2fbcaf9d677a30b02f",
+          "person_a_body": "mercury",
+          "person_a_angle": null,
+          "person_b_body": "uranus",
+          "person_b_angle": null,
+          "aspect": "trine",
+          "nature": "harmonious",
+          "orb": 0.9363,
+          "max_orb": 6.0,
+          "weight": 0.25108,
+          "themes": [],
+          "label": "a_mercury trine b_uranus"
+        },
+        {
+          "id": "0127f74a36f09bdc41e9",
+          "person_a_body": "mercury",
+          "person_a_angle": null,
+          "person_b_body": "moon",
+          "person_b_angle": null,
+          "aspect": "conjunction",
+          "nature": "neutral",
+          "orb": 5.8108,
+          "max_orb": 9.0,
+          "weight": 0.24805,
+          "themes": [
+            "communication",
+            "emotional"
+          ],
+          "label": "a_mercury conjunction b_moon"
+        },
+        {
+          "id": "aeba6b2a4d58d444848b",
+          "person_a_body": "mars",
+          "person_a_angle": null,
+          "person_b_body": "uranus",
+          "person_b_angle": null,
+          "aspect": "square",
+          "nature": "challenging",
+          "orb": 0.0122,
+          "max_orb": 6.0,
+          "weight": 0.2445,
+          "themes": [],
+          "label": "a_mars square b_uranus"
+        },
+        {
+          "id": "a1788092464ae285116f",
+          "person_a_body": null,
+          "person_a_angle": "asc",
+          "person_b_body": "mars",
+          "person_b_angle": null,
+          "aspect": "square",
+          "nature": "challenging",
+          "orb": 3.8679,
+          "max_orb": 7.0,
+          "weight": 0.2396,
+          "themes": [
+            "general",
+            "romance"
+          ],
+          "label": "a_asc square b_mars"
+        },
+        {
+          "id": "b41963c84745e8aeb7ba",
+          "person_a_body": "venus",
+          "person_a_angle": null,
+          "person_b_body": "mercury",
+          "person_b_angle": null,
+          "aspect": "opposition",
+          "nature": "challenging",
+          "orb": 0.6358,
+          "max_orb": 7.0,
+          "weight": 0.23866,
+          "themes": [],
+          "label": "a_venus opposition b_mercury"
+        },
+        {
+          "id": "b1780e455e7e987820f6",
+          "person_a_body": "sun",
+          "person_a_angle": null,
+          "person_b_body": null,
+          "person_b_angle": "mc",
+          "aspect": "trine",
+          "nature": "harmonious",
+          "orb": 4.965,
+          "max_orb": 8.0,
+          "weight": 0.22573,
+          "themes": [
+            "general",
+            "long_term"
+          ],
+          "label": "a_sun trine b_mc"
+        },
+        {
+          "id": "144e9ef83143fc66a67d",
+          "person_a_body": "jupiter",
+          "person_a_angle": null,
+          "person_b_body": "uranus",
+          "person_b_angle": null,
+          "aspect": "trine",
+          "nature": "harmonious",
+          "orb": 1.659,
+          "max_orb": 6.0,
+          "weight": 0.21524,
+          "themes": [],
+          "label": "a_jupiter trine b_uranus"
+        },
+        {
+          "id": "15d14ba6156cb698140b",
+          "person_a_body": "saturn",
+          "person_a_angle": null,
+          "person_b_body": "pluto",
+          "person_b_angle": null,
+          "aspect": "square",
+          "nature": "challenging",
+          "orb": 0.9483,
+          "max_orb": 6.0,
+          "weight": 0.20628,
+          "themes": [],
+          "label": "a_saturn square b_pluto"
+        },
+        {
+          "id": "a009a0c4e8cf9c436c45",
+          "person_a_body": "venus",
+          "person_a_angle": null,
+          "person_b_body": "neptune",
+          "person_b_angle": null,
+          "aspect": "trine",
+          "nature": "harmonious",
+          "orb": 3.5534,
+          "max_orb": 6.0,
+          "weight": 0.19063,
+          "themes": [
+            "romance",
+            "trust"
+          ],
+          "label": "a_venus trine b_neptune"
+        },
+        {
+          "id": "831f85c78558bc50d228",
+          "person_a_body": "venus",
+          "person_a_angle": null,
+          "person_b_body": "saturn",
+          "person_b_angle": null,
+          "aspect": "trine",
+          "nature": "harmonious",
+          "orb": 4.2228,
+          "max_orb": 6.0,
+          "weight": 0.18883,
+          "themes": [
+            "long_term",
+            "romance"
+          ],
+          "label": "a_venus trine b_saturn"
+        },
+        {
+          "id": "d3ad32454ec0431d9c28",
+          "person_a_body": "venus",
+          "person_a_angle": null,
+          "person_b_body": "jupiter",
+          "person_b_angle": null,
+          "aspect": "square",
+          "nature": "challenging",
+          "orb": 3.4248,
+          "max_orb": 6.0,
+          "weight": 0.18026,
+          "themes": [
+            "romance",
+            "general"
+          ],
+          "label": "a_venus square b_jupiter"
+        },
+        {
+          "id": "d7c76ac6ab09476a02db",
+          "person_a_body": "saturn",
+          "person_a_angle": null,
+          "person_b_body": "mercury",
+          "person_b_angle": null,
+          "aspect": "square",
+          "nature": "challenging",
+          "orb": 1.9147,
+          "max_orb": 6.0,
+          "weight": 0.16682,
+          "themes": [],
+          "label": "a_saturn square b_mercury"
+        },
+        {
+          "id": "0940dc7f2293bf75d2c0",
+          "person_a_body": "north_node",
+          "person_a_angle": null,
+          "person_b_body": "uranus",
+          "person_b_angle": null,
+          "aspect": "conjunction",
+          "nature": "neutral",
+          "orb": 3.8949,
+          "max_orb": 7.0,
+          "weight": 0.15526,
+          "themes": [],
+          "label": "a_north_node conjunction b_uranus"
+        },
+        {
+          "id": "8eb8ac3aa4e51ff929da",
+          "person_a_body": "jupiter",
+          "person_a_angle": null,
+          "person_b_body": "moon",
+          "person_b_angle": null,
+          "aspect": "trine",
+          "nature": "harmonious",
+          "orb": 5.0881,
+          "max_orb": 7.0,
+          "weight": 0.1393,
+          "themes": [
+            "emotional",
+            "trust"
+          ],
+          "label": "a_jupiter trine b_moon"
+        },
+        {
+          "id": "223940a937124b351e86",
+          "person_a_body": "mercury",
+          "person_a_angle": null,
+          "person_b_body": "sun",
+          "person_b_angle": null,
+          "aspect": "opposition",
+          "nature": "challenging",
+          "orb": 3.8858,
+          "max_orb": 8.0,
+          "weight": 0.135,
+          "themes": [],
+          "label": "a_mercury opposition b_sun"
+        },
+        {
+          "id": "8d7ba6a64465dfec4d26",
+          "person_a_body": "pluto",
+          "person_a_angle": null,
+          "person_b_body": "mercury",
+          "person_b_angle": null,
+          "aspect": "conjunction",
+          "nature": "neutral",
+          "orb": 5.0926,
+          "max_orb": 8.0,
+          "weight": 0.1272,
+          "themes": [],
+          "label": "a_pluto conjunction b_mercury"
+        },
+        {
+          "id": "33fe9898dd4ff2372173",
+          "person_a_body": "uranus",
+          "person_a_angle": null,
+          "person_b_body": "mercury",
+          "person_b_angle": null,
+          "aspect": "sextile",
+          "nature": "harmonious",
+          "orb": 1.3959,
+          "max_orb": 4.0,
+          "weight": 0.12532,
+          "themes": [],
+          "label": "a_uranus sextile b_mercury"
+        },
+        {
+          "id": "0ef10b5aebc844294a68",
+          "person_a_body": "venus",
+          "person_a_angle": null,
+          "person_b_body": "sun",
+          "person_b_angle": null,
+          "aspect": "opposition",
+          "nature": "challenging",
+          "orb": 6.2505,
+          "max_orb": 8.0,
+          "weight": 0.12301,
+          "themes": [
+            "romance",
+            "general"
+          ],
+          "label": "a_venus opposition b_sun"
+        },
+        {
+          "id": "a4587fac7e30a7031bc0",
+          "person_a_body": "pluto",
+          "person_a_angle": null,
+          "person_b_body": null,
+          "person_b_angle": "mc",
+          "aspect": "sextile",
+          "nature": "harmonious",
+          "orb": 2.5554,
+          "max_orb": 5.0,
+          "weight": 0.12235,
+          "themes": [
+            "general",
+            "long_term"
+          ],
+          "label": "a_pluto sextile b_mc"
+        },
+        {
+          "id": "71721aa83af17346d4f9",
+          "person_a_body": "pluto",
+          "person_a_angle": null,
+          "person_b_body": "saturn",
+          "person_b_angle": null,
+          "aspect": "sextile",
+          "nature": "harmonious",
+          "orb": 1.5056,
+          "max_orb": 4.0,
+          "weight": 0.12004,
+          "themes": [],
+          "label": "a_pluto sextile b_saturn"
+        },
+        {
+          "id": "478a0f847206cb065f4d",
+          "person_a_body": null,
+          "person_a_angle": "mc",
+          "person_b_body": "jupiter",
+          "person_b_angle": null,
+          "aspect": "sextile",
+          "nature": "harmonious",
+          "orb": 2.85,
+          "max_orb": 5.0,
+          "weight": 0.11589,
+          "themes": [
+            "general",
+            "long_term"
+          ],
+          "label": "a_mc sextile b_jupiter"
+        },
+        {
+          "id": "4812da70ca2bbffce16f",
+          "person_a_body": null,
+          "person_a_angle": "asc",
+          "person_b_body": "neptune",
+          "person_b_angle": null,
+          "aspect": "trine",
+          "nature": "harmonious",
+          "orb": 5.0744,
+          "max_orb": 7.0,
+          "weight": 0.11574,
+          "themes": [
+            "general",
+            "romance"
+          ],
+          "label": "a_asc trine b_neptune"
+        },
+        {
+          "id": "02a4977c8e8407a37db0",
+          "person_a_body": "mercury",
+          "person_a_angle": null,
+          "person_b_body": "venus",
+          "person_b_angle": null,
+          "aspect": "opposition",
+          "nature": "challenging",
+          "orb": 4.0337,
+          "max_orb": 7.0,
+          "weight": 0.11123,
+          "themes": [],
+          "label": "a_mercury opposition b_venus"
+        },
+        {
+          "id": "3f3a01417f33b31c7d38",
+          "person_a_body": "south_node",
+          "person_a_angle": null,
+          "person_b_body": "moon",
+          "person_b_angle": null,
+          "aspect": "sextile",
+          "nature": "harmonious",
+          "orb": 2.8522,
+          "max_orb": 4.0,
+          "weight": 0.09469,
+          "themes": [
+            "karmic"
+          ],
+          "label": "a_south_node sextile b_moon"
+        },
+        {
+          "id": "495aded786fdd8e6a8f0",
+          "person_a_body": "saturn",
+          "person_a_angle": null,
+          "person_b_body": "mars",
+          "person_b_angle": null,
+          "aspect": "trine",
+          "nature": "harmonious",
+          "orb": 4.8975,
+          "max_orb": 6.0,
+          "weight": 0.09372,
+          "themes": [
+            "conflict",
+            "long_term"
+          ],
+          "label": "a_saturn trine b_mars"
+        },
+        {
+          "id": "28725fff8c182a5bcf78",
+          "person_a_body": "south_node",
+          "person_a_angle": null,
+          "person_b_body": "uranus",
+          "person_b_angle": null,
+          "aspect": "opposition",
+          "nature": "challenging",
+          "orb": 3.8949,
+          "max_orb": 6.0,
+          "weight": 0.0921,
+          "themes": [],
+          "label": "a_south_node opposition b_uranus"
+        },
+        {
+          "id": "e5ba6da6500ba4c0b058",
+          "person_a_body": "mercury",
+          "person_a_angle": null,
+          "person_b_body": "north_node",
+          "person_b_angle": null,
+          "aspect": "square",
+          "nature": "challenging",
+          "orb": 3.3437,
+          "max_orb": 5.0,
+          "weight": 0.08116,
+          "themes": [],
+          "label": "a_mercury square b_north_node"
+        },
+        {
+          "id": "9e833b69a0d57c3c544c",
+          "person_a_body": "mercury",
+          "person_a_angle": null,
+          "person_b_body": "south_node",
+          "person_b_angle": null,
+          "aspect": "square",
+          "nature": "challenging",
+          "orb": 3.3437,
+          "max_orb": 5.0,
+          "weight": 0.08116,
+          "themes": [],
+          "label": "a_mercury square b_south_node"
+        },
+        {
+          "id": "7135475f298baec5f105",
+          "person_a_body": "neptune",
+          "person_a_angle": null,
+          "person_b_body": "mercury",
+          "person_b_angle": null,
+          "aspect": "sextile",
+          "nature": "harmonious",
+          "orb": 2.3929,
+          "max_orb": 4.0,
+          "weight": 0.07734,
+          "themes": [],
+          "label": "a_neptune sextile b_mercury"
+        },
+        {
+          "id": "cbd27dc859573d2f9d8a",
+          "person_a_body": "venus",
+          "person_a_angle": null,
+          "person_b_body": "venus",
+          "person_b_angle": null,
+          "aspect": "opposition",
+          "nature": "challenging",
+          "orb": 6.1026,
+          "max_orb": 7.0,
+          "weight": 0.07212,
+          "themes": [
+            "romance",
+            "general"
+          ],
+          "label": "a_venus opposition b_venus"
+        },
+        {
+          "id": "504b076b75848ed8ddf7",
+          "person_a_body": "sun",
+          "person_a_angle": null,
+          "person_b_body": "pluto",
+          "person_b_angle": null,
+          "aspect": "opposition",
+          "nature": "challenging",
+          "orb": 6.5358,
+          "max_orb": 8.0,
+          "weight": 0.04804,
+          "themes": [],
+          "label": "a_sun opposition b_pluto"
+        },
+        {
+          "id": "3cc342384c3e66730e54",
+          "person_a_body": "mars",
+          "person_a_angle": null,
+          "person_b_body": "south_node",
+          "person_b_angle": null,
+          "aspect": "trine",
+          "nature": "harmonious",
+          "orb": 4.2678,
+          "max_orb": 5.0,
+          "weight": 0.04357,
+          "themes": [],
+          "label": "a_mars trine b_south_node"
+        },
+        {
+          "id": "519373c601e8b651bd8f",
+          "person_a_body": "saturn",
+          "person_a_angle": null,
+          "person_b_body": "jupiter",
+          "person_b_angle": null,
+          "aspect": "opposition",
+          "nature": "challenging",
+          "orb": 5.9753,
+          "max_orb": 7.0,
+          "weight": 0.03843,
+          "themes": [],
+          "label": "a_saturn opposition b_jupiter"
+        },
+        {
+          "id": "b9be856fa7003da0c5a8",
+          "person_a_body": "moon",
+          "person_a_angle": null,
+          "person_b_body": "north_node",
+          "person_b_angle": null,
+          "aspect": "square",
+          "nature": "challenging",
+          "orb": 5.5575,
+          "max_orb": 6.0,
+          "weight": 0.03613,
+          "themes": [
+            "karmic",
+            "emotional"
+          ],
+          "label": "a_moon square b_north_node"
+        },
+        {
+          "id": "41f07572110020087408",
+          "person_a_body": "moon",
+          "person_a_angle": null,
+          "person_b_body": "south_node",
+          "person_b_angle": null,
+          "aspect": "square",
+          "nature": "challenging",
+          "orb": 5.5575,
+          "max_orb": 6.0,
+          "weight": 0.03097,
+          "themes": [
+            "karmic"
+          ],
+          "label": "a_moon square b_south_node"
+        },
+        {
+          "id": "1b2e3f150162f7207644",
+          "person_a_body": "jupiter",
+          "person_a_angle": null,
+          "person_b_body": "sun",
+          "person_b_angle": null,
+          "aspect": "sextile",
+          "nature": "harmonious",
+          "orb": 4.6085,
+          "max_orb": 5.0,
+          "weight": 0.02584,
+          "themes": [
+            "general",
+            "trust"
+          ],
+          "label": "a_jupiter sextile b_sun"
+        },
+        {
+          "id": "46247ac20ed5ed5fb1da",
+          "person_a_body": "moon",
+          "person_a_angle": null,
+          "person_b_body": "saturn",
+          "person_b_angle": null,
+          "aspect": "square",
+          "nature": "challenging",
+          "orb": 6.7397,
+          "max_orb": 7.0,
+          "weight": 0.01952,
+          "themes": [
+            "long_term",
+            "emotional"
+          ],
+          "label": "a_moon square b_saturn"
+        },
+        {
+          "id": "d97d1f0f8cfe4155d7a5",
+          "person_a_body": "sun",
+          "person_a_angle": null,
+          "person_b_body": "mercury",
+          "person_b_angle": null,
+          "aspect": "opposition",
+          "nature": "challenging",
+          "orb": 7.5022,
+          "max_orb": 8.0,
+          "weight": 0.01633,
+          "themes": [],
+          "label": "a_sun opposition b_mercury"
+        },
+        {
+          "id": "36fb7f1c1197d00444f9",
+          "person_a_body": "mars",
+          "person_a_angle": null,
+          "person_b_body": "neptune",
+          "person_b_angle": null,
+          "aspect": "square",
+          "nature": "challenging",
+          "orb": 5.6588,
+          "max_orb": 6.0,
+          "weight": 0.01393,
+          "themes": [],
+          "label": "a_mars square b_neptune"
+        },
+        {
+          "id": "d14280a2c079a480685b",
+          "person_a_body": "mars",
+          "person_a_angle": null,
+          "person_b_body": "jupiter",
+          "person_b_angle": null,
+          "aspect": "trine",
+          "nature": "harmonious",
+          "orb": 5.7874,
+          "max_orb": 6.0,
+          "weight": 0.01054,
+          "themes": [],
+          "label": "a_mars trine b_jupiter"
+        }
+      ],
+      "overlays_a_in_b": [
+        {
+          "id": "cf9bdb5446324a4498cb",
+          "direction": "a_to_b",
+          "planet": "mars",
+          "house": 4,
+          "longitude": 6.5635,
+          "weight": 0.24863,
+          "themes": [
+            "emotional",
+            "long_term"
+          ],
+          "label": "a_mars in b_house_4"
+        },
+        {
+          "id": "a62984b13ed93133cbb2",
+          "direction": "a_to_b",
+          "planet": "moon",
+          "house": 11,
+          "longitude": 206.7382,
+          "weight": 0.2475,
+          "themes": [
+            "general",
+            "trust"
+          ],
+          "label": "a_moon in b_house_11"
+        },
+        {
+          "id": "84f3a70cf6e143a227a1",
+          "direction": "a_to_b",
+          "planet": "mercury",
+          "house": 5,
+          "longitude": 35.6394,
+          "weight": 0.2295,
+          "themes": [
+            "romance",
+            "sexual_chemistry"
+          ],
+          "label": "a_mercury in b_house_5"
+        },
+        {
+          "id": "1e8ef34ec3a4bf276f81",
+          "direction": "a_to_b",
+          "planet": "north_node",
+          "house": 1,
+          "longitude": 272.6808,
+          "weight": 0.216,
+          "themes": [
+            "general"
+          ],
+          "label": "a_north_node in b_house_1"
+        },
+        {
+          "id": "5c6ebdbf8eb6957df3fb",
+          "direction": "a_to_b",
+          "planet": "south_node",
+          "house": 7,
+          "longitude": 92.6808,
+          "weight": 0.21375,
+          "themes": [
+            "long_term",
+            "general"
+          ],
+          "label": "a_south_node in b_house_7"
+        },
+        {
+          "id": "a1f34733c208470d50a4",
+          "direction": "a_to_b",
+          "planet": "venus",
+          "house": 6,
+          "longitude": 45.7757,
+          "weight": 0.14962,
+          "themes": [
+            "general"
+          ],
+          "label": "a_venus in b_house_6"
+        },
+        {
+          "id": "2209f546c11a6f915400",
+          "direction": "a_to_b",
+          "planet": "sun",
+          "house": 6,
+          "longitude": 53.9137,
+          "weight": 0.14175,
+          "themes": [
+            "general"
+          ],
+          "label": "a_sun in b_house_6"
+        },
+        {
+          "id": "f0b6d11a2bea0cf23d0b",
+          "direction": "a_to_b",
+          "planet": "jupiter",
+          "house": 9,
+          "longitude": 154.9167,
+          "weight": 0.14175,
+          "themes": [
+            "general"
+          ],
+          "label": "a_jupiter in b_house_9"
+        },
+        {
+          "id": "51d6a317304fb8aa9419",
+          "direction": "a_to_b",
+          "planet": "saturn",
+          "house": 3,
+          "longitude": 318.3261,
+          "weight": 0.126,
+          "themes": [
+            "communication"
+          ],
+          "label": "a_saturn in b_house_3"
+        },
+        {
+          "id": "8ac69473b1c57de392bd",
+          "direction": "a_to_b",
+          "planet": "pluto",
+          "house": 12,
+          "longitude": 231.5041,
+          "weight": 0.12375,
+          "themes": [
+            "karmic",
+            "trust"
+          ],
+          "label": "a_pluto in b_house_12"
+        },
+        {
+          "id": "eec3ee7474bfe9806443",
+          "direction": "a_to_b",
+          "planet": "uranus",
+          "house": 2,
+          "longitude": 287.8074,
+          "weight": 0.09113,
+          "themes": [
+            "long_term"
+          ],
+          "label": "a_uranus in b_house_2"
+        },
+        {
+          "id": "738dfff65bfb70e85d54",
+          "direction": "a_to_b",
+          "planet": "neptune",
+          "house": 2,
+          "longitude": 288.8044,
+          "weight": 0.09113,
+          "themes": [
+            "long_term"
+          ],
+          "label": "a_neptune in b_house_2"
+        }
+      ],
+      "overlays_b_in_a": [
+        {
+          "id": "2383de7b658fd1b0839a",
+          "direction": "b_to_a",
+          "planet": "moon",
+          "house": 8,
+          "longitude": 29.8286,
+          "weight": 0.36,
+          "themes": [
+            "sexual_chemistry",
+            "trust",
+            "karmic"
+          ],
+          "label": "b_moon in a_house_8"
+        },
+        {
+          "id": "c937c59d841067aa65d1",
+          "direction": "b_to_a",
+          "planet": "saturn",
+          "house": 5,
+          "longitude": 289.9985,
+          "weight": 0.26775,
+          "themes": [
+            "romance",
+            "sexual_chemistry"
+          ],
+          "label": "b_saturn in a_house_5"
+        },
+        {
+          "id": "4102cff8120d53a5ffb4",
+          "direction": "b_to_a",
+          "planet": "north_node",
+          "house": 5,
+          "longitude": 302.2957,
+          "weight": 0.2295,
+          "themes": [
+            "romance",
+            "sexual_chemistry"
+          ],
+          "label": "b_north_node in a_house_5"
+        },
+        {
+          "id": "9f790efe76097bae8143",
+          "direction": "b_to_a",
+          "planet": "venus",
+          "house": 2,
+          "longitude": 219.6731,
+          "weight": 0.19237,
+          "themes": [
+            "long_term"
+          ],
+          "label": "b_venus in a_house_2"
+        },
+        {
+          "id": "34c27a7a79b8af889492",
+          "direction": "b_to_a",
+          "planet": "sun",
+          "house": 2,
+          "longitude": 219.5252,
+          "weight": 0.18225,
+          "themes": [
+            "long_term"
+          ],
+          "label": "b_sun in a_house_2"
+        },
+        {
+          "id": "9919d631c0e2ce4812ed",
+          "direction": "b_to_a",
+          "planet": "jupiter",
+          "house": 11,
+          "longitude": 132.3509,
+          "weight": 0.17325,
+          "themes": [
+            "general",
+            "trust"
+          ],
+          "label": "b_jupiter in a_house_11"
+        },
+        {
+          "id": "3d2ef8c1c2542ecb2ec0",
+          "direction": "b_to_a",
+          "planet": "mars",
+          "house": 9,
+          "longitude": 73.4287,
+          "weight": 0.17213,
+          "themes": [
+            "general"
+          ],
+          "label": "b_mars in a_house_9"
+        },
+        {
+          "id": "bf9cba09c1ea5878ae74",
+          "direction": "b_to_a",
+          "planet": "uranus",
+          "house": 4,
+          "longitude": 276.5757,
+          "weight": 0.13163,
+          "themes": [
+            "emotional",
+            "long_term"
+          ],
+          "label": "b_uranus in a_house_4"
+        },
+        {
+          "id": "dcd5878a51ecc3748d80",
+          "direction": "b_to_a",
+          "planet": "neptune",
+          "house": 4,
+          "longitude": 282.2222,
+          "weight": 0.13163,
+          "themes": [
+            "emotional",
+            "long_term"
+          ],
+          "label": "b_neptune in a_house_4"
+        },
+        {
+          "id": "3f7dd64c9299fbe28c42",
+          "direction": "b_to_a",
+          "planet": "south_node",
+          "house": 11,
+          "longitude": 122.2957,
+          "weight": 0.12375,
+          "themes": [
+            "general",
+            "trust"
+          ],
+          "label": "b_south_node in a_house_11"
+        },
+        {
+          "id": "22ade3e378f59983cd16",
+          "direction": "b_to_a",
+          "planet": "mercury",
+          "house": 3,
+          "longitude": 226.4115,
+          "weight": 0.108,
+          "themes": [
+            "communication"
+          ],
+          "label": "b_mercury in a_house_3"
+        },
+        {
+          "id": "9911aca317dad88bef0a",
+          "direction": "b_to_a",
+          "planet": "pluto",
+          "house": 3,
+          "longitude": 227.3779,
+          "weight": 0.099,
+          "themes": [
+            "communication"
+          ],
+          "label": "b_pluto in a_house_3"
+        }
+      ],
+      "highlights": [
+        "a_mc conjunction b_mars"
+      ],
+      "source_factors": [
+        "24e4fb9c8cf30f288a7c",
+        "ccdac24aec5eb9121f97",
+        "96f84342892d52da32c3",
+        "264c533e317961bdb574",
+        "be7a1b7f101a22517f2b",
+        "d834167a96e7be4a6841",
+        "a65e79e035d09fca07a4",
+        "28eb474ce9196b459f09",
+        "a0faae58762e031ad353",
+        "4cbdeb6f46be20b4344d",
+        "fa5ad94bcd87c5d6f3a4",
+        "cfe2af0761cf14fa1041",
+        "70f25f69d5ae93578265",
+        "7637338fe57d451bc7a7",
+        "17d4e1776e73add7a439",
+        "8a2fbcaf9d677a30b02f",
+        "0127f74a36f09bdc41e9",
+        "aeba6b2a4d58d444848b",
+        "a1788092464ae285116f",
+        "b41963c84745e8aeb7ba",
+        "b1780e455e7e987820f6",
+        "144e9ef83143fc66a67d",
+        "15d14ba6156cb698140b",
+        "a009a0c4e8cf9c436c45",
+        "831f85c78558bc50d228",
+        "d3ad32454ec0431d9c28",
+        "d7c76ac6ab09476a02db",
+        "0940dc7f2293bf75d2c0",
+        "8eb8ac3aa4e51ff929da",
+        "223940a937124b351e86",
+        "8d7ba6a64465dfec4d26",
+        "33fe9898dd4ff2372173",
+        "0ef10b5aebc844294a68",
+        "a4587fac7e30a7031bc0",
+        "71721aa83af17346d4f9",
+        "478a0f847206cb065f4d",
+        "4812da70ca2bbffce16f",
+        "02a4977c8e8407a37db0",
+        "3f3a01417f33b31c7d38",
+        "495aded786fdd8e6a8f0",
+        "28725fff8c182a5bcf78",
+        "e5ba6da6500ba4c0b058",
+        "9e833b69a0d57c3c544c",
+        "7135475f298baec5f105",
+        "cbd27dc859573d2f9d8a",
+        "504b076b75848ed8ddf7",
+        "3cc342384c3e66730e54",
+        "519373c601e8b651bd8f",
+        "b9be856fa7003da0c5a8",
+        "41f07572110020087408",
+        "1b2e3f150162f7207644",
+        "46247ac20ed5ed5fb1da",
+        "d97d1f0f8cfe4155d7a5",
+        "36fb7f1c1197d00444f9",
+        "d14280a2c079a480685b",
+        "cf9bdb5446324a4498cb",
+        "a62984b13ed93133cbb2",
+        "84f3a70cf6e143a227a1",
+        "1e8ef34ec3a4bf276f81",
+        "5c6ebdbf8eb6957df3fb",
+        "a1f34733c208470d50a4",
+        "2209f546c11a6f915400",
+        "f0b6d11a2bea0cf23d0b",
+        "51d6a317304fb8aa9419",
+        "8ac69473b1c57de392bd",
+        "eec3ee7474bfe9806443",
+        "738dfff65bfb70e85d54",
+        "2383de7b658fd1b0839a",
+        "c937c59d841067aa65d1",
+        "4102cff8120d53a5ffb4",
+        "9f790efe76097bae8143",
+        "34c27a7a79b8af889492",
+        "9919d631c0e2ce4812ed",
+        "3d2ef8c1c2542ecb2ec0",
+        "bf9cba09c1ea5878ae74",
+        "dcd5878a51ecc3748d80",
+        "3f7dd64c9299fbe28c42",
+        "22ade3e378f59983cd16",
+        "9911aca317dad88bef0a"
+      ],
+      "warnings": [],
+      "person_a_label": "B12A Synthetic",
+      "person_b_label": "Synthetic Partner",
+      "engine_version": "1.0.0-de421",
+      "scoring_version": "synastry_score_v1",
+      "cached": true
+    },
+    "composite": {
+      "report_id": null,
+      "kind": "composite",
+      "method": "midpoint_v1",
+      "house_method": "midpoint_mc_derived_v1",
+      "chart": {
+        "kind": "composite",
+        "engine": "1.0.0-de421",
+        "engine_version": "1.0.0-de421",
+        "computed_at": "2026-09-24T10:28:37.846427Z",
+        "house_system": "equal",
+        "requested_house_system": "equal",
+        "subject": {
+          "kind": "composite",
+          "moment_utc": "1991-08-08T20:22:30Z",
+          "latitude": null,
+          "longitude": null,
+          "timezone": null,
+          "location_name": null
+        },
+        "birth_data": null,
+        "planets": [
+          {
+            "planet": "sun",
+            "sign": "leo",
+            "longitude": 136.719431,
+            "latitude": -0.000041,
+            "degree": 16,
+            "minute": 43,
+            "speed_longitude": 0.0,
+            "retrograde": false,
+            "house": 10
+          },
+          {
+            "planet": "moon",
+            "sign": "cancer",
+            "longitude": 118.283377,
+            "latitude": 0.167684,
+            "degree": 28,
+            "minute": 17,
+            "speed_longitude": 0.0,
+            "retrograde": false,
+            "house": 10
+          },
+          {
+            "planet": "mercury",
+            "sign": "aquarius",
+            "longitude": 311.025442,
+            "latitude": -1.326092,
+            "degree": 11,
+            "minute": 2,
+            "speed_longitude": 0.0,
+            "retrograde": false,
+            "house": 4
+          },
+          {
+            "planet": "venus",
+            "sign": "leo",
+            "longitude": 132.724415,
+            "latitude": -0.055121,
+            "degree": 12,
+            "minute": 43,
+            "speed_longitude": 0.0,
+            "retrograde": false,
+            "house": 10
+          },
+          {
+            "planet": "mars",
+            "sign": "taurus",
+            "longitude": 39.996081,
+            "latitude": -0.585194,
+            "degree": 9,
+            "minute": 0,
+            "speed_longitude": 0.0,
+            "retrograde": false,
+            "house": 7
+          },
+          {
+            "planet": "jupiter",
+            "sign": "leo",
+            "longitude": 143.633761,
+            "latitude": 0.861419,
+            "degree": 23,
+            "minute": 38,
+            "speed_longitude": 0.0,
+            "retrograde": false,
+            "house": 10
+          },
+          {
+            "planet": "saturn",
+            "sign": "aquarius",
+            "longitude": 304.162313,
+            "latitude": -0.44717,
+            "degree": 4,
+            "minute": 10,
+            "speed_longitude": 0.0,
+            "retrograde": false,
+            "house": 4
+          },
+          {
+            "planet": "uranus",
+            "sign": "capricorn",
+            "longitude": 282.191512,
+            "latitude": -0.366962,
+            "degree": 12,
+            "minute": 11,
+            "speed_longitude": 0.0,
+            "retrograde": false,
+            "house": 3
+          },
+          {
+            "planet": "neptune",
+            "sign": "capricorn",
+            "longitude": 285.513307,
+            "latitude": 0.781155,
+            "degree": 15,
+            "minute": 31,
+            "speed_longitude": 0.0,
+            "retrograde": false,
+            "house": 3
+          },
+          {
+            "planet": "pluto",
+            "sign": "scorpio",
+            "longitude": 229.440993,
+            "latitude": 15.040322,
+            "degree": 19,
+            "minute": 26,
+            "speed_longitude": 0.0,
+            "retrograde": false,
+            "house": 1
+          },
+          {
+            "planet": "north_node",
+            "sign": "capricorn",
+            "longitude": 287.488237,
+            "latitude": 0.0,
+            "degree": 17,
+            "minute": 29,
+            "speed_longitude": 0.0,
+            "retrograde": false,
+            "house": 3
+          },
+          {
+            "planet": "south_node",
+            "sign": "cancer",
+            "longitude": 107.488237,
+            "latitude": 0.0,
+            "degree": 17,
+            "minute": 29,
+            "speed_longitude": 0.0,
+            "retrograde": false,
+            "house": 9
+          }
+        ],
+        "houses": [
+          {
+            "number": 1,
+            "sign": "libra",
+            "cusp_longitude": 205.172559,
+            "degree": 25,
+            "minute": 10
+          },
+          {
+            "number": 2,
+            "sign": "scorpio",
+            "cusp_longitude": 235.172559,
+            "degree": 25,
+            "minute": 10
+          },
+          {
+            "number": 3,
+            "sign": "sagittarius",
+            "cusp_longitude": 265.172559,
+            "degree": 25,
+            "minute": 10
+          },
+          {
+            "number": 4,
+            "sign": "capricorn",
+            "cusp_longitude": 295.172559,
+            "degree": 25,
+            "minute": 10
+          },
+          {
+            "number": 5,
+            "sign": "aquarius",
+            "cusp_longitude": 325.172559,
+            "degree": 25,
+            "minute": 10
+          },
+          {
+            "number": 6,
+            "sign": "pisces",
+            "cusp_longitude": 355.172559,
+            "degree": 25,
+            "minute": 10
+          },
+          {
+            "number": 7,
+            "sign": "aries",
+            "cusp_longitude": 25.172559,
+            "degree": 25,
+            "minute": 10
+          },
+          {
+            "number": 8,
+            "sign": "taurus",
+            "cusp_longitude": 55.172559,
+            "degree": 25,
+            "minute": 10
+          },
+          {
+            "number": 9,
+            "sign": "gemini",
+            "cusp_longitude": 85.172559,
+            "degree": 25,
+            "minute": 10
+          },
+          {
+            "number": 10,
+            "sign": "cancer",
+            "cusp_longitude": 115.172559,
+            "degree": 25,
+            "minute": 10
+          },
+          {
+            "number": 11,
+            "sign": "leo",
+            "cusp_longitude": 145.172559,
+            "degree": 25,
+            "minute": 10
+          },
+          {
+            "number": 12,
+            "sign": "virgo",
+            "cusp_longitude": 175.172559,
+            "degree": 25,
+            "minute": 10
+          }
+        ],
+        "angles": {
+          "ascendant": 205.172559,
+          "descendant": 25.172559,
+          "midheaven": 122.07478,
+          "imum_coeli": 302.07478,
+          "ascendant_sign": "libra",
+          "descendant_sign": "aries",
+          "midheaven_sign": "leo",
+          "imum_coeli_sign": "aquarius"
+        },
+        "aspects": [
+          {
+            "first": "mercury",
+            "second": "mars",
+            "aspect": "square",
+            "nature": "challenging",
+            "orb": 1.0294,
+            "applying": false
+          },
+          {
+            "first": "mercury",
+            "second": "venus",
+            "aspect": "opposition",
+            "nature": "challenging",
+            "orb": 1.699,
+            "applying": false
+          },
+          {
+            "first": "pluto",
+            "second": "north_node",
+            "aspect": "sextile",
+            "nature": "harmonious",
+            "orb": 1.9528,
+            "applying": false
+          },
+          {
+            "first": "neptune",
+            "second": "north_node",
+            "aspect": "conjunction",
+            "nature": "neutral",
+            "orb": 1.9749,
+            "applying": false
+          },
+          {
+            "first": "mars",
+            "second": "uranus",
+            "aspect": "trine",
+            "nature": "harmonious",
+            "orb": 2.1954,
+            "applying": false
+          },
+          {
+            "first": "sun",
+            "second": "pluto",
+            "aspect": "square",
+            "nature": "challenging",
+            "orb": 2.7216,
+            "applying": false
+          },
+          {
+            "first": "venus",
+            "second": "mars",
+            "aspect": "square",
+            "nature": "challenging",
+            "orb": 2.7283,
+            "applying": false
+          },
+          {
+            "first": "uranus",
+            "second": "neptune",
+            "aspect": "conjunction",
+            "nature": "neutral",
+            "orb": 3.3218,
+            "applying": false
+          },
+          {
+            "first": "neptune",
+            "second": "pluto",
+            "aspect": "sextile",
+            "nature": "harmonious",
+            "orb": 3.9277,
+            "applying": false
+          },
+          {
+            "first": "sun",
+            "second": "venus",
+            "aspect": "conjunction",
+            "nature": "neutral",
+            "orb": 3.995,
+            "applying": false
+          },
+          {
+            "first": "jupiter",
+            "second": "pluto",
+            "aspect": "square",
+            "nature": "challenging",
+            "orb": 4.1928,
+            "applying": false
+          },
+          {
+            "first": "uranus",
+            "second": "north_node",
+            "aspect": "conjunction",
+            "nature": "neutral",
+            "orb": 5.2967,
+            "applying": false
+          },
+          {
+            "first": "mars",
+            "second": "neptune",
+            "aspect": "trine",
+            "nature": "harmonious",
+            "orb": 5.5172,
+            "applying": false
+          },
+          {
+            "first": "sun",
+            "second": "mercury",
+            "aspect": "opposition",
+            "nature": "challenging",
+            "orb": 5.694,
+            "applying": false
+          },
+          {
+            "first": "mars",
+            "second": "saturn",
+            "aspect": "square",
+            "nature": "challenging",
+            "orb": 5.8338,
+            "applying": false
+          },
+          {
+            "first": "moon",
+            "second": "saturn",
+            "aspect": "opposition",
+            "nature": "challenging",
+            "orb": 5.8789,
+            "applying": false
+          },
+          {
+            "first": "sun",
+            "second": "mars",
+            "aspect": "square",
+            "nature": "challenging",
+            "orb": 6.7233,
+            "applying": false
+          },
+          {
+            "first": "mercury",
+            "second": "saturn",
+            "aspect": "conjunction",
+            "nature": "neutral",
+            "orb": 6.8631,
+            "applying": false
+          },
+          {
+            "first": "sun",
+            "second": "jupiter",
+            "aspect": "conjunction",
+            "nature": "neutral",
+            "orb": 6.9143,
+            "applying": false
+          },
+          {
+            "first": "moon",
+            "second": "pluto",
+            "aspect": "trine",
+            "nature": "harmonious",
+            "orb": 8.8424,
+            "applying": false
+          }
+        ],
+        "elements": {
+          "fire": 3,
+          "earth": 3,
+          "air": 2,
+          "water": 2
+        },
+        "modalities": {
+          "cardinal": 3,
+          "fixed": 7,
+          "mutable": 0
+        },
+        "dominant_element": "fire",
+        "dominant_modality": "fixed",
+        "dominant_planet": "sun",
+        "big_three": {
+          "sun": "leo",
+          "moon": "cancer",
+          "ascendant": "libra"
+        },
+        "house_rulers": {
+          "1": "venus",
+          "2": "mars",
+          "3": "jupiter",
+          "4": "saturn",
+          "5": "saturn",
+          "6": "jupiter",
+          "7": "mars",
+          "8": "venus",
+          "9": "mercury",
+          "10": "moon",
+          "11": "sun",
+          "12": "mercury"
+        },
+        "warnings": []
+      },
+      "aspects": [
+        {
+          "first": "mercury",
+          "second": "mars",
+          "aspect": "square",
+          "orb": 1.0294,
+          "nature": "challenging"
+        },
+        {
+          "first": "mercury",
+          "second": "venus",
+          "aspect": "opposition",
+          "orb": 1.699,
+          "nature": "challenging"
+        },
+        {
+          "first": "pluto",
+          "second": "north_node",
+          "aspect": "sextile",
+          "orb": 1.9528,
+          "nature": "harmonious"
+        },
+        {
+          "first": "neptune",
+          "second": "north_node",
+          "aspect": "conjunction",
+          "orb": 1.9749,
+          "nature": "neutral"
+        },
+        {
+          "first": "mars",
+          "second": "uranus",
+          "aspect": "trine",
+          "orb": 2.1954,
+          "nature": "harmonious"
+        },
+        {
+          "first": "sun",
+          "second": "pluto",
+          "aspect": "square",
+          "orb": 2.7216,
+          "nature": "challenging"
+        },
+        {
+          "first": "venus",
+          "second": "mars",
+          "aspect": "square",
+          "orb": 2.7283,
+          "nature": "challenging"
+        },
+        {
+          "first": "uranus",
+          "second": "neptune",
+          "aspect": "conjunction",
+          "orb": 3.3218,
+          "nature": "neutral"
+        },
+        {
+          "first": "neptune",
+          "second": "pluto",
+          "aspect": "sextile",
+          "orb": 3.9277,
+          "nature": "harmonious"
+        },
+        {
+          "first": "sun",
+          "second": "venus",
+          "aspect": "conjunction",
+          "orb": 3.995,
+          "nature": "neutral"
+        },
+        {
+          "first": "jupiter",
+          "second": "pluto",
+          "aspect": "square",
+          "orb": 4.1928,
+          "nature": "challenging"
+        },
+        {
+          "first": "uranus",
+          "second": "north_node",
+          "aspect": "conjunction",
+          "orb": 5.2967,
+          "nature": "neutral"
+        },
+        {
+          "first": "mars",
+          "second": "neptune",
+          "aspect": "trine",
+          "orb": 5.5172,
+          "nature": "harmonious"
+        },
+        {
+          "first": "sun",
+          "second": "mercury",
+          "aspect": "opposition",
+          "orb": 5.694,
+          "nature": "challenging"
+        },
+        {
+          "first": "mars",
+          "second": "saturn",
+          "aspect": "square",
+          "orb": 5.8338,
+          "nature": "challenging"
+        },
+        {
+          "first": "moon",
+          "second": "saturn",
+          "aspect": "opposition",
+          "orb": 5.8789,
+          "nature": "challenging"
+        },
+        {
+          "first": "sun",
+          "second": "mars",
+          "aspect": "square",
+          "orb": 6.7233,
+          "nature": "challenging"
+        },
+        {
+          "first": "mercury",
+          "second": "saturn",
+          "aspect": "conjunction",
+          "orb": 6.8631,
+          "nature": "neutral"
+        },
+        {
+          "first": "sun",
+          "second": "jupiter",
+          "aspect": "conjunction",
+          "orb": 6.9143,
+          "nature": "neutral"
+        },
+        {
+          "first": "moon",
+          "second": "pluto",
+          "aspect": "trine",
+          "orb": 8.8424,
+          "nature": "harmonious"
+        }
+      ],
+      "elements": {
+        "fire": 3,
+        "earth": 3,
+        "air": 2,
+        "water": 2
+      },
+      "modalities": {
+        "cardinal": 3,
+        "fixed": 7,
+        "mutable": 0
+      },
+      "dominant_element": "fire",
+      "dominant_modality": "fixed",
+      "ambiguous_midpoints": [],
+      "warnings": [],
+      "engine_version": "1.0.0-de421",
+      "cached": true
+    },
+    "davison": {
+      "report_id": null,
+      "kind": "davison",
+      "method": "davison_utc_geodesic_v1",
+      "midpoint_utc": "1991-08-08T20:22:30Z",
+      "midpoint_latitude": 41.18257974,
+      "midpoint_longitude": 39.47024371,
+      "chart": {
+        "kind": "davison",
+        "engine": "skyfield",
+        "engine_version": "1.0.0-de421",
+        "computed_at": "2026-09-24T10:29:12.353596Z",
+        "house_system": "placidus",
+        "requested_house_system": "placidus",
+        "subject": {
+          "kind": "davison",
+          "moment_utc": "1991-08-08T20:22:30Z",
+          "latitude": 41.18257974,
+          "longitude": 39.47024371,
+          "timezone": null,
+          "location_name": null
+        },
+        "birth_data": null,
+        "planets": [
+          {
+            "planet": "sun",
+            "sign": "leo",
+            "longitude": 135.789268,
+            "latitude": 0.000084,
+            "degree": 15,
+            "minute": 47,
+            "speed_longitude": 0.95904,
+            "retrograde": false,
+            "house": 4
+          },
+          {
+            "planet": "moon",
+            "sign": "cancer",
+            "longitude": 118.265792,
+            "latitude": -0.862371,
+            "degree": 28,
+            "minute": 16,
+            "speed_longitude": 14.965226,
+            "retrograde": false,
+            "house": 3
+          },
+          {
+            "planet": "mercury",
+            "sign": "virgo",
+            "longitude": 155.876797,
+            "latitude": -3.984719,
+            "degree": 5,
+            "minute": 53,
+            "speed_longitude": -0.075248,
+            "retrograde": true,
+            "house": 5
+          },
+          {
+            "planet": "venus",
+            "sign": "virgo",
+            "longitude": 156.251804,
+            "latitude": -6.037331,
+            "degree": 6,
+            "minute": 15,
+            "speed_longitude": -0.289397,
+            "retrograde": true,
+            "house": 5
+          },
+          {
+            "planet": "mars",
+            "sign": "virgo",
+            "longitude": 165.109329,
+            "latitude": 0.905747,
+            "degree": 15,
+            "minute": 7,
+            "speed_longitude": 0.628483,
+            "retrograde": false,
+            "house": 5
+          },
+          {
+            "planet": "jupiter",
+            "sign": "leo",
+            "longitude": 142.526599,
+            "latitude": 0.754914,
+            "degree": 22,
+            "minute": 32,
+            "speed_longitude": 0.218236,
+            "retrograde": false,
+            "house": 4
+          },
+          {
+            "planet": "saturn",
+            "sign": "aquarius",
+            "longitude": 302.566361,
+            "latitude": -0.49464,
+            "degree": 2,
+            "minute": 34,
+            "speed_longitude": -0.071334,
+            "retrograde": true,
+            "house": 10
+          },
+          {
+            "planet": "uranus",
+            "sign": "capricorn",
+            "longitude": 280.511267,
+            "latitude": -0.381773,
+            "degree": 10,
+            "minute": 31,
+            "speed_longitude": -0.03041,
+            "retrograde": true,
+            "house": 9
+          },
+          {
+            "planet": "neptune",
+            "sign": "capricorn",
+            "longitude": 284.572414,
+            "latitude": 0.803345,
+            "degree": 14,
+            "minute": 34,
+            "speed_longitude": -0.022093,
+            "retrograde": true,
+            "house": 9
+          },
+          {
+            "planet": "pluto",
+            "sign": "scorpio",
+            "longitude": 227.597059,
+            "latitude": 15.061062,
+            "degree": 17,
+            "minute": 36,
+            "speed_longitude": 0.006208,
+            "retrograde": false,
+            "house": 6
+          },
+          {
+            "planet": "north_node",
+            "sign": "capricorn",
+            "longitude": 287.488237,
+            "latitude": 0.0,
+            "degree": 17,
+            "minute": 29,
+            "speed_longitude": -0.052954,
+            "retrograde": true,
+            "house": 9
+          },
+          {
+            "planet": "south_node",
+            "sign": "cancer",
+            "longitude": 107.488237,
+            "latitude": 0.0,
+            "degree": 17,
+            "minute": 29,
+            "speed_longitude": -0.052954,
+            "retrograde": true,
+            "house": 3
+          }
+        ],
+        "houses": [
+          {
+            "number": 1,
+            "sign": "taurus",
+            "cusp_longitude": 50.858851,
+            "degree": 20,
+            "minute": 52
+          },
+          {
+            "number": 2,
+            "sign": "gemini",
+            "cusp_longitude": 77.448429,
+            "degree": 17,
+            "minute": 27
+          },
+          {
+            "number": 3,
+            "sign": "cancer",
+            "cusp_longitude": 98.51457,
+            "degree": 8,
+            "minute": 31
+          },
+          {
+            "number": 4,
+            "sign": "cancer",
+            "cusp_longitude": 119.767129,
+            "degree": 29,
+            "minute": 46
+          },
+          {
+            "number": 5,
+            "sign": "leo",
+            "cusp_longitude": 145.82765,
+            "degree": 25,
+            "minute": 50
+          },
+          {
+            "number": 6,
+            "sign": "libra",
+            "cusp_longitude": 182.828094,
+            "degree": 2,
+            "minute": 50
+          },
+          {
+            "number": 7,
+            "sign": "scorpio",
+            "cusp_longitude": 230.858851,
+            "degree": 20,
+            "minute": 52
+          },
+          {
+            "number": 8,
+            "sign": "sagittarius",
+            "cusp_longitude": 257.448429,
+            "degree": 17,
+            "minute": 27
+          },
+          {
+            "number": 9,
+            "sign": "capricorn",
+            "cusp_longitude": 278.51457,
+            "degree": 8,
+            "minute": 31
+          },
+          {
+            "number": 10,
+            "sign": "capricorn",
+            "cusp_longitude": 299.767129,
+            "degree": 29,
+            "minute": 46
+          },
+          {
+            "number": 11,
+            "sign": "aquarius",
+            "cusp_longitude": 325.82765,
+            "degree": 25,
+            "minute": 50
+          },
+          {
+            "number": 12,
+            "sign": "aries",
+            "cusp_longitude": 2.828094,
+            "degree": 2,
+            "minute": 50
+          }
+        ],
+        "angles": {
+          "ascendant": 50.858851,
+          "descendant": 230.858851,
+          "midheaven": 299.767129,
+          "imum_coeli": 119.767129,
+          "ascendant_sign": "taurus",
+          "descendant_sign": "scorpio",
+          "midheaven_sign": "capricorn",
+          "imum_coeli_sign": "cancer"
+        },
+        "aspects": [
+          {
+            "first": "pluto",
+            "second": "north_node",
+            "aspect": "sextile",
+            "nature": "harmonious",
+            "orb": 0.1088,
+            "applying": false
+          },
+          {
+            "first": "mercury",
+            "second": "venus",
+            "aspect": "conjunction",
+            "nature": "neutral",
+            "orb": 0.375,
+            "applying": true
+          },
+          {
+            "first": "mars",
+            "second": "neptune",
+            "aspect": "trine",
+            "nature": "harmonious",
+            "orb": 0.5369,
+            "applying": false
+          },
+          {
+            "first": "sun",
+            "second": "pluto",
+            "aspect": "square",
+            "nature": "challenging",
+            "orb": 1.8078,
+            "applying": true
+          },
+          {
+            "first": "mars",
+            "second": "north_node",
+            "aspect": "trine",
+            "nature": "harmonious",
+            "orb": 2.3789,
+            "applying": true
+          },
+          {
+            "first": "mars",
+            "second": "pluto",
+            "aspect": "sextile",
+            "nature": "harmonious",
+            "orb": 2.4877,
+            "applying": true
+          },
+          {
+            "first": "neptune",
+            "second": "north_node",
+            "aspect": "conjunction",
+            "nature": "neutral",
+            "orb": 2.9158,
+            "applying": true
+          },
+          {
+            "first": "neptune",
+            "second": "pluto",
+            "aspect": "sextile",
+            "nature": "harmonious",
+            "orb": 3.0246,
+            "applying": false
+          },
+          {
+            "first": "uranus",
+            "second": "neptune",
+            "aspect": "conjunction",
+            "nature": "neutral",
+            "orb": 4.0611,
+            "applying": false
+          },
+          {
+            "first": "venus",
+            "second": "uranus",
+            "aspect": "trine",
+            "nature": "harmonious",
+            "orb": 4.2595,
+            "applying": false
+          },
+          {
+            "first": "moon",
+            "second": "saturn",
+            "aspect": "opposition",
+            "nature": "challenging",
+            "orb": 4.3006,
+            "applying": true
+          },
+          {
+            "first": "mars",
+            "second": "uranus",
+            "aspect": "trine",
+            "nature": "harmonious",
+            "orb": 4.5981,
+            "applying": false
+          },
+          {
+            "first": "mercury",
+            "second": "uranus",
+            "aspect": "trine",
+            "nature": "harmonious",
+            "orb": 4.6345,
+            "applying": false
+          },
+          {
+            "first": "jupiter",
+            "second": "pluto",
+            "aspect": "square",
+            "nature": "challenging",
+            "orb": 4.9295,
+            "applying": false
+          },
+          {
+            "first": "sun",
+            "second": "jupiter",
+            "aspect": "conjunction",
+            "nature": "neutral",
+            "orb": 6.7373,
+            "applying": true
+          }
+        ],
+        "elements": {
+          "fire": 2,
+          "earth": 5,
+          "air": 1,
+          "water": 2
+        },
+        "modalities": {
+          "cardinal": 3,
+          "fixed": 4,
+          "mutable": 3
+        },
+        "dominant_element": "earth",
+        "dominant_modality": "fixed",
+        "dominant_planet": "sun",
+        "big_three": {
+          "sun": "leo",
+          "moon": "cancer",
+          "ascendant": "taurus"
+        },
+        "house_rulers": {
+          "1": "venus",
+          "2": "mercury",
+          "3": "moon",
+          "4": "moon",
+          "5": "sun",
+          "6": "venus",
+          "7": "mars",
+          "8": "jupiter",
+          "9": "saturn",
+          "10": "saturn",
+          "11": "saturn",
+          "12": "mars"
+        },
+        "warnings": []
+      },
+      "warnings": [],
+      "engine_version": "1.0.0-de421",
+      "cached": true
+    },
+    "decks": [
+      {
+        "deck_type": "tarot",
+        "deck_version": "tarot_v1",
+        "item_count": 78,
+        "optional_item_count": 0,
+        "reversal_supported": true,
+        "locales": [
+          "tr",
+          "en"
+        ],
+        "back_asset_key": "tarot_back",
+        "content_note": "Meanings follow the Rider-Waite-Smith tradition. Turkish is the production locale; English carries canonical names, keywords and a one-line meaning. Azerbaijani is not authored yet.",
+        "spread_codes": [
+          "single_card",
+          "three_card",
+          "past_present_future",
+          "situation_action_outcome",
+          "love_three_card",
+          "career_three_card",
+          "celtic_cross"
+        ]
+      },
+      {
+        "deck_type": "rune",
+        "deck_version": "rune_v1",
+        "item_count": 24,
+        "optional_item_count": 1,
+        "reversal_supported": true,
+        "locales": [
+          "tr",
+          "en"
+        ],
+        "back_asset_key": "rune_back",
+        "content_note": "24 Elder Futhark runes in the traditional three aettir. A rune whose glyph is vertically symmetrical cannot be drawn reversed and therefore carries no reversed meaning - inventing one would be inventing tradition. The blank 'Odin' rune is a 20th-century addition, kept out of the canonical 24 and dealt only when enabled.",
+        "spread_codes": [
+          "single_rune",
+          "three_rune",
+          "past_present_future",
+          "situation_challenge_advice",
+          "five_rune_cross"
+        ]
+      },
+      {
+        "deck_type": "katina",
+        "deck_version": "katina_v1",
+        "item_count": 65,
+        "optional_item_count": 0,
+        "reversal_supported": false,
+        "locales": [
+          "tr"
+        ],
+        "back_asset_key": "katina_back",
+        "content_note": "All 65 meanings are PRODUCT-DEFINED, not traditional. Unlike tarot (Rider-Waite-Smith) or the Elder Futhark (the rune poems), this deck has no single documented tradition that could be verified. Some cards have transparent Turkish names whose sense follows from the word; others are proper names whose Katina-specific meaning could not be confirmed from any source. The interpretation prompt is told to present these as this deck's stated meanings, never as inherited tradition. The card list itself comes from the audited production assets. Katina has no reversal tradition, so every card is upright.",
+        "spread_codes": [
+          "single_card",
+          "three_card",
+          "relationship",
+          "seven_card",
+          "nine_card"
+        ]
+      }
+    ],
+    "tarot_spreads": [
+      {
+        "deck_type": "tarot",
+        "spread_code": "single_card",
+        "spread_version": "tarot_single_card_v1",
+        "name": "Tek Kart",
+        "origin": "traditional",
+        "card_count": 1,
+        "allow_reversed": true,
+        "positions": [
+          {
+            "index": 1,
+            "key": "focus",
+            "title": "Odak",
+            "role": "The single card that answers the question as a whole.",
+            "description": "Sorunun bütününe verilen tek yanıt."
+          }
+        ]
+      },
+      {
+        "deck_type": "tarot",
+        "spread_code": "three_card",
+        "spread_version": "tarot_three_card_v1",
+        "name": "Üç Kart",
+        "origin": "traditional",
+        "card_count": 3,
+        "allow_reversed": true,
+        "positions": [
+          {
+            "index": 1,
+            "key": "first",
+            "title": "Birinci",
+            "role": "The first thread of the situation.",
+            "description": null
+          },
+          {
+            "index": 2,
+            "key": "second",
+            "title": "İkinci",
+            "role": "The second thread.",
+            "description": null
+          },
+          {
+            "index": 3,
+            "key": "third",
+            "title": "Üçüncü",
+            "role": "The third thread.",
+            "description": null
+          }
+        ]
+      },
+      {
+        "deck_type": "tarot",
+        "spread_code": "past_present_future",
+        "spread_version": "tarot_past_present_future_v1",
+        "name": "Geçmiş - Şimdi - Gidişat",
+        "origin": "traditional",
+        "card_count": 3,
+        "allow_reversed": true,
+        "positions": [
+          {
+            "index": 1,
+            "key": "past",
+            "title": "Geçmiş",
+            "role": "What has already shaped the situation.",
+            "description": null
+          },
+          {
+            "index": 2,
+            "key": "present",
+            "title": "Şimdi",
+            "role": "Where the situation stands now.",
+            "description": null
+          },
+          {
+            "index": 3,
+            "key": "future",
+            "title": "Gidişat",
+            "role": "The direction the situation is currently tending in - a tendency, not a fixed outcome.",
+            "description": null
+          }
+        ]
+      },
+      {
+        "deck_type": "tarot",
+        "spread_code": "situation_action_outcome",
+        "spread_version": "tarot_situation_action_outcome_v1",
+        "name": "Durum - Eylem - Sonuç",
+        "origin": "traditional",
+        "card_count": 3,
+        "allow_reversed": true,
+        "positions": [
+          {
+            "index": 1,
+            "key": "situation",
+            "title": "Durum",
+            "role": "What is actually going on.",
+            "description": null
+          },
+          {
+            "index": 2,
+            "key": "action",
+            "title": "Eylem",
+            "role": "What the person can do about it.",
+            "description": null
+          },
+          {
+            "index": 3,
+            "key": "outcome",
+            "title": "Olası Sonuç",
+            "role": "Where that action tends to lead - a tendency, never a prediction.",
+            "description": null
+          }
+        ]
+      },
+      {
+        "deck_type": "tarot",
+        "spread_code": "love_three_card",
+        "spread_version": "tarot_love_three_card_v1",
+        "name": "Aşk Üçlemesi",
+        "origin": "product_defined",
+        "card_count": 3,
+        "allow_reversed": true,
+        "positions": [
+          {
+            "index": 1,
+            "key": "you",
+            "title": "Sen",
+            "role": "What the querent brings to the connection.",
+            "description": null
+          },
+          {
+            "index": 2,
+            "key": "them",
+            "title": "Diğer Kişi",
+            "role": "The dynamic the other person brings, read symbolically. This position never states what that person is doing or feeling.",
+            "description": null
+          },
+          {
+            "index": 3,
+            "key": "between",
+            "title": "Aranızdaki",
+            "role": "The dynamic between them, rather than either individual.",
+            "description": null
+          }
+        ]
+      },
+      {
+        "deck_type": "tarot",
+        "spread_code": "career_three_card",
+        "spread_version": "tarot_career_three_card_v1",
+        "name": "Kariyer Üçlemesi",
+        "origin": "product_defined",
+        "card_count": 3,
+        "allow_reversed": true,
+        "positions": [
+          {
+            "index": 1,
+            "key": "position",
+            "title": "Mevcut Durum",
+            "role": "Where work stands.",
+            "description": null
+          },
+          {
+            "index": 2,
+            "key": "obstacle",
+            "title": "Engel",
+            "role": "What is in the way.",
+            "description": null
+          },
+          {
+            "index": 3,
+            "key": "path",
+            "title": "Yol",
+            "role": "What this reading suggests considering.",
+            "description": null
+          }
+        ]
+      },
+      {
+        "deck_type": "tarot",
+        "spread_code": "celtic_cross",
+        "spread_version": "tarot_celtic_cross_v1",
+        "name": "Kelt Haçı",
+        "origin": "traditional",
+        "card_count": 10,
+        "allow_reversed": true,
+        "positions": [
+          {
+            "index": 1,
+            "key": "significator",
+            "title": "Mevcut Durum",
+            "role": "The heart of the matter as it stands.",
+            "description": null
+          },
+          {
+            "index": 2,
+            "key": "crossing",
+            "title": "Engel",
+            "role": "What crosses or complicates the matter, for better or worse.",
+            "description": null
+          },
+          {
+            "index": 3,
+            "key": "foundation",
+            "title": "Temel",
+            "role": "The root of the situation; what underlies it.",
+            "description": null
+          },
+          {
+            "index": 4,
+            "key": "recent_past",
+            "title": "Yakın Geçmiş",
+            "role": "What is passing out of the situation.",
+            "description": null
+          },
+          {
+            "index": 5,
+            "key": "conscious",
+            "title": "Bilinçli Hedef",
+            "role": "What the querent is aware of wanting or aiming at.",
+            "description": null
+          },
+          {
+            "index": 6,
+            "key": "near_future",
+            "title": "Yakın Gelecek",
+            "role": "What is coming into the situation - a tendency, not a fixed event.",
+            "description": null
+          },
+          {
+            "index": 7,
+            "key": "self",
+            "title": "Kendisi",
+            "role": "How the querent is positioned in this matter.",
+            "description": null
+          },
+          {
+            "index": 8,
+            "key": "environment",
+            "title": "Çevre",
+            "role": "The setting: people and circumstances around it.",
+            "description": null
+          },
+          {
+            "index": 9,
+            "key": "hopes_fears",
+            "title": "Umutlar ve Korkular",
+            "role": "What the querent hopes for and fears, often the same thing.",
+            "description": null
+          },
+          {
+            "index": 10,
+            "key": "outcome",
+            "title": "Gidişat",
+            "role": "Where the whole reading tends. A direction to reflect on, never a settled outcome.",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "tarot_reading": {
+      "id": "00000000-0000-4000-8000-000000000003",
+      "deck_type": "tarot",
+      "deck_version": "tarot_v1",
+      "spread_code": "single_card",
+      "spread_version": "tarot_single_card_v1",
+      "spread_name": "Tek Kart",
+      "locale": "tr",
+      "question": null,
+      "repeat_reading": false,
+      "repeat_of_id": null,
+      "rng_source": "system_csprng",
+      "drawn_at": "2026-09-24T10:35:11.449572Z",
+      "status": "drawn",
+      "items": [
+        {
+          "draw_order": 1,
+          "position_index": 1,
+          "position_key": "focus",
+          "position_title": "Odak",
+          "position_role": "The single card that answers the question as a whole.",
+          "item_id": "tarot:minor:cups:10",
+          "display_name": "Kupa Onlusu",
+          "canonical_name": "Ten of Cups",
+          "orientation": "upright",
+          "image_asset_key": "kupa_onlusu",
+          "keywords": [
+            "duygu",
+            "döngünün doruğu ve tamamlanması"
+          ],
+          "meaning": "Paylaşılan bir bütünlük; huzurlu bir bağ.",
+          "love_meaning": "",
+          "career_meaning": "",
+          "growth_meaning": "",
+          "symbolism": "Kupa serisi duygu, bağ ve içsel akış ile ilgilidir; Onlusu döngünün doruğu ve tamamlanması temasını taşır.",
+          "content_status": "traditional"
+        }
+      ],
+      "has_interpretation": false,
+      "created_at": "2026-09-24T10:35:11.450653Z"
+    },
+    "rune_spreads": [
+      {
+        "deck_type": "rune",
+        "spread_code": "single_rune",
+        "spread_version": "rune_single_rune_v1",
+        "name": "Tek Rün",
+        "origin": "traditional",
+        "card_count": 1,
+        "allow_reversed": true,
+        "positions": [
+          {
+            "index": 1,
+            "key": "focus",
+            "title": "Odak",
+            "role": "The single rune that answers the question as a whole.",
+            "description": "Sorunun bütününe verilen tek yanıt."
+          }
+        ]
+      },
+      {
+        "deck_type": "rune",
+        "spread_code": "three_rune",
+        "spread_version": "rune_three_rune_v1",
+        "name": "Üç Rün",
+        "origin": "traditional",
+        "card_count": 3,
+        "allow_reversed": true,
+        "positions": [
+          {
+            "index": 1,
+            "key": "first",
+            "title": "Birinci",
+            "role": "The first thread of the situation.",
+            "description": null
+          },
+          {
+            "index": 2,
+            "key": "second",
+            "title": "İkinci",
+            "role": "The second thread.",
+            "description": null
+          },
+          {
+            "index": 3,
+            "key": "third",
+            "title": "Üçüncü",
+            "role": "The third thread.",
+            "description": null
+          }
+        ]
+      },
+      {
+        "deck_type": "rune",
+        "spread_code": "past_present_future",
+        "spread_version": "rune_past_present_future_v1",
+        "name": "Geçmiş - Şimdi - Gidişat",
+        "origin": "traditional",
+        "card_count": 3,
+        "allow_reversed": true,
+        "positions": [
+          {
+            "index": 1,
+            "key": "past",
+            "title": "Geçmiş",
+            "role": "What has already shaped the situation.",
+            "description": null
+          },
+          {
+            "index": 2,
+            "key": "present",
+            "title": "Şimdi",
+            "role": "Where the situation stands now.",
+            "description": null
+          },
+          {
+            "index": 3,
+            "key": "future",
+            "title": "Gidişat",
+            "role": "The direction the situation is currently tending in - a tendency, not a fixed outcome.",
+            "description": null
+          }
+        ]
+      },
+      {
+        "deck_type": "rune",
+        "spread_code": "situation_challenge_advice",
+        "spread_version": "rune_situation_challenge_advice_v1",
+        "name": "Durum - Zorluk - Öneri",
+        "origin": "traditional",
+        "card_count": 3,
+        "allow_reversed": true,
+        "positions": [
+          {
+            "index": 1,
+            "key": "situation",
+            "title": "Durum",
+            "role": "What is actually going on.",
+            "description": null
+          },
+          {
+            "index": 2,
+            "key": "challenge",
+            "title": "Zorluk",
+            "role": "What makes this difficult.",
+            "description": null
+          },
+          {
+            "index": 3,
+            "key": "advice",
+            "title": "Öneri",
+            "role": "What this reading suggests considering.",
+            "description": null
+          }
+        ]
+      },
+      {
+        "deck_type": "rune",
+        "spread_code": "five_rune_cross",
+        "spread_version": "rune_five_rune_cross_v1",
+        "name": "Beş Rün Haçı",
+        "origin": "traditional",
+        "card_count": 5,
+        "allow_reversed": true,
+        "positions": [
+          {
+            "index": 1,
+            "key": "overview",
+            "title": "Genel Durum",
+            "role": "The situation as a whole.",
+            "description": null
+          },
+          {
+            "index": 2,
+            "key": "challenge",
+            "title": "Zorluk",
+            "role": "What resists or complicates it.",
+            "description": null
+          },
+          {
+            "index": 3,
+            "key": "past_influence",
+            "title": "Geçmiş Etki",
+            "role": "What has been shaping it.",
+            "description": null
+          },
+          {
+            "index": 4,
+            "key": "advice",
+            "title": "Öneri",
+            "role": "What this reading suggests considering.",
+            "description": null
+          },
+          {
+            "index": 5,
+            "key": "direction",
+            "title": "Gidişat",
+            "role": "Where it tends. A tendency, not a fixed outcome.",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "rune_reading": {
+      "id": "00000000-0000-4000-8000-000000000004",
+      "deck_type": "rune",
+      "deck_version": "rune_v1",
+      "spread_code": "single_rune",
+      "spread_version": "rune_single_rune_v1",
+      "spread_name": "Tek Rün",
+      "locale": "tr",
+      "question": null,
+      "repeat_reading": false,
+      "repeat_of_id": null,
+      "rng_source": "system_csprng",
+      "drawn_at": "2026-09-24T10:35:11.588174Z",
+      "status": "drawn",
+      "items": [
+        {
+          "draw_order": 1,
+          "position_index": 1,
+          "position_key": "focus",
+          "position_title": "Odak",
+          "position_role": "The single rune that answers the question as a whole.",
+          "item_id": "rune:tyr:07:dagaz",
+          "display_name": "Dagaz",
+          "canonical_name": "Dagaz",
+          "orientation": "upright",
+          "image_asset_key": "dagaz",
+          "keywords": [
+            "şafak",
+            "atılım",
+            "dönüm",
+            "netleşme"
+          ],
+          "meaning": "Karanlıkla aydınlık arasındaki dönüm anı. Aniden yerine oturan bir kavrayış.",
+          "love_meaning": "",
+          "career_meaning": "",
+          "growth_meaning": "",
+          "symbolism": "Gün doğumu: iki hâl arasındaki eşik. Simetrik olduğu için ters düşmez.",
+          "content_status": "traditional"
+        }
+      ],
+      "has_interpretation": false,
+      "created_at": "2026-09-24T10:35:11.589067Z"
+    },
+    "katina_spreads": [
+      {
+        "deck_type": "katina",
+        "spread_code": "single_card",
+        "spread_version": "katina_single_card_v1",
+        "name": "Tek Kart",
+        "origin": "product_defined",
+        "card_count": 1,
+        "allow_reversed": false,
+        "positions": [
+          {
+            "index": 1,
+            "key": "focus",
+            "title": "Odak",
+            "role": "The single card that answers the question as a whole.",
+            "description": null
+          }
+        ]
+      },
+      {
+        "deck_type": "katina",
+        "spread_code": "three_card",
+        "spread_version": "katina_three_card_v1",
+        "name": "Üç Kart",
+        "origin": "product_defined",
+        "card_count": 3,
+        "allow_reversed": false,
+        "positions": [
+          {
+            "index": 1,
+            "key": "past",
+            "title": "Geçmiş",
+            "role": "What has already shaped the situation.",
+            "description": null
+          },
+          {
+            "index": 2,
+            "key": "present",
+            "title": "Şimdi",
+            "role": "Where the situation stands now.",
+            "description": null
+          },
+          {
+            "index": 3,
+            "key": "future",
+            "title": "Gidişat",
+            "role": "The direction the situation is currently tending in - a tendency, not a fixed outcome.",
+            "description": null
+          }
+        ]
+      },
+      {
+        "deck_type": "katina",
+        "spread_code": "relationship",
+        "spread_version": "katina_relationship_v1",
+        "name": "İlişki Açılımı",
+        "origin": "product_defined",
+        "card_count": 5,
+        "allow_reversed": false,
+        "positions": [
+          {
+            "index": 1,
+            "key": "you",
+            "title": "Sen",
+            "role": "What the querent brings to the connection.",
+            "description": null
+          },
+          {
+            "index": 2,
+            "key": "them",
+            "title": "Diğer Kişi",
+            "role": "The dynamic the other person brings, read symbolically. This position never states what that person is doing or feeling.",
+            "description": null
+          },
+          {
+            "index": 3,
+            "key": "bond",
+            "title": "Bağ",
+            "role": "What is between them, rather than either individual.",
+            "description": null
+          },
+          {
+            "index": 4,
+            "key": "obstacle",
+            "title": "Engel",
+            "role": "What makes this harder.",
+            "description": null
+          },
+          {
+            "index": 5,
+            "key": "direction",
+            "title": "Gidişat",
+            "role": "Where the connection tends. A tendency, not a prediction.",
+            "description": null
+          }
+        ]
+      },
+      {
+        "deck_type": "katina",
+        "spread_code": "seven_card",
+        "spread_version": "katina_seven_card_v1",
+        "name": "Yedi Kart",
+        "origin": "product_defined",
+        "card_count": 7,
+        "allow_reversed": false,
+        "positions": [
+          {
+            "index": 1,
+            "key": "situation",
+            "title": "Durum",
+            "role": "What is actually going on.",
+            "description": null
+          },
+          {
+            "index": 2,
+            "key": "past",
+            "title": "Geçmiş",
+            "role": "What has shaped it.",
+            "description": null
+          },
+          {
+            "index": 3,
+            "key": "present",
+            "title": "Şimdi",
+            "role": "Where it stands now.",
+            "description": null
+          },
+          {
+            "index": 4,
+            "key": "hidden",
+            "title": "Görünmeyen",
+            "role": "What has not been said or noticed yet.",
+            "description": null
+          },
+          {
+            "index": 5,
+            "key": "support",
+            "title": "Destek",
+            "role": "What helps here.",
+            "description": null
+          },
+          {
+            "index": 6,
+            "key": "obstacle",
+            "title": "Engel",
+            "role": "What is in the way.",
+            "description": null
+          },
+          {
+            "index": 7,
+            "key": "direction",
+            "title": "Gidişat",
+            "role": "Where it tends. A tendency, not a settled outcome.",
+            "description": null
+          }
+        ]
+      },
+      {
+        "deck_type": "katina",
+        "spread_code": "nine_card",
+        "spread_version": "katina_nine_card_v1",
+        "name": "Dokuz Kart",
+        "origin": "product_defined",
+        "card_count": 9,
+        "allow_reversed": false,
+        "positions": [
+          {
+            "index": 1,
+            "key": "self",
+            "title": "Kendisi",
+            "role": "How the querent stands in this matter.",
+            "description": null
+          },
+          {
+            "index": 2,
+            "key": "home",
+            "title": "Ev ve Yakın Çevre",
+            "role": "The immediate surroundings.",
+            "description": null
+          },
+          {
+            "index": 3,
+            "key": "feeling",
+            "title": "Duygu",
+            "role": "The emotional weather of the situation.",
+            "description": null
+          },
+          {
+            "index": 4,
+            "key": "past",
+            "title": "Geçmiş",
+            "role": "What has shaped it.",
+            "description": null
+          },
+          {
+            "index": 5,
+            "key": "present",
+            "title": "Şimdi",
+            "role": "Where it stands.",
+            "description": null
+          },
+          {
+            "index": 6,
+            "key": "hidden",
+            "title": "Görünmeyen",
+            "role": "What has not been said or noticed yet.",
+            "description": null
+          },
+          {
+            "index": 7,
+            "key": "obstacle",
+            "title": "Engel",
+            "role": "What resists.",
+            "description": null
+          },
+          {
+            "index": 8,
+            "key": "support",
+            "title": "Destek",
+            "role": "What helps.",
+            "description": null
+          },
+          {
+            "index": 9,
+            "key": "direction",
+            "title": "Gidişat",
+            "role": "Where it tends. A tendency, never a settled outcome.",
+            "description": null
+          }
+        ]
+      }
+    ],
+    "katina_reading": {
+      "id": "00000000-0000-4000-8000-000000000005",
+      "deck_type": "katina",
+      "deck_version": "katina_v1",
+      "spread_code": "single_card",
+      "spread_version": "katina_single_card_v1",
+      "spread_name": "Tek Kart",
+      "locale": "tr",
+      "question": null,
+      "repeat_reading": false,
+      "repeat_of_id": null,
+      "rng_source": "system_csprng",
+      "drawn_at": "2026-09-24T10:35:11.698909Z",
+      "status": "drawn",
+      "items": [
+        {
+          "draw_order": 1,
+          "position_index": 1,
+          "position_key": "focus",
+          "position_title": "Odak",
+          "position_role": "The single card that answers the question as a whole.",
+          "item_id": "katina:35:kalp",
+          "display_name": "Kalp",
+          "canonical_name": "Kalp",
+          "orientation": "upright",
+          "image_asset_key": "kalp",
+          "keywords": [
+            "sevgi",
+            "duygu",
+            "yakınlık",
+            "samimiyet"
+          ],
+          "meaning": "Duygunun merkezde olduğu bir durum. Samimiyet ve bağlanma.",
+          "love_meaning": "Açık ve gerçek bir duygu.",
+          "career_meaning": "",
+          "growth_meaning": "Duygusal yakınlığın belirleyici olduğu bir bağ.",
+          "symbolism": "Duyguyu tek başına yeterli saymak.",
+          "content_status": "product_defined"
+        }
+      ],
+      "has_interpretation": false,
+      "created_at": "2026-09-24T10:35:11.699963Z"
+    },
+    "ai_status": {
+      "configured": false,
+      "provider": "openai",
+      "context_version": "context_selection_v1",
+      "prompt_versions": {
+        "astro_chat": "astro_chat_v1",
+        "natal_report": "natal_report_v1",
+        "transit_interpretation": "transit_interpretation_v1",
+        "daily_interpretation": "daily_interpretation_v1",
+        "weekly_interpretation": "weekly_interpretation_v1",
+        "monthly_forecast": "monthly_forecast_v1",
+        "annual_forecast": "annual_forecast_v1",
+        "horary_interpretation": "horary_interpretation_v1",
+        "synastry_report": "synastry_report_v1",
+        "composite_report": "composite_report_v1",
+        "davison_report": "davison_report_v1",
+        "tarot_interpretation": "tarot_interpretation_v1",
+        "rune_interpretation": "rune_interpretation_v1",
+        "katina_interpretation": "katina_interpretation_v1",
+        "conversation_summary": "conversation_summary_v1",
+        "conversation_title": "conversation_title_v1"
+      },
+      "locales": [
+        "tr",
+        "az",
+        "en"
+      ],
+      "models": {
+        "low_cost": "gpt-5.6-luna",
+        "standard": "gpt-5.6-terra",
+        "premium": "gpt-5.6-sol"
+      },
+      "fallback": {
+        "chat": true,
+        "summary": true,
+        "report": false
+      },
+      "diagnostic": "OPENAI_API_KEY is not set on this server."
+    },
+    "ai_conversation": {
+      "id": "00000000-0000-4000-8000-000000000006",
+      "title": "Synthetic contract test",
+      "locale": "tr",
+      "message_count": 0,
+      "archived": false,
+      "has_summary": false,
+      "created_at": "2026-09-24T10:35:11.821014Z",
+      "updated_at": "2026-09-24T10:35:11.821022Z"
+    },
+    "expert_search": {
+      "items": [
+        {
+          "id": "00000000-0000-4000-8000-000000000007",
+          "display_name": "Smoke Astro",
+          "headline": null,
+          "avatar_key": null,
+          "languages": [
+            "en",
+            "tr"
+          ],
+          "specialties": [
+            "astrology",
+            "synastry"
+          ],
+          "experience_years": 10,
+          "verified": true,
+          "rating_average": 5.0,
+          "rating_count": 1,
+          "from_price": {
+            "amount_minor": 15000,
+            "currency": "TRY"
+          },
+          "is_favorite": false
+        }
+      ],
+      "total": 2,
+      "limit": 1,
+      "offset": 0
+    },
+    "ai_unavailable": {
+      "code": "ai_not_configured",
+      "status": 503
+    }
+  }
+}

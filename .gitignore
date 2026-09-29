@@ -1,0 +1,101 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/android/build/
+/ios/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Astrofrekans specific
+# Original master artwork + raw generations (655 MB). Keep them out of git;
+# they are archived separately. Runtime assets under assets/** are committed.
+assets/masters/
+work/
+
+# backend secrets and local data
+backend/.env
+backend/.venv/
+backend/data/ephemeris/*.bsp
+backend/**/__pycache__/
+backend/.pytest_cache/
+
+# Firebase credentials. A service-account key is the whole project; it belongs
+# in the deployment's secret store and never in a commit. Named broadly on
+# purpose - the usual way one of these lands in a repository is a file somebody
+# downloaded and left in the working tree.
+**/serviceAccount*.json
+**/service-account*.json
+**/firebase-adminsdk*.json
+backend/firebase-credentials*.json
+backend/.secrets/
+backend/secrets/
+
+# Any environment file, anywhere (B13A audit: a root `.env` was not covered).
+# Only the placeholder template is committed.
+.env
+**/.env
+**/.env.*
+!**/.env.example
+# Private keys in PEM form (APNs/App Store keys are covered as *.p8 below).
+**/*.pem
+**/*.key
+
+# Firebase mobile config. Not secret in the same way, but they are generated
+# per project and a stale or wrong one is worse than none - so they arrive from
+# the build, not from git.
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+lib/firebase_options.dart
+.firebase/
+firebase-debug.log
+
+# Store credentials (B11). App Store Connect API keys (.p8) and Play Console
+# service accounts are whole-account keys; they live in the secret store.
+**/AuthKey_*.p8
+**/*.p8
+**/play-service-account*.json
+**/google-play*.json
+backend/apple-root-certs/
+
+# Firebase rules test harness dependencies (B13C).
+firebase/rules-tests/node_modules/

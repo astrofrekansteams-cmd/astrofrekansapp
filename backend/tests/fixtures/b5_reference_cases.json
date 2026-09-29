@@ -1,0 +1,218 @@
+{
+  "$comment": [
+    "Reference cases for phase B5 (horary, synastry, composite, Davison).",
+    "",
+    "The same honesty rule as the B4 fixtures applies:",
+    "  * verified_independently = true  -> the expected value comes from an",
+    "    outside authority: a published traditional table (Lilly's dignities,",
+    "    the classical rulerships) or plain arithmetic that anyone can redo by",
+    "    hand (circular midpoints, UTC midpoints, spherical midpoints).",
+    "  * verified_independently = false -> produced by this engine and only",
+    "    sanity-checked. They guard against accidental change; they are NOT",
+    "    evidence of correctness. Comparing them with an independent",
+    "    calculator is a pre-launch task.",
+    "",
+    "No entry here was created by running our own engine and then calling the",
+    "result 'verified'."
+  ],
+  "rulership_table": {
+    "source": "Ptolemy, Tetrabiblos I.17; William Lilly, Christian Astrology (1647), p. 57.",
+    "verified_independently": true,
+    "domiciles": {
+      "aries": "mars",
+      "taurus": "venus",
+      "gemini": "mercury",
+      "cancer": "moon",
+      "leo": "sun",
+      "virgo": "mercury",
+      "libra": "venus",
+      "scorpio": "mars",
+      "sagittarius": "jupiter",
+      "capricorn": "saturn",
+      "aquarius": "saturn",
+      "pisces": "jupiter"
+    },
+    "exaltations": {
+      "sun": ["aries", 19],
+      "moon": ["taurus", 3],
+      "mercury": ["virgo", 15],
+      "venus": ["pisces", 27],
+      "mars": ["capricorn", 28],
+      "jupiter": ["cancer", 15],
+      "saturn": ["libra", 21]
+    },
+    "falls": {
+      "sun": "libra",
+      "moon": "scorpio",
+      "mercury": "pisces",
+      "venus": "virgo",
+      "mars": "cancer",
+      "jupiter": "capricorn",
+      "saturn": "aries"
+    }
+  },
+  "egyptian_terms": {
+    "source": "Egyptian terms as tabulated in Lilly, Christian Astrology, p. 104.",
+    "verified_independently": true,
+    "samples": [
+      {"sign": "aries", "degree": 3, "ruler": "jupiter"},
+      {"sign": "aries", "degree": 8, "ruler": "venus"},
+      {"sign": "aries", "degree": 15, "ruler": "mercury"},
+      {"sign": "aries", "degree": 22, "ruler": "mars"},
+      {"sign": "aries", "degree": 28, "ruler": "saturn"},
+      {"sign": "cancer", "degree": 3, "ruler": "mars"},
+      {"sign": "libra", "degree": 20, "ruler": "jupiter"}
+    ]
+  },
+  "chaldean_faces": {
+    "source": "Chaldean order of the faces (decans); Lilly, Christian Astrology, p. 105.",
+    "verified_independently": true,
+    "samples": [
+      {"sign": "aries", "degree": 5, "ruler": "mars"},
+      {"sign": "aries", "degree": 15, "ruler": "sun"},
+      {"sign": "aries", "degree": 25, "ruler": "venus"},
+      {"sign": "taurus", "degree": 5, "ruler": "mercury"},
+      {"sign": "gemini", "degree": 5, "ruler": "jupiter"},
+      {"sign": "libra", "degree": 25, "ruler": "jupiter"}
+    ]
+  },
+  "dorothean_triplicities": {
+    "source": "Dorotheus of Sidon, Carmen Astrologicum; day/night/participating rulers as used by Lilly.",
+    "verified_independently": true,
+    "samples": [
+      {"element": "fire", "day": "sun", "night": "jupiter"},
+      {"element": "earth", "day": "venus", "night": "moon"},
+      {"element": "air", "day": "saturn", "night": "mercury"},
+      {"element": "water", "day": "venus", "night": "mars"}
+    ]
+  },
+  "accidental_dignity_thresholds": {
+    "source": "Lilly, Christian Astrology, pp. 113-115.",
+    "verified_independently": true,
+    "cazimi_degrees": 0.2833,
+    "combust_degrees": 8.5,
+    "under_beams_degrees": 17.0,
+    "angular_houses": [1, 4, 7, 10]
+  },
+  "derived_houses": {
+    "source": "Standard turned-house arithmetic: the Nth house from a house, counting the house itself as the first.",
+    "verified_independently": true,
+    "samples": [
+      {"base": 7, "offset": 2, "expected": 8, "meaning": "partner's money"},
+      {"base": 7, "offset": 10, "expected": 4, "meaning": "partner's career"},
+      {"base": 5, "offset": 7, "expected": 11, "meaning": "child's partner"},
+      {"base": 1, "offset": 1, "expected": 1, "meaning": "the querent themselves"},
+      {"base": 12, "offset": 3, "expected": 2, "meaning": "wraps around the wheel"}
+    ]
+  },
+  "circular_midpoints": {
+    "source": "Arithmetic on a circle; each case can be checked by hand.",
+    "verified_independently": true,
+    "samples": [
+      {"a": 359.0, "b": 1.0, "expected": 0.0, "note": "the wrap-around trap"},
+      {"a": 10.0, "b": 30.0, "expected": 20.0},
+      {"a": 350.0, "b": 20.0, "expected": 5.0},
+      {"a": 100.0, "b": 200.0, "expected": 150.0},
+      {"a": 300.0, "b": 60.0, "expected": 0.0},
+      {"a": 0.0, "b": 180.0, "expected": 90.0, "ambiguous": true,
+       "note": "exactly opposite: two equally valid midpoints, one chosen deterministically and flagged"}
+    ]
+  },
+  "geographic_midpoints": {
+    "source": "Spherical (great-circle) midpoint; values computed from the standard formula and checkable with any geodesy tool.",
+    "verified_independently": true,
+    "samples": [
+      {
+        "a": [0.0, 179.0], "b": [0.0, -179.0],
+        "expected": [0.0, 180.0], "tolerance": 0.01,
+        "note": "the date line: a naive average would say 0 degrees longitude, in Africa"
+      },
+      {
+        "a": [0.0, 0.0], "b": [0.0, 90.0],
+        "expected": [0.0, 45.0], "tolerance": 0.01,
+        "note": "equator, simple case"
+      },
+      {
+        "a": [45.0, 0.0], "b": [-45.0, 0.0],
+        "expected": [0.0, 0.0], "tolerance": 0.01,
+        "note": "northern and southern hemisphere cancel out"
+      },
+      {
+        "a": [0.0, 0.0], "b": [0.0, 180.0],
+        "degenerate": true,
+        "note": "antipodal: no unique midpoint, must be flagged rather than guessed"
+      }
+    ]
+  },
+  "utc_midpoints": {
+    "source": "Plain instant arithmetic in UTC.",
+    "verified_independently": true,
+    "samples": [
+      {
+        "a": "2020-01-01T00:00:00+00:00",
+        "b": "2020-01-03T00:00:00+00:00",
+        "expected": "2020-01-02T00:00:00+00:00"
+      },
+      {
+        "a": "1992-05-14T14:30:00+03:00",
+        "b": "1994-08-21T09:45:00+01:00",
+        "expected": "1993-07-02T22:07:30+00:00",
+        "note": "different offsets: converted to UTC first, never averaged as local wall clocks"
+      },
+      {
+        "a": "2026-03-08T01:30:00-05:00",
+        "b": "2026-03-08T04:30:00-04:00",
+        "expected": "2026-03-08T07:30:00+00:00",
+        "note": "across a US DST transition; both sides are unambiguous in UTC"
+      }
+    ]
+  },
+  "synastry_geometry": {
+    "source": "Angular separation arithmetic: the aspect between two given longitudes is fixed by the numbers, independent of any engine.",
+    "verified_independently": true,
+    "samples": [
+      {"a_longitude": 10.0, "b_longitude": 130.0, "expected_aspect": "trine", "expected_orb": 0.0},
+      {"a_longitude": 10.0, "b_longitude": 100.5, "expected_aspect": "square", "expected_orb": 0.5},
+      {"a_longitude": 350.0, "b_longitude": 10.0, "expected_aspect": "conjunction", "expected_orb": 20.0,
+       "out_of_orb": true, "note": "20 degrees is outside every synastry orb"},
+      {"a_longitude": 0.0, "b_longitude": 182.0, "expected_aspect": "opposition", "expected_orb": 2.0},
+      {"a_longitude": 0.0, "b_longitude": 61.5, "expected_aspect": "sextile", "expected_orb": 1.5}
+    ]
+  },
+  "charts": [
+    {
+      "id": "person_a_istanbul_1992",
+      "verified_independently": false,
+      "verification_note": "Engine output; compare with an independent calculator before launch.",
+      "input": {
+        "birth_date": "1992-05-14",
+        "birth_time": "14:30:00",
+        "timezone": "Europe/Istanbul",
+        "latitude": 41.0082,
+        "longitude": 28.9784,
+        "house_system": "placidus"
+      }
+    },
+    {
+      "id": "person_b_london_1994",
+      "verified_independently": false,
+      "verification_note": "Engine output; compare with an independent calculator before launch.",
+      "input": {
+        "birth_date": "1994-08-21",
+        "birth_time": "09:45:00",
+        "timezone": "Europe/London",
+        "latitude": 51.5074,
+        "longitude": -0.1278,
+        "house_system": "placidus"
+      }
+    }
+  ],
+  "davison_pair": {
+    "verified_independently": false,
+    "verification_note": "The midpoint instant and coordinates below follow from the two charts above by arithmetic that IS independently checkable (see utc_midpoints and geographic_midpoints); the resulting chart positions are engine output.",
+    "expected_midpoint_utc": "1993-07-02T22:07:30+00:00",
+    "expected_latitude": 47.1814,
+    "expected_longitude": 15.853,
+    "tolerance_degrees": 0.01
+  }
+}

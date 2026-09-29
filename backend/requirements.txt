@@ -1,0 +1,62 @@
+# --- API ---------------------------------------------------------------
+fastapi==0.141.1
+uvicorn[standard]==0.53.0
+pydantic[email]==2.13.5
+email-validator==2.3.0
+pydantic-settings==2.15.0
+python-multipart==0.0.32
+
+# --- Database ----------------------------------------------------------
+SQLAlchemy==2.0.54
+alembic==1.20.0
+asyncpg==0.31.0
+greenlet==3.5.6
+
+# --- Cache / rate limiting --------------------------------------------
+redis==8.1.0
+
+# --- Security ----------------------------------------------------------
+PyJWT==2.14.0
+argon2-cffi==25.1.0
+
+# --- Astronomy ---------------------------------------------------------
+# Swiss Ephemeris (pyswisseph) is AGPL-3.0: hosting it would force source
+# disclosure or a commercial licence. Skyfield is MIT and reads the
+# public-domain JPL DE ephemerides, so the engine is built on it.
+skyfield==1.55
+numpy==2.5.3
+
+# --- Geocoding / timezone ---------------------------------------------
+timezonefinder==9.0.0
+# IANA database: Windows and slim Linux images have no system tzdata.
+tzdata==2025.2
+httpx==0.28.1
+
+# --- Observability -----------------------------------------------------
+structlog==26.1.0
+python-dotenv==1.2.3
+
+# Firebase Admin SDK: identity verification, Firestore, Realtime Database,
+# Cloud Storage and FCM. Pins httpx==0.28.1, which is the version already in
+# use here - checked before adding, because a forced httpx change would have
+# moved the test client underneath every existing suite.
+#
+# Note for anyone reading FCM code: send_multicast() and send_all() were
+# removed in 7.x. send_each_for_multicast() is the current API.
+firebase-admin==7.6.0
+
+# LiveKit server SDK (B10): join tokens, room service, webhook verification.
+# Verified against the installed 1.2.1 source. Brings aiohttp and protobuf; it
+# uses PyJWT, which is already here. No media flows through this process.
+livekit-api==1.2.1
+
+# Apple's official App Store Server Library (B11): StoreKit 2 JWS verification
+# against Apple's root certificates, App Store Server API, Server
+# Notifications V2. Verified against the installed 3.1.2 source. Brings
+# pyOpenSSL, cattrs and asn1; uses PyJWT and cryptography already here.
+app-store-server-library==3.1.2
+
+# OpenAI SDK used by app/services/ai/openai_provider.py (AI_PROVIDER=openai).
+# It was installed in local venvs but missing here, so Docker images could
+# not generate any AI report. Pinned to the version the tests run against.
+openai==3.19.0

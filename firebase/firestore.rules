@@ -1,0 +1,95 @@
+rules_version = '2';
+
+// Astrofrekans Firestore security rules.
+//
+// ## What these rules are, and are not
+//
+// They are **defence in depth**, not the business rules. Whether somebody may
+// talk to an expert depends on an order's state, the expert's suspension
+// status, a completion grace period and the service catalogue - none of which
+// Firestore can see. FastAPI decides that; these rules make sure a client
+// cannot reach around it.
+//
+// ## The shape
+//
+// Clients **read** and never **write**. Every message goes through the backend,
+// which means:
+//
+//   - the only rule that permits anything is a read, for members
+//   - `conversations/*` documents are written exclusively by the Admin SDK,
+//     which bypasses rules entirely
+//   - a client cannot create a conversation, add itself as a member, forge a
+//     sender, or edit anybody's message - there is no write path at all
+//
+// That is a much smaller surface to be right about than a rule set which has to
+// re-derive "may this person speak right now" from projected data.
+//
+// There is no permissive fallback anywhere in this file. The final match block
+// denies everything that earlier blocks did not explicitly allow.
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ---------------------------------------------------------------- helpers
+
+    function isSignedIn() {
+      return request.auth != null && request.auth.uid != null;
+    }
+
+    // Membership comes from the backend-written projection. A client cannot
+    // create or modify this document, so it cannot add itself.
+    function conversationDoc(conversationId) {
+      return get(
+        /databases/$(database)/documents/conversations/$(conversationId)
+      ).data;
+    }
+
+    function isMember(conversationId) {
+      return isSignedIn()
+        && exists(/databases/$(database)/documents/conversations/$(conversationId))
+        && request.auth.uid in conversationDoc(conversationId).memberUids;
+    }
+
+    // A suspended thread is readable by nobody until moderation lifts it.
+    function isReadableStatus(conversationId) {
+      return conversationDoc(conversationId).status != 'suspended';
+    }
+
+    // ---------------------------------------------------------- conversations
+
+    match /conversations/{conversationId} {
+      // A member may see who is in the thread and whether it is live. The
+      // document deliberately carries nothing else - no order total, no consent
+      // scopes, no birth data - because a document a client can subscribe to is
+      // a document a client can read.
+      allow get, list: if isMember(conversationId);
+
+      // Written only by the Admin SDK, which is not subject to these rules.
+      // Spelled out rather than omitted, so the intent survives a future edit.
+      allow create, update, delete: if false;
+
+      // ------------------------------------------------------------ messages
+
+      match /messages/{messageId} {
+        // Realtime receive. This is the whole point of using Firestore here.
+        allow get, list: if isMember(conversationId)
+                         && isReadableStatus(conversationId);
+
+        // Sending goes through POST /conversations/{id}/messages. The backend
+        // checks order state, expert suspension, the completion grace period,
+        // message limits, attachment readiness and idempotency - none of which
+        // is expressible here. Allowing client writes would mean trusting a
+        // rule set that cannot see any of it.
+        allow create, update, delete: if false;
+      }
+    }
+
+    // ------------------------------------------------------------- catch-all
+
+    // Everything not matched above is denied. No `allow read, write: if true`
+    // exists in any environment, including the emulator.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

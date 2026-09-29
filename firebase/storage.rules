@@ -1,0 +1,97 @@
+rules_version = '2';
+
+// Astrofrekans Cloud Storage rules: chat attachments only.
+//
+// ## Why direct client upload at all
+//
+// Proxying a phone photo through the API would double the bytes on the wire and
+// put a multi-megabyte upload on a request worker. So the client uploads
+// straight to Storage - but only after the backend has authorised it and issued
+// the one path it may write.
+//
+// These rules enforce the same three constraints the backend does. Neither is
+// trusted alone:
+//
+//   1. The path is server-derived: chat/{conversationId}/{attachmentId}/...
+//      A client cannot invent a conversation id it is not a member of, and
+//      cannot choose the filename.
+//   2. Size and content type are capped here as well as at finalisation,
+//      because a rule that runs before the bytes land is the only thing that
+//      stops a 4 GB upload.
+//   3. Overwrite is forbidden. An attachment that could be replaced after
+//      finalisation would let somebody swap the image an expert already saw.
+//
+// Membership is read from the Firestore projection the backend writes. A client
+// cannot modify that document, so it cannot grant itself access.
+//
+// There is no permissive default. The final match denies everything else.
+
+service firebase.storage {
+  match /b/{bucket}/o {
+
+    // ---------------------------------------------------------------- helpers
+
+    function isSignedIn() {
+      return request.auth != null && request.auth.uid != null;
+    }
+
+    function isMember(conversationId) {
+      return isSignedIn()
+        && firestore.exists(/databases/(default)/documents/conversations/$(conversationId))
+        && request.auth.uid in firestore.get(
+             /databases/(default)/documents/conversations/$(conversationId)
+           ).data.memberUids;
+    }
+
+    // A suspended or closed thread accepts no new uploads.
+    function isWritableConversation(conversationId) {
+      return firestore.get(
+        /databases/(default)/documents/conversations/$(conversationId)
+      ).data.status == 'active';
+    }
+
+    function isAllowedImage() {
+      return request.resource.contentType in [
+        'image/jpeg',
+        'image/png',
+        'image/webp'
+      ];
+    }
+
+    function isWithinSizeLimit() {
+      // 8 MiB, matching ATTACHMENT_MAX_BYTES. Checked here because this runs
+      // before the object is stored; finalisation checks the stored object.
+      return request.resource.size > 0 && request.resource.size <= 8 * 1024 * 1024;
+    }
+
+    // ------------------------------------------------------ chat attachments
+
+    match /chat/{conversationId}/{attachmentId}/{fileName} {
+      // Both parties may see what was shared in their own conversation.
+      allow read: if isMember(conversationId);
+
+      // Create only - never update. `resource == null` is what makes this a
+      // first write: an attachment cannot be swapped after the other party
+      // has seen it.
+      allow create: if isMember(conversationId)
+                    && isWritableConversation(conversationId)
+                    && resource == null
+                    && isAllowedImage()
+                    && isWithinSizeLimit();
+
+      allow update: if false;
+
+      // Deletion is the backend's job: it happens when an attachment is
+      // rejected or its intent expires, and it is paired with the metadata row.
+      allow delete: if false;
+    }
+
+    // ------------------------------------------------------------- catch-all
+
+    // Nothing else is writable or readable by a client. No
+    // `allow read, write: if true` exists in any environment.
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

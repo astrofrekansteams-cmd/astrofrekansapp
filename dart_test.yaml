@@ -1,0 +1,6 @@
+tags:
+  # Design preview renders. They depend on the host font rendering, so they are
+  # skipped in normal runs:
+  #   flutter test test/preview_capture_test.dart --update-goldens
+  preview:
+    skip: "design preview - run explicitly with --update-goldens"

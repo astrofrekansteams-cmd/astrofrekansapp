@@ -1,0 +1,20 @@
+{
+  "provenance": "Schema-derived examples, NOT live provider output. backend/app/schemas/ai.py and marketplace.py; docs/ai_reports.md",
+  "ai_report": {
+    "id": "00000000-0000-4000-8000-000000000001", "report_type": "natal", "source_type": "natal", "source_id": null,
+    "locale": "tr", "status": "completed", "title": "Örnek rapor", "summary": "Sözleşme örneği",
+    "sections": [{"key": "overview", "title": "Genel bakış", "body": "Sentetik test metni.", "factor_ids": ["natal:planet:sun"], "general_summary": false}],
+    "warnings": ["birth_time_unknown"], "interpretation_scope": "reflection", "safety_note": null,
+    "prompt_version": "natal_report_v1", "context_version": "context_selection_v1", "engine_version": "fixture",
+    "provider": "fixture", "model": "fixture", "cached": false, "created_at": "2026-09-24T10:00:00Z"
+  },
+  "ai_message": {
+    "id": "00000000-0000-4000-8000-000000000002", "role": "assistant", "content": "Yarım kalan örnek",
+    "context_type": "natal", "source_factor_ids": ["natal:planet:sun"], "completion_status": "partial", "created_at": "2026-09-24T10:00:00Z"
+  },
+  "expert": {
+    "id": "00000000-0000-4000-8000-000000000003", "display_name": "Synthetic Expert", "headline": null, "avatar_key": null,
+    "languages": ["tr", "en"], "specialties": ["astrology"], "experience_years": 5, "verified": false,
+    "rating_average": 4.8, "rating_count": 12, "from_price": {"amount_minor": 1999, "currency": "TRY"}, "is_favorite": false
+  }
+}

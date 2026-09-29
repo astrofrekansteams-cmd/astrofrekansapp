@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+data/ephemeris/*.bsp
+tests/
+
+# Service-account and key files are mounted at runtime, never sent to the
+# build context.
+secrets/

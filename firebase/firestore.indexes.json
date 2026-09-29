@@ -1,0 +1,35 @@
+{
+  "//": [
+    "Composite indexes Firestore needs for the queries this backend runs.",
+    "Kept in version control so a deploy cannot succeed with a query that will",
+    "fail at runtime for want of an index.",
+    "",
+    "History pagination orders messages by createdAt descending within one",
+    "conversation's subcollection. The single-field index Firestore creates",
+    "automatically covers that, so no composite entry is needed for it.",
+    "",
+    "The idempotency lookup filters on clientMessageId and takes one result.",
+    "An equality filter on a single field is also automatic. The composite",
+    "below exists for the combination the backend uses when it needs the most",
+    "recent message from a given sender, which is not automatic."
+  ],
+  "indexes": [
+    {
+      "collectionGroup": "messages",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "senderUid", "order": "ASCENDING" },
+        { "fieldPath": "createdAt", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "messages",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "clientMessageId", "order": "ASCENDING" },
+        { "fieldPath": "createdAt", "order": "DESCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

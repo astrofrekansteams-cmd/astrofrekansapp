@@ -1,0 +1,2515 @@
+{
+ "deck_type": "katina",
+ "deck_version": "katina_v1",
+ "locales": [
+  "tr"
+ ],
+ "reversal_supported": false,
+ "back_asset_key": "katina_back",
+ "content_note": "All 65 meanings are PRODUCT-DEFINED, not traditional. Unlike tarot (Rider-Waite-Smith) or the Elder Futhark (the rune poems), this deck has no single documented tradition that could be verified. Some cards have transparent Turkish names whose sense follows from the word; others are proper names whose Katina-specific meaning could not be confirmed from any source. The interpretation prompt is told to present these as this deck's stated meanings, never as inherited tradition. The card list itself comes from the audited production assets. Katina has no reversal tradition, so every card is upright.",
+ "items": [
+  {
+   "item_id": "katina:01:adhamdeva",
+   "image_asset_key": "adhamdeva",
+   "canonical_name": "Adhamdeva",
+   "number": 1,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Adhamdeva",
+     "keywords": [
+      "eski bağ",
+      "gizli etki",
+      "köken"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Kökeni geride kalan bir etki. Bugünü şekillendiren ama adı konmamış bir geçmiş.",
+     "reversed_meaning": "",
+     "love_meaning": "Geçmişten taşınan bir duygunun bugünkü bağa karışması.",
+     "career_meaning": "",
+     "growth_meaning": "İlişkiye dışarıdan taşınmış eski bir alışkanlık.",
+     "symbolism": "Adı konmamış bir etkiyi görmezden gelmek."
+    },
+    "en": {
+     "display_name": "Adhamdeva",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:02:afyon",
+   "image_asset_key": "afyon",
+   "canonical_name": "Afyon",
+   "number": 2,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Afyon",
+     "keywords": [
+      "uyuşma",
+      "kaçış",
+      "erteleme"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Gerçeği yumuşatan bir kaçış. Fark edilmesi geciken bir uyuşukluk.",
+     "reversed_meaning": "",
+     "love_meaning": "Duyguyu hissetmek yerine uyuşturma eğilimi.",
+     "career_meaning": "",
+     "growth_meaning": "Yüzleşmenin ertelendiği bir bağ.",
+     "symbolism": "Rahatlatanın aynı zamanda körelttiği durum."
+    },
+    "en": {
+     "display_name": "Afyon",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:03:agac",
+   "image_asset_key": "agac",
+   "canonical_name": "Ağaç",
+   "number": 3,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Ağaç",
+     "keywords": [
+      "kök",
+      "büyüme",
+      "sağlamlık",
+      "zaman"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Zamanla kurulan sağlamlık. Acele etmeyen, kökünden beslenen bir büyüme.",
+     "reversed_meaning": "",
+     "love_meaning": "Yavaş ama derinleşen bir bağ.",
+     "career_meaning": "",
+     "growth_meaning": "Sabırla güçlenen, köklenmiş bir ilişki.",
+     "symbolism": "Büyümeyi zorlamak kökü zayıflatır."
+    },
+    "en": {
+     "display_name": "Ağaç",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:04:albanoz",
+   "image_asset_key": "albanoz",
+   "canonical_name": "Albanoz",
+   "number": 4,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Albanoz",
+     "keywords": [
+      "nadir olan",
+      "değer",
+      "sağlamlık"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Kolay bulunmayan ve kıymeti sonradan anlaşılan bir şey.",
+     "reversed_meaning": "",
+     "love_meaning": "Sıradan görünüp değeri sonradan fark edilen bir yakınlık.",
+     "career_meaning": "",
+     "growth_meaning": "Nadirliği gözden kaçan bir bağ.",
+     "symbolism": "Elindekinin değerini geç fark etme riski."
+    },
+    "en": {
+     "display_name": "Albanoz",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:05:alyans",
+   "image_asset_key": "alyans",
+   "canonical_name": "Alyans",
+   "number": 5,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Alyans",
+     "keywords": [
+      "bağlılık",
+      "söz",
+      "birleşme",
+      "resmiyet"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Verilen bir söz ve onu görünür kılan bağ. Resmileşen bir birliktelik.",
+     "reversed_meaning": "",
+     "love_meaning": "Ciddileşen, adı konan bir ilişki.",
+     "career_meaning": "",
+     "growth_meaning": "Karşılıklı taahhüt ve süreklilik isteği.",
+     "symbolism": "Sözün, arkasındaki duygudan daha hızlı verilmesi."
+    },
+    "en": {
+     "display_name": "Alyans",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:06:anahtar",
+   "image_asset_key": "anahtar",
+   "canonical_name": "Anahtar",
+   "number": 6,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Anahtar",
+     "keywords": [
+      "çözüm",
+      "erişim",
+      "fırsat",
+      "sır"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Kapalı olanı açan şey. Elde olan ama henüz kullanılmamış bir imkân.",
+     "reversed_meaning": "",
+     "love_meaning": "İlişkide anlaşılmayı sağlayacak olan söz ya da adım.",
+     "career_meaning": "",
+     "growth_meaning": "Kilitli görünen bir durumun çözümü elde.",
+     "symbolism": "Doğru anahtarı yanlış kapıda denemek."
+    },
+    "en": {
+     "display_name": "Anahtar",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:07:aral",
+   "image_asset_key": "aral",
+   "canonical_name": "Aral",
+   "number": 7,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Aral",
+     "keywords": [
+      "çekilme",
+      "azalma",
+      "mesafe"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Geri çekilen bir şey: yavaş yavaş azalan bir kaynak ya da yakınlık.",
+     "reversed_meaning": "",
+     "love_meaning": "Farkına varılmadan açılan bir mesafe.",
+     "career_meaning": "",
+     "growth_meaning": "Yavaş yavaş seyrelen bir bağ.",
+     "symbolism": "Azalmayı fark etmekte geç kalmak."
+    },
+    "en": {
+     "display_name": "Aral",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:08:ariman",
+   "image_asset_key": "ariman",
+   "canonical_name": "Ariman",
+   "number": 8,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Ariman",
+     "keywords": [
+      "karşıt güç",
+      "engel",
+      "gölge"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Karşıya çıkan bir direnç. Görünmeyen ama etkisi hissedilen bir karşıtlık.",
+     "reversed_meaning": "",
+     "love_meaning": "İlişkiye dışarıdan gelen bir zorlama.",
+     "career_meaning": "",
+     "growth_meaning": "Bağı sınayan bir karşıtlık.",
+     "symbolism": "Karşıtlığı kişiselleştirmek."
+    },
+    "en": {
+     "display_name": "Ariman",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:09:assyranta",
+   "image_asset_key": "assyranta",
+   "canonical_name": "Assyranta",
+   "number": 9,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Assyranta",
+     "keywords": [
+      "uzak haber",
+      "beklenti",
+      "dolaylı etki"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Uzaktan gelen ve doğrudan olmayan bir etki. Beklemeyi gerektiren bir gelişme.",
+     "reversed_meaning": "",
+     "love_meaning": "Uzaktan sürdürülen ya da dolaylı ilerleyen bir yakınlık.",
+     "career_meaning": "",
+     "growth_meaning": "Mesafeli ama sürmekte olan bir bağ.",
+     "symbolism": "Dolaylı gelen bilgiye kesinlik atfetmek."
+    },
+    "en": {
+     "display_name": "Assyranta",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:10:attart",
+   "image_asset_key": "attart",
+   "canonical_name": "Attart",
+   "number": 10,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Attart",
+     "keywords": [
+      "direnç",
+      "sertlik",
+      "sınır"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Esnemeyen bir tutum. Sınırın sert biçimde çizildiği bir durum.",
+     "reversed_meaning": "",
+     "love_meaning": "Katılaşan bir tavır; yumuşamayan bir taraf.",
+     "career_meaning": "",
+     "growth_meaning": "İki tarafın da geri adım atmadığı bir gerilim.",
+     "symbolism": "Sertliğin güçle karıştırılması."
+    },
+    "en": {
+     "display_name": "Attart",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:11:ay",
+   "image_asset_key": "ay",
+   "canonical_name": "Ay",
+   "number": 11,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Ay",
+     "keywords": [
+      "belirsizlik",
+      "sezgi",
+      "gizli olan",
+      "değişim"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Net görünmeyen bir alan. Sezgiye güvenmek ama acele yorumlamamak gereken dönem.",
+     "reversed_meaning": "",
+     "love_meaning": "Söylenmeyenlerin belirleyici olduğu bir yakınlık.",
+     "career_meaning": "",
+     "growth_meaning": "Açıklık kazanmamış, dalgalanan bir bağ.",
+     "symbolism": "Belirsizliği kesin bir anlamla doldurmak."
+    },
+    "en": {
+     "display_name": "Ay",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:12:bahceler",
+   "image_asset_key": "bahceler",
+   "canonical_name": "Bahçeler",
+   "number": 12,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Bahçeler",
+     "keywords": [
+      "bolluk",
+      "sosyal alan",
+      "emeğin karşılığı"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Bakımla büyüyen ve karşılığını veren alan. Sosyal ortam ve paylaşım.",
+     "reversed_meaning": "",
+     "love_meaning": "Birlikte kurulan ve beslenen bir alan.",
+     "career_meaning": "",
+     "growth_meaning": "Ortak emekle büyüyen bir ilişki.",
+     "symbolism": "Bakımsız bırakılan şeyin hızla yabanileşmesi."
+    },
+    "en": {
+     "display_name": "Bahçeler",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:13:balik",
+   "image_asset_key": "balik",
+   "canonical_name": "Balık",
+   "number": 13,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Balık",
+     "keywords": [
+      "bolluk",
+      "akış",
+      "fırsat",
+      "kayganlık"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Akışta olan bir imkân. Yakalanabilir ama elde tutulması kolay olmayan bir şey.",
+     "reversed_meaning": "",
+     "love_meaning": "Akışkan, kolay ama tutması zor bir yakınlık.",
+     "career_meaning": "",
+     "growth_meaning": "Rahat akan ama netleşmeyen bir bağ.",
+     "symbolism": "Kaygan olanı sıkı tutmaya çalışmak."
+    },
+    "en": {
+     "display_name": "Balık",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:14:baykus",
+   "image_asset_key": "baykus",
+   "canonical_name": "Baykuş",
+   "number": 14,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Baykuş",
+     "keywords": [
+      "gözlem",
+      "bilgelik",
+      "gece",
+      "uyarı"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Sessizce izleyen bilgi. Görülmeyeni gören bir dikkat.",
+     "reversed_meaning": "",
+     "love_meaning": "Dile getirilmeyen ama fark edilen bir durum.",
+     "career_meaning": "",
+     "growth_meaning": "Sezilen ama konuşulmayan bir mesele.",
+     "symbolism": "Uyarıyı kehanet sanmak."
+    },
+    "en": {
+     "display_name": "Baykuş",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:15:bedes",
+   "image_asset_key": "bedes",
+   "canonical_name": "Bedes",
+   "number": 15,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Bedes",
+     "keywords": [
+      "takas",
+      "pazarlık",
+      "değer"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Bir şeyin karşılığında bir şey verilmesi. Değerin konuşulduğu bir durum.",
+     "reversed_meaning": "",
+     "love_meaning": "Karşılıklılığın tartıldığı bir yakınlık.",
+     "career_meaning": "",
+     "growth_meaning": "Verilenle alınanın dengesi meselesi.",
+     "symbolism": "Her şeyi karşılığıyla ölçmek."
+    },
+    "en": {
+     "display_name": "Bedes",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:16:bulutlar",
+   "image_asset_key": "bulutlar",
+   "canonical_name": "Bulutlar",
+   "number": 16,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Bulutlar",
+     "keywords": [
+      "geçici karışıklık",
+      "belirsizlik",
+      "geçiş"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Görüşü kapatan ama geçici olan bir durum. Beklemek netleştirir.",
+     "reversed_meaning": "",
+     "love_meaning": "Geçici bir soğuma ya da anlaşılmazlık.",
+     "career_meaning": "",
+     "growth_meaning": "Geçmesi beklenen bir gerginlik.",
+     "symbolism": "Geçici olanı kalıcı sanmak."
+    },
+    "en": {
+     "display_name": "Bulutlar",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:17:cilekler",
+   "image_asset_key": "cilekler",
+   "canonical_name": "Çilekler",
+   "number": 17,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Çilekler",
+     "keywords": [
+      "küçük sevinç",
+      "tatlılık",
+      "kısa süreli"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Kısa ama gerçek bir keyif. Küçük ve mevsimlik bir güzellik.",
+     "reversed_meaning": "",
+     "love_meaning": "Hafif, keyifli ve iddiasız bir yakınlık.",
+     "career_meaning": "",
+     "growth_meaning": "Neşeli ama henüz derinleşmemiş bir bağ.",
+     "symbolism": "Kısa süreliden kalıcılık beklemek."
+    },
+    "en": {
+     "display_name": "Çilekler",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:18:dag",
+   "image_asset_key": "dag",
+   "canonical_name": "Dağ",
+   "number": 18,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Dağ",
+     "keywords": [
+      "engel",
+      "zorluk",
+      "dayanıklılık",
+      "perspektif"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Aşılması emek isteyen bir engel. Tırmandıkça görüşü açan bir zorluk.",
+     "reversed_meaning": "",
+     "love_meaning": "Sabır isteyen, kolay olmayan bir süreç.",
+     "career_meaning": "",
+     "growth_meaning": "Zorlukla sınanan ama sağlamlaşabilen bir bağ.",
+     "symbolism": "Engeli tek başına aşmaya çalışmak."
+    },
+    "en": {
+     "display_name": "Dağ",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:19:dare",
+   "image_asset_key": "dare",
+   "canonical_name": "Dare",
+   "number": 19,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Dare",
+     "keywords": [
+      "dönüş",
+      "tekrar",
+      "döngü"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Geri dönen bir durum. Daha önce yaşanmış olanın yeniden gündeme gelmesi.",
+     "reversed_meaning": "",
+     "love_meaning": "Tekrar eden bir örüntü.",
+     "career_meaning": "",
+     "growth_meaning": "Aynı meselenin yeniden açılması.",
+     "symbolism": "Tekrarı kader sanıp aynı şeyi yapmak."
+    },
+    "en": {
+     "display_name": "Dare",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:20:dastar",
+   "image_asset_key": "dastar",
+   "canonical_name": "Dastar",
+   "number": 20,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Dastar",
+     "keywords": [
+      "örtü",
+      "saklanan",
+      "koruma"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Örtülmüş bir şey. Hem korunan hem görünmeyen bir alan.",
+     "reversed_meaning": "",
+     "love_meaning": "Açıkça konuşulmayan bir duygu.",
+     "career_meaning": "",
+     "growth_meaning": "Saklanan bir düşüncenin bağa etkisi.",
+     "symbolism": "Korumak için örtmenin uzaklaştırması."
+    },
+    "en": {
+     "display_name": "Dastar",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:21:dervis",
+   "image_asset_key": "dervis",
+   "canonical_name": "Derviş",
+   "number": 21,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Derviş",
+     "keywords": [
+      "sadelik",
+      "yolculuk",
+      "vazgeçiş",
+      "içe dönüş"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Fazlalıktan arınma. İçsel bir yolculuk ve sadeleşme.",
+     "reversed_meaning": "",
+     "love_meaning": "İddiasız, gösterişsiz bir yakınlık.",
+     "career_meaning": "",
+     "growth_meaning": "Sadeleşmeye ihtiyaç duyan bir ilişki.",
+     "symbolism": "Vazgeçişi kaçışla karıştırmak."
+    },
+    "en": {
+     "display_name": "Derviş",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:22:deste",
+   "image_asset_key": "deste",
+   "canonical_name": "Deste",
+   "number": 22,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Deste",
+     "keywords": [
+      "birikim",
+      "çokluk",
+      "bir arada"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Bir araya gelmiş olan. Tek tek küçük ama toplamı anlamlı şeyler.",
+     "reversed_meaning": "",
+     "love_meaning": "Zamanla biriken küçük jestler.",
+     "career_meaning": "",
+     "growth_meaning": "Ufak şeylerin topladığı bir bağ.",
+     "symbolism": "Toplamı görmeyip tek tek küçümsemek."
+    },
+    "en": {
+     "display_name": "Deste",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:23:deve",
+   "image_asset_key": "deve",
+   "canonical_name": "Deve",
+   "number": 23,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Deve",
+     "keywords": [
+      "dayanıklılık",
+      "uzun yol",
+      "sabır",
+      "taşıma"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Uzun ve zorlu bir yolu taşıyabilme. Kaynağı idareli kullanma.",
+     "reversed_meaning": "",
+     "love_meaning": "Uzun soluklu, sabır isteyen bir bağ.",
+     "career_meaning": "",
+     "growth_meaning": "Mesafeye ve zamana dayanan bir ilişki.",
+     "symbolism": "Taşıma kapasitesini sınırsız sanmak."
+    },
+    "en": {
+     "display_name": "Deve",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:24:elmas",
+   "image_asset_key": "elmas",
+   "canonical_name": "Elmas",
+   "number": 24,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Elmas",
+     "keywords": [
+      "değer",
+      "dayanıklılık",
+      "netlik",
+      "kalıcılık"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Basınç altında oluşmuş, kalıcı bir değer. Kolay elde edilmeyen sağlamlık.",
+     "reversed_meaning": "",
+     "love_meaning": "Zorluktan geçerek sağlamlaşmış bir bağ.",
+     "career_meaning": "",
+     "growth_meaning": "Kıymeti sınanmış bir ilişki.",
+     "symbolism": "Sertliği duygusuzlukla karıştırmak."
+    },
+    "en": {
+     "display_name": "Elmas",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:25:eprahhat",
+   "image_asset_key": "eprahhat",
+   "canonical_name": "Eprahhat",
+   "number": 25,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Eprahhat",
+     "keywords": [
+      "duyuru",
+      "resmi haber",
+      "kayıt"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Resmiyeti olan bir bildirim. Kayda geçen ve geri alınması zor bir şey.",
+     "reversed_meaning": "",
+     "love_meaning": "Açıkça beyan edilen bir niyet.",
+     "career_meaning": "",
+     "growth_meaning": "İlişkide resmileşen bir adım.",
+     "symbolism": "Kayda geçenin geri alınamayacağını unutmak."
+    },
+    "en": {
+     "display_name": "Eprahhat",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:26:ev",
+   "image_asset_key": "ev",
+   "canonical_name": "Ev",
+   "number": 26,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Ev",
+     "keywords": [
+      "yuva",
+      "güven",
+      "aile",
+      "kök"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Ait olunan yer. Güvenlik, aile ve yerleşiklik.",
+     "reversed_meaning": "",
+     "love_meaning": "Birlikte kurulan ya da kurulması düşünülen bir yuva.",
+     "career_meaning": "",
+     "growth_meaning": "Aile ve ortak yaşam meselesi.",
+     "symbolism": "Güvenliği hareketsizlikle karıştırmak."
+    },
+    "en": {
+     "display_name": "Ev",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:27:fareler",
+   "image_asset_key": "fareler",
+   "canonical_name": "Fareler",
+   "number": 27,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Fareler",
+     "keywords": [
+      "aşınma",
+      "küçük kayıplar",
+      "dikkat"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Fark edilmeden eksilen bir şey. Küçük ama biriken kayıplar.",
+     "reversed_meaning": "",
+     "love_meaning": "Küçük kırgınlıkların sessizce birikmesi.",
+     "career_meaning": "",
+     "growth_meaning": "Dile getirilmeyen ufak meselelerin aşındırması.",
+     "symbolism": "Küçük olduğu için önemsememek."
+    },
+    "en": {
+     "display_name": "Fareler",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:28:gamhat",
+   "image_asset_key": "gamhat",
+   "canonical_name": "Gamhat",
+   "number": 28,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Gamhat",
+     "keywords": [
+      "yük",
+      "iç sıkıntı",
+      "ağırlık"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Taşınan ama paylaşılmayan bir ağırlık. Dışarıdan görünmeyen bir yük.",
+     "reversed_meaning": "",
+     "love_meaning": "İçte tutulan bir üzüntünün bağa yansıması.",
+     "career_meaning": "",
+     "growth_meaning": "Paylaşılmadığı için ağırlaşan bir mesele.",
+     "symbolism": "Yükü tek başına taşımayı erdem sanmak."
+    },
+    "en": {
+     "display_name": "Gamhat",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:29:gunes",
+   "image_asset_key": "gunes",
+   "canonical_name": "Güneş",
+   "number": 29,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Güneş",
+     "keywords": [
+      "açıklık",
+      "canlılık",
+      "başarı",
+      "görünürlük"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Açık ve görünür olan. Saklanacak bir şeyin kalmadığı bir dönem.",
+     "reversed_meaning": "",
+     "love_meaning": "Açıklık ve sıcaklık kazanan bir yakınlık.",
+     "career_meaning": "",
+     "growth_meaning": "Görünür ve rahat bir ilişki.",
+     "symbolism": "Her şeyi aydınlatmanın gölgeye yer bırakmaması."
+    },
+    "en": {
+     "display_name": "Güneş",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:30:hac",
+   "image_asset_key": "hac",
+   "canonical_name": "Haç",
+   "number": 30,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Haç",
+     "keywords": [
+      "sınav",
+      "yük",
+      "inanç",
+      "kavşak"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Taşınması gereken bir sorumluluk ya da bir kavşak noktası.",
+     "reversed_meaning": "",
+     "love_meaning": "İlişkide bir sınav ya da karar noktası.",
+     "career_meaning": "",
+     "growth_meaning": "Bağın sınandığı bir eşik.",
+     "symbolism": "Yükü anlamlandırmadan taşımak."
+    },
+    "en": {
+     "display_name": "Haç",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:31:hesse",
+   "image_asset_key": "hesse",
+   "canonical_name": "Hesse",
+   "number": 31,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Hesse",
+     "keywords": [
+      "hesap",
+      "değerlendirme",
+      "sonuç"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Yapılanın toplanması. Bir muhasebe ve sonuç çıkarma anı.",
+     "reversed_meaning": "",
+     "love_meaning": "İlişkide bir muhasebe dönemi.",
+     "career_meaning": "",
+     "growth_meaning": "Verilenle alınanın gözden geçirilmesi.",
+     "symbolism": "Muhasebeyi suçlamaya çevirmek."
+    },
+    "en": {
+     "display_name": "Hesse",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:32:isfahan",
+   "image_asset_key": "isfahan",
+   "canonical_name": "İsfahan",
+   "number": 32,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "İsfahan",
+     "keywords": [
+      "uzak yer",
+      "zarafet",
+      "emek işi"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Uzakta olan ve emekle kurulmuş bir güzellik. İnce işçilik.",
+     "reversed_meaning": "",
+     "love_meaning": "İnceliğin fark edildiği bir yakınlık.",
+     "career_meaning": "",
+     "growth_meaning": "Özenle kurulan bir bağ.",
+     "symbolism": "Özeni gösteriş sanmak."
+    },
+    "en": {
+     "display_name": "İsfahan",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:33:kale",
+   "image_asset_key": "kale",
+   "canonical_name": "Kale",
+   "number": 33,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Kale",
+     "keywords": [
+      "koruma",
+      "savunma",
+      "güç",
+      "kapalılık"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Sağlam bir savunma. Korunaklı ama aynı zamanda kapalı bir yapı.",
+     "reversed_meaning": "",
+     "love_meaning": "Kendini koruyan, kolay açılmayan bir taraf.",
+     "career_meaning": "",
+     "growth_meaning": "Güvenli ama mesafeli bir bağ.",
+     "symbolism": "Surların içeriyi de hapsetmesi."
+    },
+    "en": {
+     "display_name": "Kale",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:34:kalif",
+   "image_asset_key": "kalif",
+   "canonical_name": "Kalif",
+   "number": 34,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Kalif",
+     "keywords": [
+      "yetki",
+      "karar mercii",
+      "sorumluluk"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Karar verme yetkisi olan bir konum. Sözün ağırlık taşıdığı bir durum.",
+     "reversed_meaning": "",
+     "love_meaning": "İlişkide kararın bir tarafta toplanması.",
+     "career_meaning": "",
+     "growth_meaning": "Yetki ve sorumluluk dengesi meselesi.",
+     "symbolism": "Yetkiyi tek taraflı kullanmak."
+    },
+    "en": {
+     "display_name": "Kalif",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:35:kalp",
+   "image_asset_key": "kalp",
+   "canonical_name": "Kalp",
+   "number": 35,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Kalp",
+     "keywords": [
+      "sevgi",
+      "duygu",
+      "yakınlık",
+      "samimiyet"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Duygunun merkezde olduğu bir durum. Samimiyet ve bağlanma.",
+     "reversed_meaning": "",
+     "love_meaning": "Açık ve gerçek bir duygu.",
+     "career_meaning": "",
+     "growth_meaning": "Duygusal yakınlığın belirleyici olduğu bir bağ.",
+     "symbolism": "Duyguyu tek başına yeterli saymak."
+    },
+    "en": {
+     "display_name": "Kalp",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:36:kapi",
+   "image_asset_key": "kapi",
+   "canonical_name": "Kapı",
+   "number": 36,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Kapı",
+     "keywords": [
+      "eşik",
+      "fırsat",
+      "giriş",
+      "seçim"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Bir eşik. Açılan ya da kapanan bir imkân ve önündeki seçim.",
+     "reversed_meaning": "",
+     "love_meaning": "Yeni bir aşamaya geçme imkânı.",
+     "career_meaning": "",
+     "growth_meaning": "İlişkide bir eşiğin önünde durmak.",
+     "symbolism": "Açık kapıyı sonsuza kadar açık sanmak."
+    },
+    "en": {
+     "display_name": "Kapı",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:37:kitap",
+   "image_asset_key": "kitap",
+   "canonical_name": "Kitap",
+   "number": 37,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Kitap",
+     "keywords": [
+      "bilgi",
+      "öğrenme",
+      "kayıt",
+      "gizli bilgi"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Öğrenilecek ya da henüz okunmamış bir bilgi.",
+     "reversed_meaning": "",
+     "love_meaning": "Henüz anlaşılmamış bir taraf.",
+     "career_meaning": "",
+     "growth_meaning": "Öğrenmeyi gerektiren bir bağ.",
+     "symbolism": "Kapalı kitabı okumuş gibi davranmak."
+    },
+    "en": {
+     "display_name": "Kitap",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:38:kiz_cocugu",
+   "image_asset_key": "kiz_cocugu",
+   "canonical_name": "Kız Çocuğu",
+   "number": 38,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Kız Çocuğu",
+     "keywords": [
+      "masumiyet",
+      "yeni başlangıç",
+      "saflık",
+      "haber"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Yeni ve henüz şekillenmemiş bir şey. Taze bir başlangıç.",
+     "reversed_meaning": "",
+     "love_meaning": "Yeni filizlenen, korunması gereken bir duygu.",
+     "career_meaning": "",
+     "growth_meaning": "Başlangıç aşamasındaki bir bağ.",
+     "symbolism": "Yeni olanı olgun sanmak."
+    },
+    "en": {
+     "display_name": "Kız Çocuğu",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:39:kopek",
+   "image_asset_key": "kopek",
+   "canonical_name": "Köpek",
+   "number": 39,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Köpek",
+     "keywords": [
+      "sadakat",
+      "dostluk",
+      "koruma",
+      "güven"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Sınanmış bir sadakat. Yanında duran ve güvenilen biri.",
+     "reversed_meaning": "",
+     "love_meaning": "Güvenilir ve istikrarlı bir yakınlık.",
+     "career_meaning": "",
+     "growth_meaning": "Sadakatin belirleyici olduğu bir bağ.",
+     "symbolism": "Sadakati sorgusuz itaat beklemeye çevirmek."
+    },
+    "en": {
+     "display_name": "Köpek",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:40:mektup",
+   "image_asset_key": "mektup",
+   "canonical_name": "Mektup",
+   "number": 40,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Mektup",
+     "keywords": [
+      "haber",
+      "bildirim",
+      "iletişim",
+      "bekleyen söz"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Gelen ya da gönderilmeyi bekleyen bir haber. Söylenmesi gereken bir söz.",
+     "reversed_meaning": "",
+     "love_meaning": "Açıklanmayı bekleyen bir duygu.",
+     "career_meaning": "",
+     "growth_meaning": "İletişimin çözüm getireceği bir durum.",
+     "symbolism": "Gelmeyen habere anlam yüklemek."
+    },
+    "en": {
+     "display_name": "Mektup",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:41:mezar",
+   "image_asset_key": "mezar",
+   "canonical_name": "Mezar",
+   "number": 41,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Mezar",
+     "keywords": [
+      "bitiş",
+      "kapanış",
+      "geçmiş",
+      "yas"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Gerçekten biten bir şey. Kapanması ve ardından yer açılması gereken bir dönem.",
+     "reversed_meaning": "",
+     "love_meaning": "Kapanan bir dönem ya da bitmiş bir duygu.",
+     "career_meaning": "",
+     "growth_meaning": "Sonlanmış olanın kabul edilmesi.",
+     "symbolism": "Biteni sürdürmeye çalışmak."
+    },
+    "en": {
+     "display_name": "Mezar",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:42:mida",
+   "image_asset_key": "mida",
+   "canonical_name": "Mida",
+   "number": 42,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Mida",
+     "keywords": [
+      "ölçü",
+      "denge",
+      "yeterlilik"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Ne kadarın yeterli olduğunu bilmek. Ölçünün kendisi.",
+     "reversed_meaning": "",
+     "love_meaning": "Ne fazla ne eksik olan bir yakınlık.",
+     "career_meaning": "",
+     "growth_meaning": "Dengenin korunması gereken bir bağ.",
+     "symbolism": "Ölçüyü kaçırmanın fark edilmemesi."
+    },
+    "en": {
+     "display_name": "Mida",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:43:munzur",
+   "image_asset_key": "munzur",
+   "canonical_name": "Munzur",
+   "number": 43,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Munzur",
+     "keywords": [
+      "kaynak",
+      "saflık",
+      "sürekli akış"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Kesintisiz akan bir kaynak. Saf ve kendini yenileyen bir şey.",
+     "reversed_meaning": "",
+     "love_meaning": "Kendini tazeleyen bir yakınlık.",
+     "career_meaning": "",
+     "growth_meaning": "Sürekliliği olan bir bağ.",
+     "symbolism": "Kaynağın sonsuz olduğunu varsaymak."
+    },
+    "en": {
+     "display_name": "Munzur",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:44:nil_nehri",
+   "image_asset_key": "nil_nehri",
+   "canonical_name": "Nil Nehri",
+   "number": 44,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Nil Nehri",
+     "keywords": [
+      "bereket",
+      "uzun akış",
+      "döngü",
+      "taşkın"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Uzun bir akış ve düzenli dönen bir bereket. Zamanı olan bir döngü.",
+     "reversed_meaning": "",
+     "love_meaning": "Zamanla derinleşen ve mevsimleri olan bir bağ.",
+     "career_meaning": "",
+     "growth_meaning": "Kendi ritmi olan bir ilişki.",
+     "symbolism": "Taşkını beklememek."
+    },
+    "en": {
+     "display_name": "Nil Nehri",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:45:parsadra",
+   "image_asset_key": "parsadra",
+   "canonical_name": "Parsadra",
+   "number": 45,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Parsadra",
+     "keywords": [
+      "ayrışma",
+      "bölünme",
+      "iki yol"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "İkiye ayrılan bir durum. Bir arada duranın ayrışmaya başlaması.",
+     "reversed_meaning": "",
+     "love_meaning": "Yolların ayrılma ihtimali.",
+     "career_meaning": "",
+     "growth_meaning": "İki farklı yöne bakan bir bağ.",
+     "symbolism": "Ayrışmayı tek bir tarafın hatası saymak."
+    },
+    "en": {
+     "display_name": "Parsadra",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:46:saah",
+   "image_asset_key": "saah",
+   "canonical_name": "Saah",
+   "number": 46,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Saah",
+     "keywords": [
+      "zaman",
+      "an",
+      "zamanlama"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Zamanın kendisi. Doğru anı beklemek ya da kaçırmamak.",
+     "reversed_meaning": "",
+     "love_meaning": "Zamanlamanın belirleyici olduğu bir yakınlık.",
+     "career_meaning": "",
+     "growth_meaning": "Erken ya da geç olan bir adım.",
+     "symbolism": "Zamanlamayı zorlamak."
+    },
+    "en": {
+     "display_name": "Saah",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:47:samyeli",
+   "image_asset_key": "samyeli",
+   "canonical_name": "Samyeli",
+   "number": 47,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Samyeli",
+     "keywords": [
+      "sert rüzgâr",
+      "ani değişim",
+      "yıpranma"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Geçerken iz bırakan sert bir etki. Ani ve yorucu bir değişim.",
+     "reversed_meaning": "",
+     "love_meaning": "Sarsıcı ve yıpratıcı bir dönem.",
+     "career_meaning": "",
+     "growth_meaning": "Bağı yoran ani bir gelişme.",
+     "symbolism": "Rüzgârın geçici olduğunu unutup kalıcı karar vermek."
+    },
+    "en": {
+     "display_name": "Samyeli",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:48:selana",
+   "image_asset_key": "selana",
+   "canonical_name": "Selana",
+   "number": 48,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Selana",
+     "keywords": [
+      "dinginlik",
+      "berraklık",
+      "sakinlik"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Fırtına sonrası gelen durulma. Görüşün berraklaştığı bir dönem.",
+     "reversed_meaning": "",
+     "love_meaning": "Sakinleşen ve netleşen bir yakınlık.",
+     "career_meaning": "",
+     "growth_meaning": "Gerginliğin geçtiği bir bağ.",
+     "symbolism": "Dinginliği kayıtsızlıkla karıştırmak."
+    },
+    "en": {
+     "display_name": "Selana",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:49:selcuksassa",
+   "image_asset_key": "selcuksassa",
+   "canonical_name": "Selçuksassa",
+   "number": 49,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Selçuksassa",
+     "keywords": [
+      "köklü yapı",
+      "gelenek",
+      "miras"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Devralınan ve süregelen bir yapı. Köklü bir düzen.",
+     "reversed_meaning": "",
+     "love_meaning": "Ailelerin ya da geleneğin dahil olduğu bir süreç.",
+     "career_meaning": "",
+     "growth_meaning": "Köklerin belirleyici olduğu bir bağ.",
+     "symbolism": "Geleneği sorgulanamaz saymak."
+    },
+    "en": {
+     "display_name": "Selçuksassa",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:50:sunit",
+   "image_asset_key": "sunit",
+   "canonical_name": "Sunit",
+   "number": 50,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Sunit",
+     "keywords": [
+      "usul",
+      "yöntem",
+      "disiplin"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Bir işin yolu yordamı. Usule uygun ilerleme.",
+     "reversed_meaning": "",
+     "love_meaning": "Adım adım ilerleyen bir yakınlık.",
+     "career_meaning": "",
+     "growth_meaning": "Belirli bir düzeni olan bir ilişki.",
+     "symbolism": "Usulü amaç hâline getirmek."
+    },
+    "en": {
+     "display_name": "Sunit",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:51:supurge",
+   "image_asset_key": "supurge",
+   "canonical_name": "Süpürge",
+   "number": 51,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Süpürge",
+     "keywords": [
+      "temizlik",
+      "arınma",
+      "yenilenme",
+      "bırakma"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Biriken fazlalığın temizlenmesi. Yer açma ve arınma.",
+     "reversed_meaning": "",
+     "love_meaning": "Eski meselelerin temizlenmesi ihtiyacı.",
+     "career_meaning": "",
+     "growth_meaning": "Birikeni konuşup bitirme zamanı.",
+     "symbolism": "Temizlerken değerli olanı da atmak."
+    },
+    "en": {
+     "display_name": "Süpürge",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:52:tagral",
+   "image_asset_key": "tagral",
+   "canonical_name": "Tagral",
+   "number": 52,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Tagral",
+     "keywords": [
+      "bağlantı",
+      "aracı",
+      "köprü"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "İki şeyi birbirine bağlayan bir unsur. Araya giren bir aracı.",
+     "reversed_meaning": "",
+     "love_meaning": "Üçüncü bir kişinin ya da durumun etkisi.",
+     "career_meaning": "",
+     "growth_meaning": "Bağı kuran ya da taşıyan bir aracı.",
+     "symbolism": "Aracıyı tarafla karıştırmak."
+    },
+    "en": {
+     "display_name": "Tagral",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:53:tattaret",
+   "image_asset_key": "tattaret",
+   "canonical_name": "Tattaret",
+   "number": 53,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Tattaret",
+     "keywords": [
+      "karmaşa",
+      "düğüm",
+      "çözülmemiş"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "İç içe geçmiş ve henüz çözülmemiş bir durum.",
+     "reversed_meaning": "",
+     "love_meaning": "Karışmış duyguların ayrıştırılması gereken hâli.",
+     "career_meaning": "",
+     "growth_meaning": "Düğümlenmiş bir mesele.",
+     "symbolism": "Düğümü çekerek çözmeye çalışmak."
+    },
+    "en": {
+     "display_name": "Tattaret",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:54:tilki",
+   "image_asset_key": "tilki",
+   "canonical_name": "Tilki",
+   "number": 54,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Tilki",
+     "keywords": [
+      "kurnazlık",
+      "strateji",
+      "dikkat",
+      "dolaylı yol"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Doğrudan olmayan bir yol. Zekice ama açık olmayan bir hamle.",
+     "reversed_meaning": "",
+     "love_meaning": "Açıkça söylenmeyen bir niyet.",
+     "career_meaning": "",
+     "growth_meaning": "Dolaylı ilerleyen bir bağ.",
+     "symbolism": "Kurnazlığı zekâ sanmak."
+    },
+    "en": {
+     "display_name": "Tilki",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:55:turan",
+   "image_asset_key": "turan",
+   "canonical_name": "Turan",
+   "number": 55,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Turan",
+     "keywords": [
+      "geniş alan",
+      "ufuk",
+      "topluluk"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Geniş bir alan ve ortak bir aidiyet. Bireysel olanın ötesi.",
+     "reversed_meaning": "",
+     "love_meaning": "Daha geniş bir çevreyle ilişkilenen bir bağ.",
+     "career_meaning": "",
+     "growth_meaning": "Aile ve çevrenin dahil olduğu bir ilişki.",
+     "symbolism": "Geniş olanda bireyi kaybetmek."
+    },
+    "en": {
+     "display_name": "Turan",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:56:urmia",
+   "image_asset_key": "urmia",
+   "canonical_name": "Urmia",
+   "number": 56,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Urmia",
+     "keywords": [
+      "durgun su",
+      "birikme",
+      "tuzlanma"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Akmayan ve zamanla yoğunlaşan bir şey. Birikmiş ve durağanlaşmış bir durum.",
+     "reversed_meaning": "",
+     "love_meaning": "Hareketsizleşmiş bir yakınlık.",
+     "career_meaning": "",
+     "growth_meaning": "Akışını yitirmiş bir bağ.",
+     "symbolism": "Durgunluğu huzur sanmak."
+    },
+    "en": {
+     "display_name": "Urmia",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:57:valide",
+   "image_asset_key": "valide",
+   "canonical_name": "Valide",
+   "number": 57,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Valide",
+     "keywords": [
+      "annelik",
+      "koruma",
+      "besleyicilik",
+      "otorite"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Koruyan ve besleyen bir figür. Bakım ve aynı zamanda bir otorite.",
+     "reversed_meaning": "",
+     "love_meaning": "Koruyucu ve besleyici bir yakınlık.",
+     "career_meaning": "",
+     "growth_meaning": "Bakımın rol hâline geldiği bir ilişki.",
+     "symbolism": "Korumanın kontrole dönüşmesi."
+    },
+    "en": {
+     "display_name": "Valide",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:58:yakut",
+   "image_asset_key": "yakut",
+   "canonical_name": "Yakut",
+   "number": 58,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Yakut",
+     "keywords": [
+      "tutku",
+      "canlılık",
+      "değer",
+      "ateş"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Canlı ve göze çarpan bir değer. Tutkunun görünür olması.",
+     "reversed_meaning": "",
+     "love_meaning": "Yoğun ve görünür bir tutku.",
+     "career_meaning": "",
+     "growth_meaning": "Ateşi yüksek bir bağ.",
+     "symbolism": "Tutkunun süreklilikle karıştırılması."
+    },
+    "en": {
+     "display_name": "Yakut",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:59:yatagan",
+   "image_asset_key": "yatagan",
+   "canonical_name": "Yatağan",
+   "number": 59,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Yatağan",
+     "keywords": [
+      "keskinlik",
+      "ayrım",
+      "savunma",
+      "karar"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Kesip ayıran bir karar. Net ve geri dönüşü olmayan bir hamle.",
+     "reversed_meaning": "",
+     "love_meaning": "Net bir ayrım ya da kesin bir söz.",
+     "career_meaning": "",
+     "growth_meaning": "Keskinleşen bir mesele.",
+     "symbolism": "Keskin kararın geri alınamaması."
+    },
+    "en": {
+     "display_name": "Yatağan",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:60:yelkenli",
+   "image_asset_key": "yelkenli",
+   "canonical_name": "Yelkenli",
+   "number": 60,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Yelkenli",
+     "keywords": [
+      "yolculuk",
+      "rüzgâra uyum",
+      "ilerleme",
+      "değişim"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Dış koşullara uyum sağlayarak ilerleme. Rüzgârı okuyabilmek.",
+     "reversed_meaning": "",
+     "love_meaning": "Koşullara göre yön bulan bir bağ.",
+     "career_meaning": "",
+     "growth_meaning": "Hareket hâlinde olan bir ilişki.",
+     "symbolism": "Rüzgâr yokken yelken açmak."
+    },
+    "en": {
+     "display_name": "Yelkenli",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:61:yilan",
+   "image_asset_key": "yilan",
+   "canonical_name": "Yılan",
+   "number": 61,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Yılan",
+     "keywords": [
+      "dönüşüm",
+      "dikkat",
+      "gizli tehlike",
+      "bilgelik"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Deri değiştiren bir dönüşüm; aynı zamanda görülmesi gereken bir dikkat.",
+     "reversed_meaning": "",
+     "love_meaning": "Açıkça görünmeyen bir mesele.",
+     "career_meaning": "",
+     "growth_meaning": "Dikkat isteyen bir dinamik.",
+     "symbolism": "Her uyarıyı ihanet sanmak."
+    },
+    "en": {
+     "display_name": "Yılan",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:62:yildizlar",
+   "image_asset_key": "yildizlar",
+   "canonical_name": "Yıldızlar",
+   "number": 62,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Yıldızlar",
+     "keywords": [
+      "umut",
+      "rehberlik",
+      "uzak hedef",
+      "ilham"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Yol gösteren uzak bir ışık. Umut ve uzun vadeli bir yön.",
+     "reversed_meaning": "",
+     "love_meaning": "Umut veren ama zaman isteyen bir yakınlık.",
+     "career_meaning": "",
+     "growth_meaning": "Uzak bir hedefe birlikte bakmak.",
+     "symbolism": "Uzak olanı yakın sanmak."
+    },
+    "en": {
+     "display_name": "Yıldızlar",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:63:yol",
+   "image_asset_key": "yol",
+   "canonical_name": "Yol",
+   "number": 63,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Yol",
+     "keywords": [
+      "gidiş",
+      "seçim",
+      "süreç",
+      "mesafe"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Alınacak bir mesafe ve önündeki seçim. Sürecin kendisi.",
+     "reversed_meaning": "",
+     "love_meaning": "İlerlemesi gereken bir yakınlık.",
+     "career_meaning": "",
+     "growth_meaning": "Birlikte ya da ayrı gidilecek bir yol.",
+     "symbolism": "Yolu hedefle karıştırmak."
+    },
+    "en": {
+     "display_name": "Yol",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:64:zara",
+   "image_asset_key": "zara",
+   "canonical_name": "Zara",
+   "number": 64,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Zara",
+     "keywords": [
+      "rastlantı",
+      "belirsiz sonuç",
+      "risk"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Sonucu önceden bilinmeyen bir durum. Kontrolün bir kısmının dışarıda olması.",
+     "reversed_meaning": "",
+     "love_meaning": "Sonucu belirsiz bir adım.",
+     "career_meaning": "",
+     "growth_meaning": "Risk taşıyan bir karar.",
+     "symbolism": "Belirsizliği kesinlikmiş gibi okumak."
+    },
+    "en": {
+     "display_name": "Zara",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  },
+  {
+   "item_id": "katina:65:zumrut",
+   "image_asset_key": "zumrut",
+   "canonical_name": "Zümrüt",
+   "number": 65,
+   "element": null,
+   "astrological_association": null,
+   "reversible": false,
+   "content_status": "product_defined",
+   "meanings": {
+    "tr": {
+     "display_name": "Zümrüt",
+     "keywords": [
+      "yenilenme",
+      "iyileşme",
+      "büyüme",
+      "denge"
+     ],
+     "reversed_keywords": [],
+     "upright_meaning": "Yeşeren ve iyileşen bir şey. Yenilenme ve dengelenme.",
+     "reversed_meaning": "",
+     "love_meaning": "İyileşen ve tazelenen bir bağ.",
+     "career_meaning": "",
+     "growth_meaning": "Onarılan bir ilişki.",
+     "symbolism": "İyileşmeyi tamamlanmış saymak."
+    },
+    "en": {
+     "display_name": "Zümrüt",
+     "keywords": [],
+     "reversed_keywords": [],
+     "upright_meaning": "",
+     "reversed_meaning": "",
+     "love_meaning": "",
+     "career_meaning": "",
+     "growth_meaning": "",
+     "symbolism": ""
+    }
+   }
+  }
+ ],
+ "optional_items": []
+}

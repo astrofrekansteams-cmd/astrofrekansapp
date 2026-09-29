@@ -1,0 +1,9 @@
+# Local release signing. Copy to android/key.properties (git-ignored) and fill
+# in. The keystore itself lives OUTSIDE the repository. CI (Codemagic) does not
+# use this file: it injects CM_KEYSTORE_PATH / CM_KEYSTORE_PASSWORD /
+# CM_KEY_ALIAS / CM_KEY_PASSWORD from the signing identity "astrofrekans_upload".
+# See docs/release_signing.md.
+storeFile=C:/Users/<you>/.astrofrekans-keys/astrofrekans-upload.jks
+storePassword=<keystore password>
+keyAlias=astrofrekans-upload
+keyPassword=<key password>

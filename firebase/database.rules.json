@@ -1,0 +1,51 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "conversationMembers": {
+      "$conversationId": {
+        ".read": "auth != null && data.child(auth.uid).val() === true",
+        ".write": false
+      }
+    },
+    "presence": {
+      "$uid": {
+        ".write": "auth != null && auth.uid === $uid",
+        ".read": "auth != null && (auth.uid === $uid || root.child('presenceVisibility').child($uid).child(auth.uid).exists())",
+        "state": {
+          ".validate": "newData.isString() && (newData.val() === 'online' || newData.val() === 'offline')"
+        },
+        "lastChanged": {
+          ".validate": "newData.isNumber() || newData.isString()"
+        },
+        "$other": {
+          ".validate": false
+        }
+      }
+    },
+    "presenceVisibility": {
+      "$uid": {
+        ".read": "auth != null && auth.uid === $uid",
+        ".write": false
+      }
+    },
+    "typing": {
+      "$conversationId": {
+        ".read": "auth != null && root.child('conversationMembers').child($conversationId).child(auth.uid).val() === true",
+        "$uid": {
+          ".write": "auth != null && auth.uid === $uid && root.child('conversationMembers').child($conversationId).child(auth.uid).val() === true",
+          ".validate": "newData.hasChildren(['typing']) || newData.val() === null",
+          "typing": {
+            ".validate": "newData.isBoolean()"
+          },
+          "updatedAt": {
+            ".validate": "newData.isNumber()"
+          },
+          "$other": {
+            ".validate": false
+          }
+        }
+      }
+    }
+  }
+}

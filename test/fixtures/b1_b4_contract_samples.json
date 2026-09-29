@@ -1,0 +1,107 @@
+{
+  "source": "docs/api_contracts.md and backend/app/schemas as read on 2026-09-23",
+  "auth": {
+    "access_token": "fixture-access",
+    "refresh_token": "fixture-refresh",
+    "token_type": "Bearer",
+    "expires_at": "2026-09-23T10:15:00Z",
+    "refresh_expires_at": "2026-10-23T10:00:00Z"
+  },
+  "user": {
+    "id": "0b9c0000-0000-4000-8000-000000000001",
+    "email": "nova@example.com",
+    "name": "Nova",
+    "avatar_url": null,
+    "language": "tr",
+    "timezone": "Europe/Istanbul",
+    "subscription_tier": "free",
+    "is_email_verified": false,
+    "created_at": "2026-09-23T09:12:44Z"
+  },
+  "birth_profile": {
+    "id": "0b9c0000-0000-4000-8000-000000000002",
+    "birth_date": "1992-05-14",
+    "birth_time": "14:30:00",
+    "birth_time_known": true,
+    "birth_place": "Istanbul",
+    "latitude": 41.0082,
+    "longitude": 28.9784,
+    "timezone": "Europe/Istanbul",
+    "house_system": "placidus",
+    "is_primary": true,
+    "label": null,
+    "utc_offset_hours": 3.0,
+    "can_compute_houses": true,
+    "updated_at": "2026-09-23T09:12:44Z"
+  },
+  "saved_person": {
+    "id": "0b9c0000-0000-4000-8000-000000000003",
+    "name": "Friend",
+    "relation": "friend",
+    "birth_date": "1991-04-10",
+    "birth_time": null,
+    "birth_time_known": false,
+    "birth_place": "Baku",
+    "latitude": 40.4093,
+    "longitude": 49.8671,
+    "timezone": "Asia/Baku",
+    "house_system": "whole_sign",
+    "note": null,
+    "created_at": "2026-09-23T09:12:44Z"
+  },
+  "natal_chart": {
+    "kind": "natal",
+    "engine": "skyfield",
+    "engine_version": "1.0.0-de421",
+    "computed_at": "2026-09-23T09:14:02Z",
+    "house_system": "whole_sign",
+    "requested_house_system": "whole_sign",
+    "subject": {"kind": "natal", "moment_utc": "1992-05-14T11:30:00Z", "latitude": 41.0082, "longitude": 28.9784, "timezone": "Europe/Istanbul", "location_name": "Istanbul"},
+    "birth_data": {"birth_date": "1992-05-14", "birth_time": "14:30:00", "time_known": true, "place": "Istanbul", "latitude": 41.0082, "longitude": 28.9784, "timezone": "Europe/Istanbul", "utc_datetime": "1992-05-14T11:30:00Z", "utc_offset_hours": 3.0},
+    "planets": [
+      {"planet": "sun", "sign": "taurus", "longitude": 53.932, "latitude": 0.0, "degree": 23, "minute": 55, "speed_longitude": 0.9663, "retrograde": false, "house": 9},
+      {"planet": "north_node", "sign": "capricorn", "longitude": 275.0, "latitude": 0.0, "degree": 5, "minute": 0, "speed_longitude": -0.05, "retrograde": true, "house": 5}
+    ],
+    "houses": [{"number": 1, "sign": "virgo", "cusp_longitude": 167.3, "degree": 17, "minute": 18}],
+    "angles": {"ascendant": 167.3, "descendant": 347.3, "midheaven": 75.2, "imum_coeli": 255.2, "ascendant_sign": "virgo", "descendant_sign": "pisces", "midheaven_sign": "gemini", "imum_coeli_sign": "sagittarius"},
+    "aspects": [{"first": "sun", "second": "north_node", "aspect": "trine", "nature": "harmonious", "orb": 0.72, "applying": false}],
+    "elements": {"fire": 1, "earth": 6, "air": 2, "water": 1},
+    "modalities": {"cardinal": 3, "fixed": 4, "mutable": 3},
+    "dominant_element": "earth",
+    "dominant_modality": "fixed",
+    "dominant_planet": "venus",
+    "big_three": {"sun": "taurus", "moon": "libra", "ascendant": "virgo"},
+    "house_rulers": {"1": "mercury"},
+    "warnings": []
+  },
+  "moon_phase": {"moment": "2026-09-22T22:15:44Z", "phase": "waxing_gibbous", "illumination": 0.8527, "age_days": 11.062, "elongation": 134.8546, "sign": "aquarius", "next_phase": "full_moon", "next_phase_at": "2026-09-26T16:49:02Z"},
+  "transits": {
+    "start_at": "2026-09-22T21:00:00Z", "end_at": "2026-09-23T21:00:00Z", "reference": "2026-09-23T09:12:00Z", "timezone": "Europe/Istanbul", "range": "day",
+    "active": [{"id": "f025", "transiting_body": "jupiter", "target_type": "natal_planet", "target_body": "saturn", "target_angle": null, "target_house": 9, "aspect_type": "opposition", "nature": "challenging", "orb": 0.12, "maximum_orb": 3.3, "applying": true, "start_at": "2026-09-05T04:12:00Z", "exact_at": "2026-09-24T02:40:20Z", "end_at": "2026-10-14T18:55:00Z", "status": "approaching", "strength": 56, "passes": [{"pass_number": 1, "exact_at": "2026-09-24T02:40:20Z", "direction": "direct", "speed": 0.0813}], "affected_houses": [3, 9], "window_clipped": false, "engine_version": "1.0.0-de421", "scoring_version": "b4.scoring.v1", "metadata": {"transiting_house": 3}}],
+    "approaching": [], "upcoming": [], "ingresses": [], "engine_version": "1.0.0-de421", "scoring_version": "b4.scoring.v1", "cached": false
+  },
+  "daily_frequency": {
+    "date": "2026-09-23T00:00:00+03:00", "timezone": "Europe/Istanbul", "overall": 36,
+    "scores": {"love": {"area": "love", "score": 40, "trend": "falling", "strength": 44, "factor_ids": ["f025"]}, "health_balance": {"area": "health_balance", "score": 58, "trend": "steady", "strength": 42, "factor_ids": ["f025"]}},
+    "important_hours": [{"start": "2026-09-23T04:38:00Z", "end": "2026-09-23T05:35:00Z", "type": "supportive", "strength": 19, "reason": "moon conjunction saturn", "factor_ids": ["f025"]}],
+    "influences": [{"id": "f025", "kind": "transit", "label": "jupiter opposition saturn", "contribution": -0.58, "areas": ["love"], "at": "2026-09-24T02:40:20Z", "detail": {"orb": 0.12}}],
+    "message_context": {"moon_house": 6}, "engine_version": "1.0.0-de421", "scoring_version": "daily_frequency_v1", "cached": false
+  },
+  "calendar": {
+    "start_at": "2026-02-01T00:00:00Z", "end_at": "2026-03-31T00:00:00Z", "timezone": "Europe/Istanbul",
+    "events": [{"id": "b71", "type": "full_moon", "exact_at": "2026-03-03T11:32:00Z", "planet": "moon", "sign": "virgo", "longitude": 342.8, "degree": 12}],
+    "engine_version": "1.0.0-de421", "cached": false
+  },
+  "daily_horoscope": {
+    "period": "daily", "start_at": "2026-09-23T00:00:00Z", "end_at": "2026-09-24T00:00:00Z", "timezone": "Europe/Istanbul", "overall_score": 60, "areas": [], "important_dates": [], "important_hours": [], "opportunities": [], "challenges": [], "major_transits": [], "moon_events": [], "house_activations": [], "key_periods": [], "source_factors": [], "engine_version": "1.0.0-de421", "scoring_version": "daily_v1", "cached": false
+  },
+  "weekly_horoscope": {
+    "period": "weekly", "start_at": "2026-09-21T00:00:00Z", "end_at": "2026-09-28T00:00:00Z", "timezone": "Europe/Istanbul", "overall_score": 60, "areas": [], "important_dates": [], "important_hours": [], "opportunities": [], "challenges": [], "major_transits": [], "moon_events": [], "house_activations": [], "key_periods": [], "source_factors": [], "engine_version": "1.0.0-de421", "scoring_version": "weekly_v1", "cached": false
+  },
+  "monthly_forecast": {
+    "year": 2026, "month": 10, "start_at": "2026-10-01T00:00:00Z", "end_at": "2026-11-01T00:00:00Z", "timezone": "Europe/Istanbul", "overall": 63, "areas": [], "general_theme": [], "key_periods": [], "important_dates": [], "opportunities": [], "challenges": [], "major_transits": [], "moon_events": [], "retrogrades": [], "house_activations": [], "personal_events": [], "source_factors": [], "engine_version": "1.0.0-de421", "scoring_version": "monthly_v1", "cached": false
+  },
+  "annual_forecast": {
+    "year": 2026, "start_at": "2026-01-01T00:00:00Z", "end_at": "2027-01-01T00:00:00Z", "timezone": "Europe/Istanbul", "overall": 61, "areas": [], "major_transits": [], "retrograde_periods": [], "eclipses": [], "jupiter_movements": [], "saturn_movements": [], "outer_planet_hits": [], "house_activations": [], "key_periods": [], "important_dates": [], "solar_return": {"year": 2026, "exact_at": "2026-05-14T17:04:00Z", "ascendant": 212.4, "ascendant_sign": "scorpio", "sun_house": 7}, "source_factors": [], "engine_version": "1.0.0-de421", "scoring_version": "annual_v1", "cached": false
+  }
+}

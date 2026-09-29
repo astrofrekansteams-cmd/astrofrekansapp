@@ -1,0 +1,13 @@
+{
+  "name": "astrofrekans-rules-tests",
+  "private": true,
+  "description": "Emulator tests for firebase/database.rules.json. Run from firebase/: firebase emulators:exec --only database --project demo-astrofrekans \"npm --prefix rules-tests test\"",
+  "type": "module",
+  "scripts": {
+    "test": "node --test --test-reporter=spec"
+  },
+  "devDependencies": {
+    "@firebase/rules-unit-testing": "^5.0.2",
+    "firebase": "^12.19.0"
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "$comment": [
+    "Reference cases for the astrology engine.",
+    "",
+    "Two kinds of entries, and the difference matters:",
+    "  * verified_independently = true  -> the expected value comes from an",
+    "    outside authority (NASA/JPL eclipse catalogue, published equinox and",
+    "    solstice times, published retrograde windows). These are real",
+    "    regression tests.",
+    "  * verified_independently = false -> the expected value was produced by",
+    "    *this* engine and only sanity-checked. They guard against accidental",
+    "    change, but they are NOT evidence of correctness; comparing them with",
+    "    a second, independent calculator is a pre-launch task. Do not promote",
+    "    an entry to true without recording where the value came from.",
+    "",
+    "Angles are degrees, instants are UTC ISO-8601, tolerances are in the unit",
+    "of the quantity being compared."
+  ],
+  "engine": {
+    "name": "skyfield",
+    "ephemeris": "JPL DE421",
+    "notes": "Mean lunar nodes; Placidus houses computed in-house."
+  },
+  "sun_longitude_events": [
+    {
+      "id": "march_equinox_2026",
+      "moment": "2026-03-20T14:46:00+00:00",
+      "expected_longitude": 0.0,
+      "tolerance_degrees": 0.02,
+      "source": "Published March equinox 2026 (astronomical almanac / IMCCE).",
+      "verified_independently": true
+    },
+    {
+      "id": "june_solstice_2026",
+      "moment": "2026-06-21T08:25:00+00:00",
+      "expected_longitude": 90.0,
+      "tolerance_degrees": 0.02,
+      "source": "Published June solstice 2026.",
+      "verified_independently": true
+    },
+    {
+      "id": "december_solstice_2025",
+      "moment": "2025-12-21T15:03:00+00:00",
+      "expected_longitude": 270.0,
+      "tolerance_degrees": 0.02,
+      "source": "Published December solstice 2025.",
+      "verified_independently": true
+    }
+  ],
+  "conjunctions": [
+    {
+      "id": "uranus_neptune_1993",
+      "moment": "1993-02-02T12:00:00+00:00",
+      "first": "uranus",
+      "second": "neptune",
+      "max_separation_degrees": 1.0,
+      "source": "The 1993 Uranus-Neptune conjunction, a documented outer-planet event.",
+      "verified_independently": true
+    }
+  ],
+  "eclipses_2026": [
+    {
+      "id": "solar_2026_02_17",
+      "date": "2026-02-17",
+      "type": "solar_eclipse",
+      "published_subtype": "annular",
+      "tolerance_hours": 12,
+      "source": "NASA Five Millennium Canon of Solar Eclipses / eclipse catalogue.",
+      "verified_independently": true,
+      "engine_subtype_expected": null,
+      "engine_subtype_note": "Solar subtype needs Besselian elements; the engine returns null rather than guessing."
+    },
+    {
+      "id": "lunar_2026_03_03",
+      "date": "2026-03-03",
+      "type": "lunar_eclipse",
+      "published_subtype": "total",
+      "engine_subtype_expected": "total",
+      "tolerance_hours": 12,
+      "source": "NASA eclipse catalogue.",
+      "verified_independently": true
+    },
+    {
+      "id": "solar_2026_08_12",
+      "date": "2026-08-12",
+      "type": "solar_eclipse",
+      "published_subtype": "total",
+      "tolerance_hours": 12,
+      "source": "NASA eclipse catalogue (total solar eclipse over Iceland/Spain).",
+      "verified_independently": true,
+      "engine_subtype_expected": null
+    },
+    {
+      "id": "lunar_2026_08_28",
+      "date": "2026-08-28",
+      "type": "lunar_eclipse",
+      "published_subtype": "partial",
+      "engine_subtype_expected": "partial",
+      "tolerance_hours": 12,
+      "source": "NASA eclipse catalogue.",
+      "verified_independently": true
+    }
+  ],
+  "retrograde_periods_2026": [
+    {
+      "id": "mercury_rx_2026_1",
+      "planet": "mercury",
+      "station_retrograde": "2026-02-26",
+      "station_direct": "2026-03-20",
+      "tolerance_days": 2,
+      "source": "Published Mercury retrograde windows for 2026.",
+      "verified_independently": true
+    },
+    {
+      "id": "mercury_rx_2026_2",
+      "planet": "mercury",
+      "station_retrograde": "2026-06-29",
+      "station_direct": "2026-07-23",
+      "tolerance_days": 2,
+      "source": "Published Mercury retrograde windows for 2026.",
+      "verified_independently": true
+    },
+    {
+      "id": "mercury_rx_2026_3",
+      "planet": "mercury",
+      "station_retrograde": "2026-10-24",
+      "station_direct": "2026-11-13",
+      "tolerance_days": 2,
+      "source": "Published Mercury retrograde windows for 2026.",
+      "verified_independently": true
+    },
+    {
+      "id": "venus_rx_2026",
+      "planet": "venus",
+      "station_retrograde": "2026-10-03",
+      "station_direct": "2026-11-14",
+      "tolerance_days": 3,
+      "source": "Published Venus retrograde window for 2026.",
+      "verified_independently": true
+    }
+  ],
+  "charts": [
+    {
+      "id": "istanbul_1992",
+      "description": "Reference natal chart used across the suite.",
+      "verified_independently": false,
+      "verification_note": "Values below are this engine's own output. Before launch, compare against an independent calculator (Swiss Ephemeris based tool or an astrologer's software) and record the result here.",
+      "input": {
+        "birth_date": "1992-05-14",
+        "birth_time": "14:30:00",
+        "timezone": "Europe/Istanbul",
+        "latitude": 41.0082,
+        "longitude": 28.9784,
+        "house_system": "placidus"
+      },
+      "expected": {
+        "utc_datetime": "1992-05-14T11:30:00+00:00",
+        "utc_offset_hours": 3.0,
+        "sun": {"sign": "taurus", "degree": 23, "tolerance_degrees": 0.5},
+        "moon": {"sign": "libra", "degree": 26, "tolerance_degrees": 1.0},
+        "ascendant": {"sign": "virgo", "longitude": 167.3, "tolerance_degrees": 0.5},
+        "midheaven": {"sign": "gemini", "longitude": 75.2, "tolerance_degrees": 0.5},
+        "house_system_used": "placidus"
+      }
+    },
+    {
+      "id": "berlin_1988",
+      "description": "Second chart, northern latitude, early-morning birth.",
+      "verified_independently": false,
+      "verification_note": "Engine output; needs independent confirmation before launch.",
+      "input": {
+        "birth_date": "1988-11-02",
+        "birth_time": "03:15:00",
+        "timezone": "Europe/Berlin",
+        "latitude": 52.52,
+        "longitude": 13.405,
+        "house_system": "placidus"
+      },
+      "expected": {
+        "utc_offset_hours": 1.0,
+        "sun": {"sign": "scorpio", "tolerance_degrees": 1.0}
+      }
+    }
+  ],
+  "solar_returns": [
+    {
+      "id": "istanbul_1992_solar_return_2026",
+      "chart": "istanbul_1992",
+      "year": 2026,
+      "expected_exact_at": "2026-05-14T17:04:00+00:00",
+      "tolerance_minutes": 30,
+      "verified_independently": false,
+      "verification_note": "Engine output. The Sun must be at the natal longitude at this instant, which the test also checks directly - that part is self-verifying."
+    }
+  ]
+}
