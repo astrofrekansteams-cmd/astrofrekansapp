@@ -91,6 +91,9 @@ firebase-debug.log
 
 # Store credentials (B11). App Store Connect API keys (.p8) and Play Console
 # service accounts are whole-account keys; they live in the secret store.
+android/key.properties
+**/*.jks
+**/*.keystore
 **/AuthKey_*.p8
 **/*.p8
 **/play-service-account*.json
